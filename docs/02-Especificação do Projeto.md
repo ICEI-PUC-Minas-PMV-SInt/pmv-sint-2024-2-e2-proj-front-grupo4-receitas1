@@ -53,16 +53,30 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deve permitir que o usuário avalie uma agência de intercâmbio com base na sua experiência| ALTA | 
-|RF-002| A aplicação deve permitir que o usuário inclua comentários ao fazer uma avaliação de uma agência de intercâmbio    | ALTA |
-|RF-003| A aplicação deve permitir que o usuário consulte todas as agências de intercâmbio cadastradas ordenando-as com base em suas notas | ALTA |
+|RF-001| O sistema deve ter uma função do usuário cadastrado adicionar uma nova receita à plataforma| ALTA | 
+|RF-002| O sistema deve ter uma função de adicionar foto e descrição na publicação de receitas    | ALTA |
+|RF-003| O sistema deve ter um sistema de aprovação de publicações de receita pelos usuários, usando um algoritmo para identificar se a publicação tem um formato de receita ou se o usuário criou uma publicação fora de contexto | ALTA |
+|RF-004|O sistema deve permitir que usuários tenham um filtro de pesquisa, para pesquisar cada receita por nomes ou categorias| ALTA |
+|RF-005|O sistema deve possibilitar um sistema de interação entre usuários, com compartilhamento, comentários e feedbacks para as receitas | MÉDIA |
+|RF-006| O sistema deve possibilitar o compartilhamento externo das receitas através de um link | MÉDIA |
+|RF-007| O sistema deve conter um atalho de compartilhamento direto no Facebook ou WhatsApp | ALTA |
+|RF-008| O sistema deve ter uma função de salvar as receitas  | ALTA |
+|RF-009| O sistema deve ter um algoritimo de recomendação com base no que cada cliente pesquisa com frequência | MÉDIA |
+|RF-010| O sistema deve conter um mecanismo de tags, para facilitar as buscas | BAIXA|
+|RF-011| O sistema deve ter uma pré apresentação da receita passando pelo feed | MÉDIA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| A aplicação deve ser responsiva | MÉDIA | 
-|RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-01|  O sistema deve ser capaz de carregar páginas de receitas em menos de 3 segundos, para garantir uma experiência de usuário rápida.  |ALTA| 
+|RNF-02|  O sistema deve suportar simultaneamente pelo menos 1000 usuários ativos sem distribuição significativa no desempenho.  |MÍDIA| 
+|RNF-03|  O sistema deve ser facilmente escalável para acomodar um aumento de 50% no número de usuários sem a necessidade de alterações específicas na infraestrutura.  |MÍDIA|
+|RNF-04|  O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge).  |ALTA|
+|RNF-05|  O site deverá ser responsivo permitindo a visualização em um celular de forma adequada.  |ALTA|
+
+
+
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
