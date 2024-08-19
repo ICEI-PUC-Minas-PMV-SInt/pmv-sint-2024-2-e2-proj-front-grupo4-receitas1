@@ -1,23 +1,22 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+Sistemas para Internet
 
-`DISCIPLINA`
+Eixo 2 - Projeto: DESENVOLVIMENTO WEB FRONT-END
 
-`SEMESTRE`
+2º SEMESTRE
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto consiste em uma aplicação web com o objetivo de centralizar as melhores sugestões de receitas de culinária, oferecendo praticidade e economizando tempo na busca por informações. Visa a personalização dos gostos e preferências do usuário, para filtrar o conteúdo e visualizar as receitas que mais lhe agradam. Promove alguns recursos modernos como visualizar receitas de acordo com o horário atual.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Rafael Douglas Alves da Silva
+* Tatiana Haveroth Barbosa
+* Rodrigo da Costa Souza
 
 ## Orientador
 
-* Nome completo do professor 1
+* Harison Herman Silva
 
 ## Instruções de utilização
 
