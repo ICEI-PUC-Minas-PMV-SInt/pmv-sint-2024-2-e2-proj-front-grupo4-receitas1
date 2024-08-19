@@ -1,43 +1,28 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+A culinária é uma arte que tem sabor e paixão, e milhões de pessoas procuram diariamente por receitas para surpreender seus convidados ou simplesmente se orgulhar de preparar pratos deliciosos. As redes sociais, como Facebook, Instagram e Youtube, são os principais meios para encontrar essas receitas, mas há uma demanda crescente por uma plataforma centralizada, personalizável e organizada para esse tipo de conteúdo.Diante da complexidade e dos desafios da culinária, como a Falta de tempo e busca por praticidade, surge a necessidade de um site que reúna todas as informações essenciais, facilitando o processo culinário para os amantes da cozinha. Esse projeto visa simplificar a busca por receitas certas, tornando o ato de cozinhar mais prazeroso e acessível a todos.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+O problema a ser resolvido é a desorganização das receitas de culinária, dispersas em várias redes sociais, dificultando a busca por pratos saudáveis ​​e confortáveis. Isso leva muitas pessoas a optar por alimentos não saudáveis ​​por falta de tempo ou criatividade na cozinha, além de afetar o tempo de qualidade com a família. A falta de centralização das informações também limita a personalização do conteúdo desejado, prejudicando a experiência culinária como um todo.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo do projeto é criar uma plataforma que centralize as melhores sugestões de receitas de culinária, oferecendo praticidade e economizando tempo na busca por informações. Com funcionalidades como perfil personalizado para cada usuário, sugestões de receitas de acordo com o local e um feed interativo para compartilhar experiências, o projeto visa simplificar o processo de escolha e preparação de alimentos, tornando-o mais prático e agradável.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+De acordo com dados do Google Trends, o interesse por termos relacionados à culinária, como "receitas", "cozinha" e "culinária", tem aumentado consistentemente ao longo dos anos, refletindo o interesse crescente das pessoas em explorar novas técnicas e pratos culinários .
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo. Ou, o grupo poderá consultar e justificar o impacto do problema para o público-alvo por meio de pesquisas em outras fontes. Neste caso, é essencial que todos os dados apresentados estejam acompanhados de suas fontes (conforme padrão ABNT).
+Pesquisas recentes, como as realizadas pelo Instituto de Pesquisa Econômica Aplicada (IPEA), mostram uma mudança nos hábitos alimentares da população, com um aumento na preferência por refeições preparadas em casa em vez de alimentos processados ​​ou fast food. Isso evidencia a necessidade de acesso a um amplo conjunto de receitas e recursos culinários.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Com a pandemia de COVID-19, houve um aumento substancial no número de pessoas cozinhando em casa devido a restrições de movimento e fechamento de restaurantes. Pesquisas mostram que essa tendência continua mesmo após o rompimento das restrições, com muitas pessoas descobrindo ou aprimorando suas habilidades culinárias durante esse período.
+
+Uma plataforma de receitas pode capitalizar esse interesse contínuo em cozinhar em casa, fornecendo recursos e inspiração para os usuários.
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+O público-alvo são pessoas que buscam simplificar suas receitas, praticidade e um design moderno em um site de culinária. Isso inclui amantes da culinária, cozinheiros ocasionais e indivíduos insatisfeitos com a dispersão de suas receitas em várias plataformas. Também inclui aqueles com restrições alimentares, como vegetarianos e intolerantes ao glúten, e pessoas com estilo de vida ativo, interessados ​​em receitas rápidas e práticas.
