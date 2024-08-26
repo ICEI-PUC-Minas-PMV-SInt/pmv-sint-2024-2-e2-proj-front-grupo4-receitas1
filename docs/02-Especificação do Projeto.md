@@ -1,49 +1,141 @@
-# Especificações do Projeto
+# Especificação do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
 ## Personas
 
-Identifique, em torno de, 5 personas. Para cada persona, lembre-se de descrever suas angústicas, frustrações e expectativas de vida relacionadas ao problema. Além disso, defina uma "aparência" para a persona. Para isso, você poderá utilizar sites como [https://this-person-does-not-exist.com/pt#google_vignette](https://this-person-does-not-exist.com/pt) ou https://thispersondoesnotexist.com/ 
 
-Utilize também como referência o exemplo abaixo:
+<table>
+<tr>
+   <th>Foto</th>
+    <th>Nome</th>
+    <th>Descrição</th>
+    <th>Aplicativos</th>
+    <th>Motivações</th>
+    <th>Frustrações</th>
+    <th>Hobbies, História</th>
+  
+</tr
+        <tr>
+    <td><img title="João Marcos" src="https://this-person-does-not-exist.com/img/avatar-gen8bd66d54ec14bb933aac73bae177515e.jpg"/></td>
+    <td>João Marcos </td>
+    <td>
+      <ul>
+        <li>45 anos</li>
+        <li>Motorista de Uber</li>
+        <li>Mora em SP junto com seus dois filhos </li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Uber</li>
+        <li>Instagram</li>
+        <li>WhatsApp</li>
+        <li>ifood</li>
+         </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Dar estudo aos filhos</li>
+        <li>Ter um financeiro estável</li>
+        <li>Dar boas experiências aos filhos</li>
+      </ul>
+    </td>
+    <td>
+      <li>Perdeu a esposa</li>
+      <li>Tem dificuldade em sustentar os filhos</li>
+    </td>
+    <td>
+      <li>Cozinhar para filhos e amigos</li>
+      <li>Conhecer lugares novos</li>
+       <li>Perdeu a esposa tem 2 anos, então passou a cuidar dos filhos sozinho, lutando para dar a eles o melhor. </li>
+          </td>
+</tr
+        <tr>
+    <td><img title="Ana Julia" src="https://this-person-does-not-exist.com/img/avatar-gen0b767dea65368b9a19b3a2c1b1618306.jpg"/></td>
+    <td>Ana Julia </td>
+    <td>
+      <ul>
+        <li>28 anos</li>
+        <li>Casada</li>
+        <li>1 filho de 10 anos
+        <li>Trabalha em home office </li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Ifood</li>
+        <li>Instagram</li>
+        <li>WhatsApp</li>
+        <li>Facebook</li>
+         </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Ter mais tempo para passar com o filho e marido</li>
+        <li>Dar o melhor a seu filho</li>
+      </ul>
+    </td>
+    <td>
+      <li>Dificuldade em organizar uma rotina em casa</li>
+    </td>
+    <td>
+      <li>Viajar, conhecer novas culturas</li>
+      <li>Testar pratos novos na cozinha</li>
+       <li>Começou a trabalhar de casa para poder ficar mais perto do filho, porém as demandas estão altas. </li>
+          </td>
+          </tr
+        <tr>
+    <td><img title="Maria Carla" src="https://this-person-does-not-exist.com/img/avatar-gende601983b4e1674ea10af620aab5b3fb.jpg"/></td>
+    <td>Maria Carla </td>
+    <td>
+      <ul>
+        <li>35 anos</li>
+        <li>Casada</li>
+        <li>Mãe de 2 meninas</li>
+        <li>Trabalha como Assistente Admnistrativo</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>WhatsApp</li>
+        <li>Shopee</li>
+        <li>Ifood</li>
+         </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Passar tempo com as filhas </li>
+        <li>Ter uma vida estável</li>
+      </ul>
+    </td>
+    <td>
+      <li>Não conseguiu fazer graduação</li>
+    </td>
+    <td>
+      <li>Conhecer pessoas e lugares novos</li>
+      <li>Cozinhar para a família</li>
+       <li>Teve as filhas muito cedo e hoje trabalha para poder dar um futuro melhor para as filhas. </li>
+          </td>
+          </tr>
+  </table>
 
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/IntApplicationProject-Template/blob/main/docs/img/AnaClara1.png" alt="Persona1"/>
+## História de Usuário
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários.
 
-> **Links Úteis**:
-> 
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+|EU COMO `PERSONA`   | QUERO/PRECISO `O QUE` |PARA ... `POR QUE`             |
+|--------------------|---------------------------|----------------------------------|
+| Ana Julia | ter minhas receitas de culinária em um único lugar | deixar de me sentir perdida na hora de procurar uma receita |
+| Ana Julia | ver receitas de acordo com meu gosto e preferências | economizar tempo procurando receitas que satisfaçam meus gostos e restrições |
+| Maria Carla | saber o que outras pessoas estão achando daquela receita | matar curiosidade em saber o que outras pessoas acharam da receita, se tiveram opinião em comum, ver repercussão |
+| João Marcos | ver sugestões de receitas de acordo com meu horário atual | sair do excesso de informação, ter mais praticidade e economizar tempo |
+| Maria Carla | salvar minhas receitas favoritas | poder encontrar rapidamente minhas receitas favoritas |
+| Maria Carla | ver receitas tanto no computador quanto no celular | quando tiver na casa dos meus parentes e quiser mostrar uma receita para eles, ou para prepararmos juntos |
 
-## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Ana Clara  | Uma forma de identificar se uma agência é realmente confiável           | Me sentir mais segura ao contratar seus serviços               |
-|Ana Clara       | Ter um mecanismo eficiente e rápido de comunicação                 | Que eu possa sanar todas as minhas dúvidas rapidamente |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
