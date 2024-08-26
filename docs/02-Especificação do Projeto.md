@@ -17,7 +17,7 @@
   
 </tr
         <tr>
-    <td><img title="João Marcos" src=<a href="https://ibb.co/yskznd2"><img src="https://i.ibb.co/yskznd2/avatar-genf4e04ee775f79805b2a90968a3d76e9a-H.jpg" alt="avatar-genf4e04ee775f79805b2a90968a3d76e9a-H" border="0""></a></td>
+    <td><title="João Marcos" <a href="https://ibb.co/yskznd2"><img src="https://i.ibb.co/yskznd2/avatar-genf4e04ee775f79805b2a90968a3d76e9a-H.jpg" alt="avatar-genf4e04ee775f79805b2a90968a3d76e9a-H" border="0"</a></td>
     <td>João Marcos </td>
     <td>
       <ul>
@@ -52,7 +52,7 @@
           </td>
 </tr
         <tr>
-    <td><img title="Ana Julia" src="https://this-person-does-not-exist.com/img/avatar-gen0b767dea65368b9a19b3a2c1b1618306.jpg"/></td>
+    <td><title="Ana Julia" <a href="https://ibb.co/s567CPT"><img src="https://i.ibb.co/s567CPT/avatar-gen69b2e14520c5abb7209c48dfb8a38542.jpg" alt="avatar-gen69b2e14520c5abb7209c48dfb8a38542" border="0"></a></td>
     <td>Ana Julia </td>
     <td>
       <ul>
@@ -86,7 +86,7 @@
           </td>
           </tr
         <tr>
-    <td><img title="Maria Carla" src="https://this-person-does-not-exist.com/img/avatar-gende601983b4e1674ea10af620aab5b3fb.jpg"/></td>
+    <td><title="Maria Carla" <a href="https://ibb.co/BB1qRt7"><img src="https://i.ibb.co/BB1qRt7/avatar-genbb474f62012e0c868f9fcaed2abbe140.jpg" alt="avatar-genbb474f62012e0c868f9fcaed2abbe140" border="0"></a></td>
     <td>Maria Carla </td>
     <td>
       <ul>
