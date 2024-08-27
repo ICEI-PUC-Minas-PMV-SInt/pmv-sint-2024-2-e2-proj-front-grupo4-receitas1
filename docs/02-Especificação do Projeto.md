@@ -189,5 +189,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 O diagrama de casos de uso do site "Sabor do Momento" ilustra as principais funcionalidades disponíveis para os usuários.
 
-![DIAGRAMA UML SABOR DO MOMENTO](https://github.com/user-attachments/assets/49071ecb-7a58-49a4-a4c4-b3badc0fe612)
+![DIAGRAMA UML SABOR DO MOMENTO](https://github.com/user-attachments/assets/5aaeaa80-09eb-4cbd-8601-729f6e28e3ff)
+
 
