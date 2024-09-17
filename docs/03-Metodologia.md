@@ -61,30 +61,31 @@ Assim, conseguimos acompanhar o desenvolvimento do projeto de uma forma organiza
 
 <a href="https://ibb.co/DGgrT37"><img src="https://i.ibb.co/f8GDLmC/Captura-de-tela-2024-09-17-145355.png" alt="Captura-de-tela-2024-09-17-145355" border="0"></a><br /><a target='_blank' href='https://pt-br.imgbb.com/'>
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
 
 ### Ferramentas
 
-As ferramentas empregadas no projeto são:
+Repositório de Código Fonte (GitHub): Utilizamos o GitHub como plataforma para hospedar o código fonte do nosso projeto. Ele serve como um repositório centralizado onde todos os arquivos de código são armazenados, versionados e gerenciados. Isso facilita a colaboração entre os membros da equipe e permite um controle preciso das alterações feitas no código ao longo do tempo.
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+Documentação do Projeto (GitHub): Para a documentação do projeto, também utilizamos o GitHub. Isso nos permite armazenar e compartilhar documentos importantes, como especificações de requisitos, diagramas de arquitetura, e quaisquer outros documentos relacionados ao projeto. A integração com o repositório de código fonte torna mais fácil manter a documentação atualizada e acessível para toda a equipe.
 
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
+Projetos de Interface (Figma): Para o design e prototipagem da interface do usuário, contamos com o Figma. Esta ferramenta nos permite criar wireframes, protótipos interativos e designs de alta fidelidade para as diferentes telas e elementos do nosso site. Além disso, o Figma oferece recursos de colaboração em tempo real, facilitando o trabalho em equipe e a revisão do design.
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+Gerenciamento do Projeto (GitHub): Para a organização e gerenciamento geral do projeto, confiamos no Projects do GitHub. Esta plataforma baseada em quadros nos permite criar listas de tarefas, atribuir responsabilidades, acompanhar o progresso e priorizar o trabalho. Com o GitHub, podemos manter todas as partes do projeto organizadas e alinhadas, desde o planejamento até a entrega.
+
+Reuniões Diárias (Microsoft Teams): Para as reuniões diárias utilizamos o Microsoft Teams.
+
+Comunicação do time (WhatsApp): Criamos um grupo no WhatsApp para nos comunicarmos.
+
+Editor de códigos (Visual Studio Code): Para a criação e edição de código, utilizamos o Visual Studio Code devido à sua integração eficiente com o GitHub. Esta integração facilita o gerenciamento de repositórios, controle de versão e colaboração no código-fonte. Além disso, o Visual Studio Code oferece uma série de extensões e ferramentas que melhoram a produtividade e a experiência de desenvolvimento, tornando o processo de codificação mais ágil e organizado.
+
+
+| AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
+|-------------------------------------|------------------------------------|----------------------------------------|
+| Repositório de código fonte         | GitHub                             | [Código Fonte](https://github.com/ICEI-PUC-Minas-PMV-SInt/Grupo-04-Receitas/blob/main/src/README.md)                           |
+| Documentos do projeto               | GitHub                             | [MyRep](https://github.com/ICEI-PUC-Minas-PMV-SInt/Grupo-04-Receitas/tree/main/documents)                            |
+| Projeto de Interface                | Figma                              | [Protótipo](https://www.figma.com/file/fbwMuLej2Voba16iX0yoe6/Untitled?type=design&node-id=0-1&mode=design&t=7U62SZ4xrNxd2ZHK-0)                            |
+| Gerenciamento do Projeto            | GitHub                    | [GitHub](https://trello.com/b/6YjjZcwL/kanban-quadro-modelo](https://github.com/orgs/ICEI-PUC-Minas-PMV-SInt/projects/43/views/1))                            |
+| Reuniões Diárias                          | Microsoft Teams                       | [Teams](https://www.microsoft.com/pt-br/microsoft-teams/log-in)|
+| Comunicação do time                 | WhatsApp                          |  [WhatsApp](https://web.whatsapp.com/)
+| Editor de códigos                   | Visual Studio Code                | [Visual Studo Code](https://code.visualstudio.com/).            
+
