@@ -1,36 +1,43 @@
 
 # Projeto de Interface
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+## User Flow
 
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
+Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de navegação do usuário na aplicação. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
 
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+![Imagem do WhatsApp de 2024-04-27 à(s) 14 06 47_4015b0ec](https://github.com/ICEI-PUC-Minas-PMV-SInt/Grupo-04-Receitas/assets/164505346/78483b2a-2429-47f8-84b3-33900ac81f5d)
 
-## Diagrama de Fluxo
+## Protótipo
 
-O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema interativo e  muitas vezes sem a necessidade do desenho do design das telas da interface. Isso permite que o design das interações seja bem planejado e gere impacto na qualidade no design do wireframe interativo que será desenvolvido logo em seguida.
+Desenvolver um protótipo emerge como uma das maneiras mais ágeis e econômicas de validar uma ideia, conceito ou funcionalidade. Isso permite a interação, avaliação, modificação e aprovação das principais características de uma interface antes de entrar na fase de desenvolvimento. 
 
-O diagrama de fluxo pode ser desenvolvido com “boxes” que possuem internamente a indicação dos principais elementos de interface - tais como menus e acessos - e funcionalidades, tais como editar, pesquisar, filtrar, configurar - e a conexão entre esses boxes a partir do processo de interação. Você pode ver mais explicações e exemplos https://www.lucidchart.com/blog/how-to-make-a-user-flow-diagram.
+### Protótipo de baixa fidelidade
 
-![Exemplo de Diagrama de Fluxo](img/diagramafluxo2.jpg)
+Protótipos de baixa fidelidade apresentam de forma simplificada o design da interface e o relacionamento entre suas páginas, permitindo evolução da proposta da solução. Neste projeto, os utilizaremos para apoiar a validação dos requisitos e efetuar mudanças dos mesmos, caso seja necessário, para menor impacto na codificação da aplicação.
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas de Fluxo”.
 
-> **Links Úteis**:
-> - [Fluxograma online: seis sites para fazer gráfico sem instalar nada | Produtividade | TechTudo](https://www.techtudo.com.br/listas/2019/03/fluxograma-online-seis-sites-para-fazer-grafico-sem-instalar-nada.ghtml)
+#### Tela inicial
+![Captura-de-tela-2024-04-24-103908](https://github.com/ICEI-PUC-Minas-PMV-SInt/Grupo-04-Receitas/assets/165046436/49dc0a00-03d9-46f3-a6e9-828252e73210)
 
-## Wireframes
+#### Tela de Login
+![Imagen-Rafael](https://github.com/ICEI-PUC-Minas-PMV-SInt/Grupo-04-Receitas/assets/165046436/dce28fde-607f-42de-8726-f306a1e641f6)
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+#### Tela de perfil
+![PERFIL](https://github.com/ICEI-PUC-Minas-PMV-SInt/Grupo-04-Receitas/assets/165046436/1ce3f096-425a-4c62-baf2-0e60f2ed2d56)
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+#### Tela nova receita
+![NOVA-RECEITA](https://github.com/ICEI-PUC-Minas-PMV-SInt/Grupo-04-Receitas/assets/165046436/d9c4c4c2-642d-4c76-b5a2-e8c2a1528b31)
+
+#### Tela Receitas Salvas
+
+![Captura-de-tela-2024-04-24-193043](https://github.com/ICEI-PUC-Minas-PMV-SInt/Grupo-04-Receitas/assets/165046436/7e9440d1-ea22-4be7-ab87-da74ec1ae32d)
+
+#### Tela pesquisa
+![PESQUISA](https://github.com/ICEI-PUC-Minas-PMV-SInt/Grupo-04-Receitas/assets/165046436/b47258cb-72ed-4d38-8a40-589147813137)
+
+#### Tela Leitura da Receita
+
+![Captura-de-tela-2024-04-24-133415](https://github.com/ICEI-PUC-Minas-PMV-SInt/Grupo-04-Receitas/assets/165046436/e1dc5982-e131-4bd6-b815-f9d19126ab25)
+
+#### Tela comentários
+![COMENT-RIOS](https://github.com/ICEI-PUC-Minas-PMV-SInt/Grupo-04-Receitas/assets/165046436/ed7f91ef-434e-4683-9e8b-624470962548)
