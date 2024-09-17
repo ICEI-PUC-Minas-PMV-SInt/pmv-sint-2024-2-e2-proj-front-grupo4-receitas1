@@ -50,6 +50,17 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 
 ### Processo
 
+Escolhemos o GitHub para representar nosso método Kanban, pois oferece uma interface intuitiva para organizar e acompanhar tarefas. Ele nos permite visualizar o fluxo de trabalho, gerenciar prioridades e colaborar em tempo real, mantendo a equipe alinhada e atualizada sobre o progresso do projeto.
+
+- Backlog: Lista de todas as tarefas a serem feitas, incluindo aquelas identificadas durante o projeto.
+- Ready: Tarefas planejadas para o sprint atual
+- In Progress: Tarefas em andamento.
+- In review: Tarefas em revisão.
+- Done: Tarefas finalizadas e prontas para entrega ao usuário após passarem por testes e controle de qualidade.
+Assim, conseguimos acompanhar o desenvolvimento do projeto de uma forma organizada e eficaz.
+
+<a href="https://ibb.co/DGgrT37"><img src="https://i.ibb.co/f8GDLmC/Captura-de-tela-2024-09-17-145355.png" alt="Captura-de-tela-2024-09-17-145355" border="0"></a><br /><a target='_blank' href='https://pt-br.imgbb.com/'>
+
 Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
  
 > **Links Úteis**:
