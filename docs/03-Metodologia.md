@@ -41,10 +41,11 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 A equipe utiliza o Scrum como base para definição do processo de desenvolvimento.
 
-Scrum Master: Rodrigo da Costa
-Product Owner: Tatiana Haveroth
-Equipe de Desenvolvimento: Rafael Douglas, Rodrigo da Costa e Tatiana Haveroth
-Equipe de Design: Rafael Douglas, Rodrigo da Costa e Tatiana Haveroth
+- Scrum Master: Rodrigo da Costa
+- Product Owner: Tatiana Haveroth
+- Equipe de Desenvolvimento: Rafael Douglas, Rodrigo da Costa e Tatiana Haveroth
+- Equipe de Design: Rafael Douglas, Rodrigo da Costa e Tatiana Haveroth
+
 
 
 ### Processo
