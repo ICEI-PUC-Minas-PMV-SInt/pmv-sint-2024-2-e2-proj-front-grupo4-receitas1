@@ -7,33 +7,22 @@ Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Defini�
 
 ## Controle de Versão
 
-A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
+Para o nosso projeto "Sabor do Momento," adotamos o Git como ferramenta de controle de versão e utilizamos o GitHub para a hospedagem do repositório. Optamos por manter uma abordagem simplificada, com uma única versão no branch main. Atualizamos e melhoramos o site continuamente nesta branch principal, evitando a complexidade de gerenciar múltiplas branches ao mesmo tempo.
 
-O projeto segue a seguinte convenção para o nome de branches:
+### Gerenciamento de Commits, Merges e Tags
 
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
+- `commits`: Os commits são feitos diretamente no branch main, mantendo o histórico de mudanças organizado e com mensagens claras e descritivas. A convenção de mensagens de commit segue um padrão claro para facilitar a rastreabilidade das mudanças.
+- `merges`: Sempre que necessário, as alterações são integradas ao main de forma contínua. Usamos o processo de pull requests para revisar as mudanças antes da fusão, mesmo em um único branch.
+- `tags`: As tags são usadas para marcar versões específicas e estáveis do projeto, como lançamentos principais ou entregas significativas
 
-Quanto à gerência de issues, o projeto adota a seguinte convenção para
-etiquetas:
+### Gerenciamento de issues
 
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
+O gerenciamento de issues segue uma convenção prática para identificar e priorizar tarefas:
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
+- `documentation`: Sinaliza melhorias ou adições à documentação do projeto.
+- `bug`: Indica que uma funcionalidade está com problemas e precisa ser corrigida.
+- `enhancement`: Marca funcionalidades que precisam de melhorias.
+- `feature`: Usada quando uma nova funcionalidade precisa ser adicionada ao site.
 
 ## Gerenciamento de Projeto
 
