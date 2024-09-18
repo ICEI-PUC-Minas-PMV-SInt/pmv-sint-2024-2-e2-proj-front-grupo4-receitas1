@@ -57,7 +57,7 @@ Escolhemos o GitHub para representar nosso método Kanban, pois oferece uma inte
 - In Progress: Tarefas em andamento.
 - In review: Tarefas em revisão.
 - Done: Tarefas finalizadas e prontas para entrega ao usuário após passarem por testes e controle de qualidade.
-- 
+
 Assim, conseguimos acompanhar o desenvolvimento do projeto de uma forma organizada e eficaz.
 
 <a href="https://ibb.co/DGgrT37"><img src="https://i.ibb.co/f8GDLmC/Captura-de-tela-2024-09-17-145355.png" alt="Captura-de-tela-2024-09-17-145355" border="0"></a><br /><a target='_blank' href='https://pt-br.imgbb.com/'>
