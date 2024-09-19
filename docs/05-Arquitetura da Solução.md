@@ -34,9 +34,31 @@ Para mais informações, consulte o microfundamento "Modelagem de Dados".
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+### Descrição do Fluxo de Interação
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+1. **Usuário Interage com a Interface (Frontend):**
+   - O usuário acessa o site de receitas hospedado no **GitHub Pages**.
+   - A interface foi criada usando **React.js** com **HTML, CSS, e JavaScript** para montar os componentes (como receitas, filtros de pesquisa, comentários, etc.).
+
+2. **Renderização do Protótipo (Frontend):**
+   - O design e a experiência do usuário foram planejados no **Figma**.
+   - O **React.js** renderiza o conteúdo dinâmico com base nas interações do usuário (por exemplo, busca por receitas, likes, ou comentários).
+
+3. **Manipulação dos Dados (Backend Simulado):**
+   - No frontend, os dados são manipulados diretamente, pois o site é estático e a hospedagem é no **GitHub Pages**.
+   - Para simular interações de banco de dados (como o estado de curtidas ou salvar receitas), **JavaScript** e **React Hooks** podem ser utilizados para gerenciar estados e armazenar dados temporários no **localStorage**.
+
+4. **Gerenciamento do Projeto:**
+   - As tarefas do projeto estão organizadas no **Kanban do GitHub**.
+   - A equipe se comunica usando **WhatsApp** e **Microsoft Teams**.
+
+5. **Versionamento e Controle de Código:**
+   - O código é versionado no **GitHub**, facilitando o desenvolvimento colaborativo e garantindo controle de versões.
+   - O desenvolvimento acontece na **IDE Visual Studio Code**, onde são implementados o design responsivo e as funcionalidades.
+
+6. **Exibição no Navegador (Frontend):**
+   - Após a interação do usuário (por exemplo, uma busca por receitas), o sistema retorna uma resposta (lista de receitas ou detalhes de uma receita) diretamente no navegador, renderizado pelo **React.js**.
+
 
 ## Hospedagem
 
