@@ -62,11 +62,4 @@ Para mais informações, consulte o microfundamento "Modelagem de Dados".
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
-
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
+Atualmente, o site estático da plataforma de receitas foi desenvolvido utilizando HTML e CSS, e está hospedado no GitHub Pages. O site já está acessível publicamente. Na próxima etapa do projeto, será realizada a implementação do React.js para tornar a plataforma mais dinâmica e interativa, com novos recursos sendo adicionados.
