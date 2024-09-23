@@ -129,7 +129,7 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 | Ana Julia | ter minhas receitas de culinária em um único lugar | deixar de me sentir perdida na hora de procurar uma receita |
 | Ana Julia | ver receitas de acordo com meu gosto e preferências | economizar tempo procurando receitas que satisfaçam meus gostos e restrições |
 | Maria Carla | saber o que outras pessoas estão achando daquela receita | matar curiosidade em saber o que outras pessoas acharam da receita, se tiveram opinião em comum, ver repercussão |
-| João Marcos | ver sugestões de receitas de acordo com meu horário atual | sair do excesso de informação, ter mais praticidade e economizar tempo |
+| João Marcos | ver sugestões de receitas adequadas para o momento do dia (café da manhã, almoço, jantar) | sair do excesso de informação, ter mais praticidade e economizar tempo |
 | Maria Carla | salvar minhas receitas favoritas | poder encontrar rapidamente minhas receitas favoritas |
 | Maria Carla | ver receitas tanto no computador quanto no celular | quando tiver na casa dos meus parentes e quiser mostrar uma receita para eles, ou para prepararmos juntos |
 
