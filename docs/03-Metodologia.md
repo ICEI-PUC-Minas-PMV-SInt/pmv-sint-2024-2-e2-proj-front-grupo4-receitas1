@@ -1,9 +1,10 @@
 
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+O desenvolvimento do projeto foi conduzido utilizando diversas ferramentas que suportaram a implementação do código-fonte, o design da interface, além da comunicação e gestão da equipe. 
+O projeto foi desenvolvido em um ambiente de trabalho remoto, com repositórios hospedados no GitHub para versionamento e controle do código, garantindo a rastreabilidade das mudanças e a integração contínua. Além disso, a equipe utilizou a ferramenta de comunicação Whatsapp para reuniões regulares para alinhamento e tomadas de decisão. A organização das tarefas e o acompanhamento do progresso foram realizados por meio do GitHub (Projects), onde foram estabelecidos os fluxos de trabalho, metas e prazos. Dessa forma, o time conseguiu dividir responsabilidades de forma clara, garantindo um desenvolvimento ágil e estruturado.
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+
 
 ## Controle de Versão
 
