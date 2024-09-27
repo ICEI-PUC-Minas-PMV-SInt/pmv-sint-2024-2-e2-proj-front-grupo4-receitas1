@@ -1,10 +1,10 @@
 # Arquitetura da Solução
 
-O projeto 'Sabor do Momento' é uma aplicação web estática desenvolvida com HTML e CSS, projetada para oferecer uma experiência de busca de receitas simplificada e eficiente. Os dados são armazenados e gerenciados diretamente em uma página do GitHub, aproveitando o GitHub Pages para hospedar a plataforma. Isso permite uma infraestrutura leve, de fácil manutenção, com controle de versão integrado e atualizações automáticas. A plataforma visa ser expansível, com melhorias contínuas para atender às necessidades dos usuários.
+O projeto 'Sabor do Momento' é um site estático feito com HTML e CSS para facilitar a busca por receitas. Os dados são armazenados no GitHub, que também hospeda o site, permitindo fácil manutenção e atualizações automáticas. A estrutura é leve, com possibilidade de expansão. No futuro, uma API será usada para conectar diferentes partes do sistema de forma mais eficiente.
 
 ## Diagrama de Classes
 
-O diagrama de classes ilustra graficamente a estrutura do software, mostrando como as classes estarão interligadas e servindo de modelo para os objetos que serão instanciados e executados na memória. Neste projeto, a arquitetura prevê o uso de uma API para facilitar a comunicação entre diferentes componentes, e o código será inicialmente hospedado no GitHub, com a possibilidade de ajustes futuros conforme necessário.
+O diagrama de classes mostra, de forma visual, como as partes do software estão conectadas. Ele serve como um modelo para os objetos que serão criados na memória, ajudando a organizar o sistema e a facilitar futuras modificações.
 
 ![image](https://github.com/user-attachments/assets/8f891611-ecb8-4c21-82bb-82805180d70e)
 
