@@ -1,8 +1,10 @@
 # Arquitetura da Solução
 
+O diagrama de classes ilustra graficamente a estrutura do software, mostrando como as classes estarão interligadas e servindo de modelo para os objetos que serão instanciados e executados na memória. Neste projeto, a arquitetura prevê o uso de uma API para facilitar a comunicação entre diferentes componentes, e o código será inicialmente hospedado no GitHub, com a possibilidade de ajustes futuros conforme necessário.
+
 ## Diagrama de Classes
 
-O diagrama de classes ilustra graficamente a estrutura do software, mostrando como as classes estarão interligadas e servindo de modelo para os objetos que serão instanciados e executados na memória. Neste projeto, a arquitetura prevê o uso de uma API para facilitar a comunicação entre diferentes componentes, e o código será inicialmente hospedado no GitHub, com a possibilidade de ajustes futuros conforme necessário.
+
 
 ![image](https://github.com/user-attachments/assets/8f891611-ecb8-4c21-82bb-82805180d70e)
 
