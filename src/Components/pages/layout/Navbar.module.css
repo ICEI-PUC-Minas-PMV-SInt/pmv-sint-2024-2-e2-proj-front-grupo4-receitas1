@@ -7,13 +7,12 @@
     display: flex;
     justify-content: space-between;
     background-color: white;
-    padding: 1em;
+    
 }
 
 .list {
     width: 100%;
-    margin: 0 30px 0 30px;
-    display: flex;
+      display: flex;
     list-style: none;
     align-items: center;
     background-color: #ffe987;
@@ -23,7 +22,8 @@
 .item {
     flex-grow: 1;
     text-align: center;
-    margin-right: 5em;
+    margin-right: 3em;
+ 
    
 }
 .item a{
@@ -31,6 +31,7 @@
     text-decoration: none;
     display: block;
     padding: 0.5em;
+    transition: 0.5s;
  
 
 }
