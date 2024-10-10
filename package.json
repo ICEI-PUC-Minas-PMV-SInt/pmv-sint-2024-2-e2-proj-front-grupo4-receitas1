@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   
-  "homepage": "https://icei-puc-minas-pmv-sint.github.io/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1",
+  "homepage": "https://icei-puc-minas-pmv-sint.github.io/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/",
 
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
