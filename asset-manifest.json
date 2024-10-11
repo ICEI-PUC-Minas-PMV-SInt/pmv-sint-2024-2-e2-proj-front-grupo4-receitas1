@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/static/css/main.e90bafc4.css",
+    "main.js": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/static/js/main.4687fe00.js",
+    "static/media/logo.png": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/static/media/logo.55abee183f49ad3b359d.png",
+    "index.html": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/index.html",
+    "main.e90bafc4.css.map": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/static/css/main.e90bafc4.css.map",
+    "main.4687fe00.js.map": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/static/js/main.4687fe00.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e90bafc4.css",
+    "static/js/main.4687fe00.js"
+  ]
+}
