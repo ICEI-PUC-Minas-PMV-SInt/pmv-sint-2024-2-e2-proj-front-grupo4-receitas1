@@ -1,0 +1,11 @@
+/** @format */
+
+.botao-ver-mais {
+	background-color: #2f2f2f;
+	color: white;
+	text-align: center;
+	width: fit-content;
+	padding: 5px 8px;
+	border-radius: 6px;
+	font-size: 14px;
+}
