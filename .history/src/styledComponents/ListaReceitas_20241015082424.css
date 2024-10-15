@@ -1,0 +1,10 @@
+/** @format */
+
+.container-lista-receitas {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px;
+	background-color: blue;
+	column-gap: 2rem;
+	row-gap: 1rem;
+}

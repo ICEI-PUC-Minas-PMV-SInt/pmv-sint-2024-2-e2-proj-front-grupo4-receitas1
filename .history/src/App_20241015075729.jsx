@@ -14,18 +14,18 @@ import ListaReceitas from './newComponents/ListaReceitas.jsx';
 export function App() {
 	return (
 		<div className='main'>
-			{/* <section>
+			<section>
 				{receitas.map(r => (
 					<ReceitaCard key={r.id} {...r} />
 				))}
-			</section> */}
+			</section>
 
 			{/* <section>
 				<LargeButton textoBotao={'Almoço'} />
 				<VerMaisButton />
 			</section> */}
 
-			<ListaReceitas tipoRefeicao='Lanche' />
+			{/* <ListaReceitas tipoRefeicao={'Lanche'} /> */}
 		</div>
 	);
 }

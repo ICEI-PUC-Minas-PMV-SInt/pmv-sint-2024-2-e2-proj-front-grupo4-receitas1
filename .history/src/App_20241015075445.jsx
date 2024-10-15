@@ -7,7 +7,6 @@ import { styled } from 'styled-components';
 import ReceitaCard from './newComponents/ReceitaCard.jsx';
 import LargeButton from './newComponents/LargeButton.jsx';
 import VerMaisButton from './newComponents/VerMaisButton.jsx';
-import ListaReceitas from './newComponents/ListaReceitas.jsx';
 
 // ESTE ARQUIVO É PARA TESTAR OS COMPONENTES.
 
@@ -24,8 +23,6 @@ export function App() {
 				<LargeButton textoBotao={'Almoço'} />
 				<VerMaisButton />
 			</section> */}
-
-			<ListaReceitas tipoRefeicao='Lanche' />
 		</div>
 	);
 }

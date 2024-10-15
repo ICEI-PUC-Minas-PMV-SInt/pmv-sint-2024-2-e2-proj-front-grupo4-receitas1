@@ -1,0 +1,7 @@
+/** @format */
+
+.container-lista-receitas {
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 1rem;
+}

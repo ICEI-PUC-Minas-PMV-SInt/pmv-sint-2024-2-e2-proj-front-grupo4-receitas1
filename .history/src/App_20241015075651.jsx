@@ -25,7 +25,7 @@ export function App() {
 				<VerMaisButton />
 			</section> */}
 
-			<ListaReceitas tipoRefeicao='Lanche' />
+			<ListaReceitas tipoRefeicao={'Almoço'} />
 		</div>
 	);
 }
