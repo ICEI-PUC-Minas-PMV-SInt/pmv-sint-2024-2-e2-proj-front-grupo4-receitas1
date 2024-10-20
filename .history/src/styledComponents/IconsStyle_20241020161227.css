@@ -1,0 +1,12 @@
+/** @format */
+
+.icon {
+	width: 2rem;
+	cursor: pointer;
+}
+
+.iconeEnviar {
+	width: 30px;
+	background-color: blue;
+}
+/** @format */

@@ -1,0 +1,14 @@
+/** @format */
+
+.icon {
+	width: 2rem;
+	cursor: pointer;
+}
+
+.iconeEnviar {
+	width: 30px;
+	background-color: #2f2f2f;
+	border-radius: 100%;
+	align-self: center;
+}
+/** @format */

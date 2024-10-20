@@ -1,0 +1,139 @@
+/** @format */
+
+.comentarios-container {
+	max-width: 600px; /* Ajusta a largura do container de comentários */
+	margin: 20px auto; /* Centraliza o container */
+	padding: 10px;
+	border: 1px solid #ddd; /* Adiciona uma borda leve ao container */
+	border-radius: 8px; /* Bordas arredondadas */
+	background-color: #fff; /* Fundo branco */
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+.comentario-item {
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 15px; /* Espaçamento entre comentários */
+}
+
+.comentario-avatar {
+	width: 40px; /* Tamanho do avatar */
+	height: 40px; /* Tamanho do avatar */
+	border-radius: 50%; /* Formato circular */
+	margin-right: 10px; /* Espaçamento à direita */
+}
+
+.comentario-content {
+	flex: 1; /* Permite que o conteúdo do comentário use o espaço disponível */
+}
+
+.comentario-username {
+	font-weight: bold; /* Nome em negrito */
+	color: #333; /* Cor do texto do nome */
+}
+
+.comentario-texto {
+	font-size: 14px; /* Tamanho do texto do comentário */
+	color: #555; /* Cor do texto do comentário */
+}
+
+.comentario-timestamp {
+	font-size: 12px; /* Tamanho do texto da timestamp */
+	color: #999; /* Cor do texto da timestamp */
+	margin-top: 5px; /* Espaçamento acima */
+}
+
+.comentario-remover-btn,
+.comentario-responder-btn {
+	background-color: transparent; /* Fundo transparente para os botões */
+	border: none; /* Sem borda */
+	color: #3498db; /* Cor do texto dos botões */
+	font-size: 12px; /* Tamanho do texto dos botões */
+	cursor: pointer; /* Cursor de ponteiro */
+	padding: 5px; /* Espaçamento interno */
+	margin-top: 5px; /* Espaçamento acima */
+}
+
+.input-novo-comentario {
+	display: flex; /* Flexbox para alinhar input e botão */
+	margin-top: 20px; /* Espaçamento acima */
+}
+
+.input-novo-comentario input {
+	flex: 1; /* Faz o input ocupar o máximo de espaço */
+	padding: 8px; /* Espaçamento interno */
+	border: 1px solid #ccc; /* Borda leve */
+	border-radius: 5px; /* Bordas arredondadas */
+	margin-right: 10px; /* Espaçamento à direita */
+}
+
+.input-novo-comentario button {
+	background-color: #3498db; /* Cor de fundo do botão */
+	border: none; /* Sem borda */
+	color: white; /* Cor do texto do botão */
+	padding: 8px 12px; /* Espaçamento interno */
+	cursor: pointer; /* Cursor de ponteiro */
+	border-radius: 5px; /* Bordas arredondadas */
+}
+
+.resposta-input-container {
+	margin-top: 10px; /* Espaçamento acima do input de resposta */
+	display: flex; /* Flexbox para alinhar input e botão de resposta */
+}
+
+.resposta-input {
+	flex: 1; /* Faz o input de resposta ocupar o máximo de espaço */
+	padding: 5px; /* Espaçamento interno */
+	border: 1px solid #ccc; /* Borda leve */
+	border-radius: 5px; /* Bordas arredondadas */
+}
+
+.resposta-enviar-btn {
+	margin-left: 10px; /* Espaçamento à esquerda */
+	background-color: #3498db; /* Cor de fundo do botão */
+	border: none; /* Sem borda */
+	color: white; /* Cor do texto do botão */
+	padding: 5px 10px; /* Espaçamento interno */
+	cursor: pointer; /* Cursor de ponteiro */
+	border-radius: 5px; /* Bordas arredondadas */
+}
+
+.comentario-respostas {
+	margin-top: 10px; /* Espaçamento acima da lista de respostas */
+	padding-left: 50px; /* Espaçamento à esquerda */
+}
+
+.respostas-lista {
+	margin-top: 10px; /* Espaçamento acima da lista de respostas */
+}
+
+.resposta-item {
+	display: flex; /* Flexbox para alinhar avatar e conteúdo */
+	align-items: flex-start; /* Alinhamento vertical */
+	margin-top: 5px; /* Espaçamento acima das respostas */
+}
+
+.resposta-avatar {
+	width: 30px; /* Tamanho do avatar da resposta */
+	height: 30px; /* Tamanho do avatar da resposta */
+	border-radius: 50%; /* Formato circular */
+	margin-right: 8px; /* Espaçamento à direita */
+}
+
+.resposta-username {
+	font-weight: bold; /* Nome em negrito */
+	color: #333; /* Cor do texto do nome */
+	font-size: 14px; /* Tamanho do texto do nome */
+}
+
+.resposta-texto {
+	font-size: 13px; /* Tamanho do texto da resposta */
+	color: #555; /* Cor do texto da resposta */
+}
+
+.comentario-ver-mais-btn {
+	background-color: transparent; /* Fundo transparente para o botão */
+	border: none; /* Sem borda */
+	color: #3498db; /* Cor do texto do botão */
+	cursor: pointer; /* Cursor de ponteiro */
+}

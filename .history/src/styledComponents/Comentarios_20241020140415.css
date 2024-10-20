@@ -1,0 +1,99 @@
+/** @format */
+
+.comentarios-container {
+	margin-top: 20px;
+	max-width: 600px;
+}
+
+.comentario-item {
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 15px;
+}
+
+.comentario-avatar {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.comentario-content {
+	background-color: #f0f0f0;
+	padding: 10px;
+	border-radius: 15px;
+	max-width: 500px;
+	width: 100%;
+	position: relative;
+}
+
+.comentario-content::after {
+	content: '';
+	position: absolute;
+	top: 10px;
+	left: -10px;
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-right: 10px solid #f0f0f0;
+}
+
+.comentario-username {
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+
+.comentario-texto {
+	font-size: 14px;
+	color: #333;
+}
+
+.comentario-timestamp {
+	font-size: 12px;
+	color: #999;
+	margin-top: 5px;
+}
+
+.input-novo-comentario {
+	display: flex;
+	margin-top: 20px;
+}
+
+.input-novo-comentario input {
+	flex-grow: 1;
+	padding: 10px;
+	font-size: 14px;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+	outline: none;
+}
+
+.input-novo-comentario button {
+	background-color: #3897f0;
+	border: none;
+	color: white;
+	padding: 10px 15px;
+	margin-left: 10px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.input-novo-comentario button:hover {
+	background-color: #327bd4;
+}
+
+.comentario-remover-btn {
+	background-color: transparent;
+	border: none;
+	color: #e74c3c;
+	font-size: 12px;
+	cursor: pointer;
+	padding: 5px 10px;
+	margin-top: 5px;
+	border-radius: 5px;
+}
+
+.comentario-remover-btn:hover {
+	color: #c0392b;
+}
