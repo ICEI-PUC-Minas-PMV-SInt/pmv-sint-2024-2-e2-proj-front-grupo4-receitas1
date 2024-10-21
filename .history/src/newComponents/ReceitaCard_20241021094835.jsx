@@ -1,9 +1,8 @@
 /** @format */
 
-import React, { useState } from 'react';
+import React from 'react';
 import UsuarioPostador from './UsuarioPostador';
 import { CommentIcon } from './CommentIcon';
-import ModalComentarios from './ModalComentarios'; // Importe o Modal
 import '../styledComponents/ReceitaCard.css';
 
 const ReceitaCard = ({
@@ -12,17 +11,8 @@ const ReceitaCard = ({
 	usuarioPostador,
 	nome,
 	id,
+	onCommentClick,
 }) => {
-	const [modalAberto, setModalAberto] = useState(false);
-
-	const abrirModal = () => {
-		setModalAberto(true);
-	};
-
-	const fecharModal = () => {
-		setModalAberto(false);
-	};
-
 	return (
 		<div className='container-receita-card'>
 			<img
@@ -36,11 +26,10 @@ const ReceitaCard = ({
 					fotoUsuarioPostador={fotoUsuarioPostador}
 					usuarioPostador={usuarioPostador}
 				/>
-				<CommentIcon onClick={abrirModal} /> {/* Abre o modal */}
+				<div onClick={() => onCommentClick(id)}>
+					<CommentIcon />
+				</div>
 			</div>
-
-			{/* Renderiza o modal de comentários, se estiver aberto */}
-			{modalAberto && <ModalComentarios receitaId={id} onClose={fecharModal} />}
 		</div>
 	);
 };

@@ -10,7 +10,6 @@ import VerMaisButton from './newComponents/VerMaisButton.jsx';
 import ListaReceitas from './newComponents/ListaReceitas.jsx';
 import Comentarios from './newComponents/Comentarios/Comentarios.jsx';
 import ReceitaEComentarios from './newComponents/ReceitaEComentarios.jsx';
-import PaginaPrincipal from './newComponents/PaginaPrincipal.jsx';
 
 // ESTE ARQUIVO É PARA TESTAR OS COMPONENTES.
 
@@ -33,7 +32,15 @@ export function App() {
 			{/* <Comentarios receitaId={receitas[0].id} /> */}
 			{/* <Comentarios receitaId={receitas[6].id} /> */}
 			{/* <ReceitaEComentarios id={1} /> */}
-			<PaginaPrincipal />
+			{/* <ReceitaCardNovo key={receitas[0].id} receita={receitas[0]} /> */}
+			<ReceitaCard
+				key={receitas[2].id}
+				fotoReceita={receitas[2].fotoReceita}
+				fotoUsuarioPostador={receitas[2].fotoUsuarioPostador}
+				usuarioPostador={receitas[2].usuarioPostador}
+				nome={receitas[2].nome}
+				id={receitas[2].id}
+			/>
 		</div>
 	);
 }

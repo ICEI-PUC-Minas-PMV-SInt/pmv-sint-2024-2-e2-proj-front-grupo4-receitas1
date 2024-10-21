@@ -2,7 +2,7 @@
 
 .container-receita-e-comentarios {
 	margin: 20px auto;
-	padding: 50px 10px;
+	padding: 60px;
 	max-width: 600px;
 	display: flex;
 	flex-direction: column;
@@ -30,8 +30,8 @@
 }
 
 .container-nome-imagem-e-usuario > img {
-	width: 472px;
-	height: 400px;
+	width: 355px;
+	height: 300px;
 	border-radius: 2rem;
 	object-fit: cover; /* Certifica que a imagem preencha o container */
 }

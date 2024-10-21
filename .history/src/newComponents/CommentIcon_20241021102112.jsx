@@ -6,10 +6,7 @@ import '../styledComponents/IconsStyle.css';
 
 export function CommentIcon({ onClick }) {
 	return (
-		<button
-			onClick={onClick}
-			style={{ background: 'transparent', border: 'none', cursor: 'pointer' }}
-		>
+		<button onClick={onClick}>
 			<img className='icon' src={iconeComent} alt='Icone Comentários' />
 		</button>
 	);

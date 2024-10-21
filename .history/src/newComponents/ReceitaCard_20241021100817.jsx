@@ -36,11 +36,10 @@ const ReceitaCard = ({
 					fotoUsuarioPostador={fotoUsuarioPostador}
 					usuarioPostador={usuarioPostador}
 				/>
-				<CommentIcon onClick={abrirModal} /> {/* Abre o modal */}
+				<CommentIcon onClick={abrirModal} />
 			</div>
 
-			{/* Renderiza o modal de comentários, se estiver aberto */}
-			{modalAberto && <ModalComentarios receitaId={id} onClose={fecharModal} />}
+			{}
 		</div>
 	);
 };

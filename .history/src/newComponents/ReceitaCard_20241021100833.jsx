@@ -40,7 +40,6 @@ const ReceitaCard = ({
 			</div>
 
 			{/* Renderiza o modal de comentários, se estiver aberto */}
-			{modalAberto && <ModalComentarios receitaId={id} onClose={fecharModal} />}
 		</div>
 	);
 };
