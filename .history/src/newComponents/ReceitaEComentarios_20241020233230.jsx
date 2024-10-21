@@ -6,18 +6,13 @@ import Comentarios from './Comentarios/Comentarios';
 import UsuarioPostador from './UsuarioPostador';
 import '../styledComponents/ReceitaEComentarios.css';
 
-const ReceitaEComentarios = ({ id }) => {
-	// Encontra a receita correspondente ao id passado
-	const receita = receitas.find(receita => receita.id === id);
-
-	// Verifica se a receita foi encontrada, caso contrário, retorna uma mensagem de erro
-	if (!receita) {
-		return <p>Receita não encontrada</p>;
-	}
-
-	// Extrai as propriedades da receita encontrada
-	const { fotoReceita, nome, fotoUsuarioPostador, usuarioPostador } = receita;
-
+const ReceitaEComentarios = ({
+	fotoReceita,
+	nome,
+	id,
+	fotoUsuarioPostador,
+	usuarioPostador,
+}) => {
 	return (
 		<div className='container-receita-e-comentarios'>
 			<div className='container-nome-imagem-e-usuario'>
@@ -28,7 +23,7 @@ const ReceitaEComentarios = ({ id }) => {
 					usuarioPostador={usuarioPostador}
 				/>
 			</div>
-			<Comentarios key={id} receitaId={id} />
+			<Comentarios receitaId={id} />
 		</div>
 	);
 };

@@ -31,7 +31,7 @@ export function App() {
 
 			{/* <Comentarios receitaId={receitas[0].id} /> */}
 			{/* <Comentarios receitaId={receitas[6].id} /> */}
-			<ReceitaEComentarios id={1} />
+			<ReceitaEComentarios id={10} />
 		</div>
 	);
 }

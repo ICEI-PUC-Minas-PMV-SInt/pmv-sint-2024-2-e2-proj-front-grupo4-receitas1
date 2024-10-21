@@ -28,7 +28,7 @@ const ReceitaEComentarios = ({ id }) => {
 					usuarioPostador={usuarioPostador}
 				/>
 			</div>
-			<Comentarios key={id} receitaId={id} />
+			<Comentarios receitaId={id} />
 		</div>
 	);
 };
