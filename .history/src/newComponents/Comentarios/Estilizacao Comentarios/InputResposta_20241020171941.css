@@ -1,0 +1,24 @@
+/** @format */
+
+.resposta-input-container {
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.resposta-input {
+	flex: 1;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.resposta-enviar-btn {
+	margin-left: 10px;
+	background-color: #2f2f2f;
+	border: none;
+	color: white;
+	padding: 6px 12px;
+	border-radius: 5px;
+	cursor: pointer;
+}

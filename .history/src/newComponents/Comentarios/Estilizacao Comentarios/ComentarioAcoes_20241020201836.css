@@ -1,0 +1,24 @@
+/** @format */
+
+.comentario-acoes button {
+	background-color: transparent;
+	border: none;
+	color: gray;
+	font-size: 12px;
+	cursor: pointer;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+.comentario-remover-btn {
+	color: #e74c3c;
+}
+
+.comentario-ver-mais-btn {
+	color: gray;
+}
+
+.container-verMaisRespostas-ou-esconderRespostas {
+	display: flex;
+	background-color: black;
+}

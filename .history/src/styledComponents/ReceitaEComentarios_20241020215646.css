@@ -1,0 +1,13 @@
+/** @format */
+
+.container-receita-e-comentarios {
+	margin: 20px auto;
+	padding: 60px;
+	max-width: 600px;
+}
+
+.container-receita-e-comentarios > img {
+	width: 413px;
+	height: 350px;
+	border-radius: 2rem;
+}

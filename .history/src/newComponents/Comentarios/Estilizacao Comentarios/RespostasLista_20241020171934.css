@@ -1,0 +1,28 @@
+/** @format */
+
+.respostas-lista {
+	margin-top: 10px;
+	padding-left: 50px;
+}
+
+.resposta-item {
+	display: flex;
+	align-items: flex-start;
+	margin-top: 5px;
+}
+
+.resposta-texto-container {
+	display: flex;
+	align-items: center;
+}
+
+.resposta-texto {
+	font-size: 13px;
+	color: #555;
+}
+
+.resposta-username {
+	font-weight: bold;
+	color: #333;
+	font-size: 14px;
+}

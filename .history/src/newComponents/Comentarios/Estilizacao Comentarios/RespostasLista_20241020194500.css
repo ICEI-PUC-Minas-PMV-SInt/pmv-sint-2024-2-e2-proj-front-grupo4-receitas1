@@ -1,0 +1,43 @@
+/** @format */
+
+.respostas-lista {
+	margin-top: 10px;
+	padding-left: 50px;
+}
+
+.resposta-item {
+	display: flex;
+	align-items: flex-start;
+	margin-top: 5px;
+}
+
+.resposta-item img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.resposta-texto-container {
+	display: flex;
+	flex-direction: column; /* Stack username and text vertically */
+}
+
+.resposta-texto {
+	font-size: 13px;
+	color: #555;
+	margin-top: 2px; /* Space above the response text */
+}
+
+.resposta-username {
+	font-weight: bold;
+	color: #333;
+	font-size: 14px;
+}
+
+/* Optional: Add a hover effect for better user experience */
+.resposta-item:hover {
+	background-color: #f9f9f9; /* Light background on hover */
+	border-radius: 5px; /* Rounded corners for hover effect */
+	padding: 5px; /* Add some padding for better spacing */
+}

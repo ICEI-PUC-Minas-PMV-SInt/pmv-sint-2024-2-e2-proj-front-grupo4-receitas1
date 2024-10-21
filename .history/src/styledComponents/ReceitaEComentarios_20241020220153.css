@@ -1,0 +1,20 @@
+/** @format */
+
+.container-receita-e-comentarios {
+	margin: 20px auto;
+	padding: 60px;
+	max-width: 600px;
+	display: flex;
+	flex-direction: column;
+}
+
+.container-nome-imagem-e-usuario {
+	display: flex;
+	flex-direction: column;
+}
+
+.container-nome-imagem-e-usuario > img {
+	width: 413px;
+	height: 350px;
+	border-radius: 2rem;
+}

@@ -22,22 +22,15 @@ export function App() {
 				))}
 			</section> */}
 
-			{/* <section>
+			<section>
 				<LargeButton textoBotao={'Almoço'} />
 				<VerMaisButton />
-			</section> */}
+			</section>
 
 			{/* <ListaReceitas tipoRefeicao='Lanche' /> */}
 
 			{/* <Comentarios receitaId={receitas[0].id} /> */}
-			{/* <Comentarios receitaId={receitas[6].id} /> */}
-			<ReceitaEComentarios
-				fotoReceita={receitas[12].fotoReceita}
-				nome={receitas[12].nome}
-				id={receitas[12].id}
-				fotoUsuarioPostador={receitas[12].fotoUsuarioPostador}
-				usuarioPostador={receitas[12].usuarioPostador}
-			/>
+			{/* <Comentarios receitaId={receitas[1].id} /> */}
 		</div>
 	);
 }

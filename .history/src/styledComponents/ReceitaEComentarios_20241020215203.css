@@ -1,0 +1,7 @@
+/** @format */
+
+.container-receita-e-comentarios > img {
+	width: 355px;
+	height: 500px;
+	border-radius: 2rem;
+}

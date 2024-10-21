@@ -8,8 +8,7 @@ import ReceitaCard from './newComponents/ReceitaCard.jsx';
 import LargeButton from './newComponents/LargeButton.jsx';
 import VerMaisButton from './newComponents/VerMaisButton.jsx';
 import ListaReceitas from './newComponents/ListaReceitas.jsx';
-import Comentarios from './newComponents/Comentarios/Comentarios.jsx';
-import ReceitaEComentarios from './newComponents/ReceitaEComentarios.jsx';
+import Comentarios from '../newComponents/Comentarios/Comentarios.jsx';
 
 // ESTE ARQUIVO É PARA TESTAR OS COMPONENTES.
 
@@ -22,22 +21,15 @@ export function App() {
 				))}
 			</section> */}
 
-			{/* <section>
+			<section>
 				<LargeButton textoBotao={'Almoço'} />
 				<VerMaisButton />
-			</section> */}
+			</section>
 
 			{/* <ListaReceitas tipoRefeicao='Lanche' /> */}
 
-			{/* <Comentarios receitaId={receitas[0].id} /> */}
-			{/* <Comentarios receitaId={receitas[6].id} /> */}
-			<ReceitaEComentarios
-				fotoReceita={receitas[12].fotoReceita}
-				nome={receitas[12].nome}
-				id={receitas[12].id}
-				fotoUsuarioPostador={receitas[12].fotoUsuarioPostador}
-				usuarioPostador={receitas[12].usuarioPostador}
-			/>
+			<Comentarios receitaId={receitas[0].id} />
+			{/* <Comentarios receitaId={receitas[1].id} /> */}
 		</div>
 	);
 }

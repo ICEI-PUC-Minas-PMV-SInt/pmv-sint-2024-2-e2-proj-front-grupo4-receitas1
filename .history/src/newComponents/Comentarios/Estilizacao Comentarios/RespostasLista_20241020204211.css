@@ -1,0 +1,42 @@
+/** @format */
+
+.respostas-lista {
+	margin-top: 10px;
+	/* padding-left: 50px; */
+}
+
+.resposta-item {
+	display: flex;
+	align-items: flex-start;
+	margin-top: 5px;
+}
+
+.resposta-item img {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin-right: 8px;
+}
+
+.resposta-texto-container {
+	display: flex;
+	align-items: center; /* Alinha o texto e o botão */
+}
+
+.resposta-texto {
+	font-size: 13px;
+	color: #555;
+	margin: 0;
+}
+
+.resposta-usuario {
+	font-weight: bold;
+	color: #333;
+	font-size: 14px;
+}
+
+.resposta-content {
+	display: flex;
+	flex-direction: column;
+	gap: ;
+}

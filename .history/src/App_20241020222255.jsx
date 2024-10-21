@@ -32,11 +32,11 @@ export function App() {
 			{/* <Comentarios receitaId={receitas[0].id} /> */}
 			{/* <Comentarios receitaId={receitas[6].id} /> */}
 			<ReceitaEComentarios
-				fotoReceita={receitas[12].fotoReceita}
-				nome={receitas[12].nome}
-				id={receitas[12].id}
-				fotoUsuarioPostador={receitas[12].fotoUsuarioPostador}
-				usuarioPostador={receitas[12].usuarioPostador}
+				fotoReceita={receitas[10].fotoReceita}
+				nome={receitas[10].nome}
+				id={receitas[10].id}
+				fotoUsuarioPostador={receitas[10].fotoUsuarioPostador}
+				usuarioPostador={receitas[10].usuarioPostador}
 			/>
 		</div>
 	);

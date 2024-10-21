@@ -30,13 +30,13 @@ export function App() {
 			{/* <ListaReceitas tipoRefeicao='Lanche' /> */}
 
 			{/* <Comentarios receitaId={receitas[0].id} /> */}
-			{/* <Comentarios receitaId={receitas[6].id} /> */}
+			{/* <Comentarios receitaId={receitas[3].id} /> */}
 			<ReceitaEComentarios
-				fotoReceita={receitas[12].fotoReceita}
-				nome={receitas[12].nome}
-				id={receitas[12].id}
-				fotoUsuarioPostador={receitas[12].fotoUsuarioPostador}
-				usuarioPostador={receitas[12].usuarioPostador}
+				fotoReceita={receitas[6].fotoReceita}
+				nome={receitas[6].nome}
+				id={receitas[6].id}
+				fotoUsuarioPostador={receitas[6].fotoUsuarioPostador}
+				usuarioPostador={receitas[6].usuarioPostador}
 			/>
 		</div>
 	);
