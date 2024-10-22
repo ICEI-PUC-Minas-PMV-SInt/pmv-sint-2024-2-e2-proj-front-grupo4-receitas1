@@ -1,40 +1,53 @@
-
 .logo {
-    width: 13%;
+    width: 70%;
     margin-left: 40px;
 }
+
 .navbar {
     display: flex;
     justify-content: space-between;
+    align-items: center; 
     background-color: white;
-    
+}
+
+.navbarContent {
+    display: flex;
+    align-items: center; 
 }
 
 .list {
-    width: 100%;
-      display: flex;
+    display: flex;
     list-style: none;
     align-items: center;
     background-color: #ffe987;
     border-radius: 5px;
     gap: 4em;
+    width: 100%;
+    margin: 0; 
 }
+
 .item {
     flex-grow: 1;
     text-align: center;
-    margin-right: 3em;
- 
-   
 }
-.item a{
+
+.item a {
     color: black;
     text-decoration: none;
     display: block;
     padding: 0.5em;
     transition: 0.5s;
- 
-
 }
+
 .item a:hover {
     font-weight: bold;
-  }
+}
+
+
+.searchInput {
+    padding: 8px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    margin-left: 10px; 
+    
+}
