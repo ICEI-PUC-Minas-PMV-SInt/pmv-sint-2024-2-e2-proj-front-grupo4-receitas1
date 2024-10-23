@@ -1,0 +1,48 @@
+/** @format */
+
+.inputNovoComentario {
+	display: flex;
+	align-items: center; /* Alinha o avatar e o input */
+	margin-top: 20px;
+}
+
+.inputNovoComentario input {
+	flex: 1;
+	padding: 8px; /* Padding do input */
+	border: 1px solid #ccc; /* Borda do input */
+	border-radius: 5px; /* Bordas arredondadas */
+	margin-right: 10px; /* Espaçamento entre o input e o botão */
+}
+
+.input-novo-comentario button {
+	background-color: #2f2f2f; /* Cor de fundo do botão */
+	border: none; /* Sem borda */
+	color: white; /* Cor do texto do botão */
+	padding: 6px 12px; /* Padding do botão */
+	cursor: pointer; /* Cursor de ponteiro */
+	border-radius: 5px; /* Bordas arredondadas do botão */
+}
+
+.resposta-input-container {
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.resposta-input {
+	flex: 1;
+	padding: 5px 20px;
+	border: 1px solid #ccc;
+	border-radius: 15px;
+}
+
+.respostaEnviarBtn {
+	margin-left: 10px;
+	background-color: white;
+	border: none;
+	color: white;
+	padding: 0;
+	cursor: pointer;
+	align-items: center;
+	padding-top: 4px;
+}
