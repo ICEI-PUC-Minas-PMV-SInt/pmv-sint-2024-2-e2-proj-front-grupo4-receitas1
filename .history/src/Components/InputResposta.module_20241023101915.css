@@ -6,7 +6,7 @@
 	margin-top: 20px;
 }
 
-.inputNovoComentario input {
+.input-novo-comentario input {
 	flex: 1;
 	padding: 8px; /* Padding do input */
 	border: 1px solid #ccc; /* Borda do input */
@@ -14,7 +14,7 @@
 	margin-right: 10px; /* Espaçamento entre o input e o botão */
 }
 
-.inputNovoComentario button {
+.input-novo-comentario button {
 	background-color: #2f2f2f; /* Cor de fundo do botão */
 	border: none; /* Sem borda */
 	color: white; /* Cor do texto do botão */
