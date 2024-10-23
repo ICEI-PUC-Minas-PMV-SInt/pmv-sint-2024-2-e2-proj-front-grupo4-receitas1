@@ -1,6 +1,6 @@
 .navbar {
     display: flex;
-    justify-content:center; /* Coloca a logo e a barra de pesquisa de um lado e o menu do outro */
+    justify-content:center; 
     align-items: center;
     background: linear-gradient(90deg, #f7e3b4, #d4a373);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);

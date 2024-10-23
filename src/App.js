@@ -9,12 +9,13 @@ import Lanche from './Components/pages/Lanche';
 import Inicio from './Components/pages/Inicio';
 import Container from './Components/pages/layout/Container';
 import Navbar from './Components/pages/layout/Navbar';
+import {receitas} from './utils/receitas'; // Caminho correto para receitas
 
 function App() {
 	return (
 		<Router>
 			<Container customClass='min-height'>
-				<Navbar />
+				<Navbar receitas={receitas} /> {/* Passa as receitas para o Navbar */}
 				<Routes>
 					<Route path='/' element={<Inicio />} />
 					<Route path='/cafedamanha' element={<CafedaManha />} />
