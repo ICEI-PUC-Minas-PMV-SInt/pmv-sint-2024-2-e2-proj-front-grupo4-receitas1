@@ -27,7 +27,7 @@ const Inicio = () => {
 	return (
 		<div className={stylesCategoria.containerPaginaDaCategoria}>
 			{/* Lista de Receitas */}
-			<LargeButton textoBotao={'Página Inicial'} />
+			<LargeButton textoBotao={'Início'} />
 			<ListaReceitas todasReceitas={true} onCommentClick={abrirModal} />
 
 			{/* Modal para ReceitaEComentarios */}
