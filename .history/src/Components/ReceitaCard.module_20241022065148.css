@@ -1,0 +1,19 @@
+/** @format */
+
+.foto-receita {
+	width: 355px;
+	height: 300px;
+	border-radius: 2rem;
+	cursor: pointer;
+}
+
+.container-receita-card {
+	display: flex;
+	flex-direction: column;
+}
+
+.container-usuario-e-comentarios {
+	display: flex;
+	max-width: 355px;
+	justify-content: space-around;
+}
