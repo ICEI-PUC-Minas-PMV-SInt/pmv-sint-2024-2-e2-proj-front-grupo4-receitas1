@@ -1,0 +1,34 @@
+/** @format */
+
+.comentarioItem {
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 15px;
+}
+
+.comentarioContent {
+	flex: 1;
+}
+
+.comentario-username {
+	font-weight: bold;
+	color: #333;
+}
+
+.comentario-texto {
+	font-size: 14px;
+	color: #555;
+	margin: 5px 0;
+}
+
+.comentario-timestamp {
+	font-size: 12px;
+	color: #999;
+	margin-top: 2px;
+}
+
+.container-username-e-tempo-postado {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
