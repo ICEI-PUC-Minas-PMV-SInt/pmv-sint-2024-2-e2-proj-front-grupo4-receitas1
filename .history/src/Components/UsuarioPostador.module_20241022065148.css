@@ -1,0 +1,13 @@
+/** @format */
+
+.fotoUsuarioPostador {
+	border-radius: 100%;
+	width: 2rem;
+}
+
+.container-usuario-postador {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+	color: black;
+}
