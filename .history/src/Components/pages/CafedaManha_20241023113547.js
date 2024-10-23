@@ -27,8 +27,8 @@ const CafedaManha = () => {
 	return (
 		<div className={stylesCategoria.containerPaginaDaCategoria}>
 			{/* Lista de Receitas */}
-			<LargeButton textoBotao={'Café da Manhã'} />
-			<ListaReceitas tipoRefeicao='Café da Manhã' onCommentClick={abrirModal} />
+			<LargeButton textoBotao={'Almoço'} />
+			<ListaReceitas tipoRefeicao='Almoço' onCommentClick={abrirModal} />
 
 			{/* Modal para ReceitaEComentarios */}
 			{modalVisivel && (
