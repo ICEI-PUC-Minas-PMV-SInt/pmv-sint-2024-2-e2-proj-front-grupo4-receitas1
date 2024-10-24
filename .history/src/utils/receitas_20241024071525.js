@@ -1022,7 +1022,7 @@ export const receitas = [
 		modoPreparo:
 			'Tempere a carne com cebola, alho, sal e pimenta. Modele os hambúrgueres e grelhe. Sirva no pão com acompanhamentos a gosto.',
 		fotoReceita:
-			'https://cloudfront-us-east-1.images.arcpublishing.com/estadao/ZRHOD4SPMNDRPEZJMEY5J2CVE4.jpg',
+			'https://cdn.panelinha.com.br/receita/1563474537475-hamburguer_caseiro.jpg',
 		likes: '',
 		usuarioPostador: 'Bruno Oliveira',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/33.jpg',
@@ -1041,7 +1041,7 @@ export const receitas = [
 		modoPreparo:
 			'Doure a cebola, adicione a carne e os temperos. Misture o creme de leite e sirva com arroz e batata palha.',
 		fotoReceita:
-			'https://s2-receitas.glbimg.com/1A1EIhN9RsPYFm4yQGQEBtn0q1o=/0x0:765x1000/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2022/n/3/KTF04hTw6pBJm8SJ7sYA/meat-strogonoff-with-rice-and-straw-potato.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/2019/06/strogonoff-de-carne.jpg',
 		likes: '',
 		usuarioPostador: 'Carla Souza',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/45.jpg',
@@ -1060,7 +1060,7 @@ export const receitas = [
 		modoPreparo:
 			'Grelhe as fatias de berinjela, monte a lasanha com camadas de carne, queijo e molho. Asse até gratinar.',
 		fotoReceita:
-			'https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2024/04/02/1158714327-lasanha-de-berinjela-2-6qnzt0ew.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/0b4b69be0bd69c6d4c8f4dc59af0f8c1.jpg',
 		likes: '',
 		usuarioPostador: 'Lucas Lima',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/75.jpg',
@@ -1079,7 +1079,7 @@ export const receitas = [
 		modoPreparo:
 			'Misture as maçãs com açúcar e canela. Prepare a massa com farinha e manteiga, recheie com as maçãs e asse.',
 		fotoReceita:
-			'https://i.pinimg.com/originals/6c/9c/1d/6c9c1d654c9da3453b0e1803c0e0280f.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/fafa322ed1fa4f707cae36f3e7f73978.jpg',
 		likes: '',
 		usuarioPostador: 'Maria Clara',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/50.jpg',
@@ -1098,7 +1098,7 @@ export const receitas = [
 		modoPreparo:
 			'Refogue as cebolas até caramelizar. Adicione o caldo e cozinhe por 30 minutos. Sirva com pão e queijo gratinado.',
 		fotoReceita:
-			'https://casacaroba.com/wp-content/uploads/2022/11/IMG_9753-scaled.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/sopa-de-cebola.jpg',
 		likes: '',
 		usuarioPostador: 'André Silva',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/10.jpg',
@@ -1116,7 +1116,7 @@ export const receitas = [
 		modoPreparo:
 			'Hidrate a tapioca no leite, misture o coco e sirva com leite condensado por cima.',
 		fotoReceita:
-			'https://guiadacozinha.com.br/wp-content/uploads/2019/10/tapioca-com-coco-e-leite-condensado-10844.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/tapioca-de-coco-com-leite-condensado.jpg',
 		likes: '',
 		usuarioPostador: 'Fernanda Torres',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/65.jpg',
@@ -1156,7 +1156,7 @@ export const receitas = [
 		modoPreparo:
 			'Grelhe o frango temperado e desfie. Sirva nas tortilhas com alface, queijo e guacamole.',
 		fotoReceita:
-			'https://www.segs.com.br/media/k2/items/cache/4d9927447ad94cffd639b3b86b0e2ac0_XL.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/tacos-de-frango.jpg',
 		likes: '',
 		usuarioPostador: 'Rafael Costa',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/44.jpg',
@@ -1175,333 +1175,10 @@ export const receitas = [
 		modoPreparo:
 			'Frite o bacon, misture com os ovos, queijo e creme de leite. Despeje na massa folhada e asse até dourar.',
 		fotoReceita:
-			'https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2018/11/09/quiche-queijos-bacon.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/22fef084b0e64b6cfd1b7ba6e6ce5696.jpg',
 		likes: '',
 		usuarioPostador: 'Helena Martins',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/61.jpg',
 		tipoRefeicao: 'Jantar',
-	},
-	{
-		id: 61,
-		nome: 'Polenta Cremosa com Ragu de Carne',
-		ingredientes: [
-			'1 xícara de fubá',
-			'500g de carne moída',
-			'1 cebola picada',
-			'2 dentes de alho picados',
-			'Molho de tomate',
-		],
-		modoPreparo:
-			'Cozinhe o fubá com água até ficar cremoso. Refogue a carne com cebola, alho e molho de tomate. Sirva o ragu sobre a polenta.',
-		fotoReceita:
-			'https://conteudo.imguol.com.br/c/entretenimento/f1/2023/05/20/polenta-com-ragu-de-carne-1684588139374_v2_3x4.jpg',
-		likes: '',
-		usuarioPostador: 'Camila Rocha',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/12.jpg',
-		tipoRefeicao: 'Almoço',
-	},
-	{
-		id: 62,
-		nome: 'Canelone de Presunto e Queijo',
-		ingredientes: [
-			'300g de presunto',
-			'300g de queijo mussarela',
-			'500g de massa de canelone',
-			'Molho de tomate',
-			'Queijo parmesão ralado',
-		],
-		modoPreparo:
-			'Recheie a massa com presunto e queijo, cubra com molho e parmesão. Asse até gratinar.',
-		fotoReceita:
-			'https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2021/09/26/765048683-canelone-tradicional-768x512.jpg',
-		likes: '',
-		usuarioPostador: 'Pedro Almeida',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/31.jpg',
-		tipoRefeicao: 'Almoço',
-	},
-	{
-		id: 63,
-		nome: 'Frango Xadrez',
-		ingredientes: [
-			'500g de peito de frango em cubos',
-			'1 pimentão vermelho',
-			'1 pimentão verde',
-			'Molho shoyu a gosto',
-			'Castanhas de caju',
-		],
-		modoPreparo:
-			'Refogue o frango com os pimentões e molho shoyu. Finalize com castanhas de caju.',
-		fotoReceita:
-			'https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2023/01/13/1310403723-receita-de-frango-xadrez-simples-com-legumes-foto-cybercook-1.jpg',
-		likes: '',
-		usuarioPostador: 'Lucas Medeiros',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/56.jpg',
-		tipoRefeicao: 'Almoço',
-	},
-	{
-		id: 64,
-		nome: 'Bolo de Fubá com Erva-doce',
-		ingredientes: [
-			'2 xícaras de fubá',
-			'1 xícara de farinha de trigo',
-			'3 ovos',
-			'1 colher de sopa de erva-doce',
-			'1 xícara de leite',
-		],
-		modoPreparo:
-			'Misture os ingredientes e leve ao forno pré-aquecido por 40 minutos. Sirva após esfriar.',
-		fotoReceita:
-			'https://guiadacozinha.com.br/wp-content/uploads/2019/10/bolo-de-fuba-com-erva-doce-24124.jpg',
-		likes: '',
-		usuarioPostador: 'Sofia Ribeiro',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/70.jpg',
-		tipoRefeicao: 'Café da Manhã',
-	},
-	{
-		id: 65,
-		nome: 'Carne de Panela com Batatas',
-		ingredientes: [
-			'1kg de carne bovina em pedaços',
-			'4 batatas descascadas e cortadas',
-			'2 cebolas picadas',
-			'2 dentes de alho picados',
-			'Azeite a gosto',
-		],
-		modoPreparo:
-			'Refogue a carne com cebola e alho, acrescente as batatas e cozinhe até amolecer.',
-		fotoReceita:
-			'https://simplificatudo.com/wp-content/uploads/2024/07/Cante-a-panela-com-batata-5.jpg',
-		likes: '',
-		usuarioPostador: 'Ricardo Sousa',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/48.jpg',
-		tipoRefeicao: 'Almoço',
-	},
-	{
-		id: 66,
-		nome: 'Lentilha com Linguiça',
-		ingredientes: [
-			'500g de lentilha',
-			'300g de linguiça calabresa fatiada',
-			'1 cebola picada',
-			'2 dentes de alho picados',
-			'Sal a gosto',
-		],
-		modoPreparo:
-			'Cozinhe a lentilha, frite a linguiça com cebola e alho, e misture tudo. Tempere com sal.',
-		fotoReceita:
-			'https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2018/12/26/refogado-lentilha-linguica.jpg',
-		likes: '',
-		usuarioPostador: 'Isabela Martins',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/22.jpg',
-		tipoRefeicao: 'Almoço',
-	},
-	{
-		id: 67,
-		nome: 'Espaguete ao Molho Alfredo',
-		ingredientes: [
-			'500g de espaguete',
-			'1 xícara de creme de leite',
-			'100g de queijo parmesão ralado',
-			'2 dentes de alho picados',
-			'Azeite a gosto',
-		],
-		modoPreparo:
-			'Cozinhe o espaguete, refogue o alho, acrescente o creme de leite e o parmesão. Misture ao macarrão e sirva.',
-		fotoReceita:
-			'https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2023/10/02/625048150-fettuccine-ao-molho-alfredo.jpg',
-		likes: '',
-		usuarioPostador: 'João Carvalho',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/18.jpg',
-		tipoRefeicao: 'Jantar',
-	},
-	{
-		id: 68,
-		nome: 'Bolinho de Bacalhau',
-		ingredientes: [
-			'300g de bacalhau desfiado',
-			'2 batatas cozidas e amassadas',
-			'1 ovo',
-			'Salsinha picada',
-			'Farinha de rosca',
-		],
-		modoPreparo:
-			'Misture o bacalhau com as batatas, ovo e salsinha. Modele os bolinhos, passe na farinha de rosca e frite.',
-		fotoReceita:
-			'https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2023/12/14/1767687775-bolinho-de-bacalhau-ac21obso.jpg',
-		likes: '',
-		usuarioPostador: 'Alice Ferreira',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/33.jpg',
-		tipoRefeicao: 'Almoço',
-	},
-	{
-		id: 69,
-		nome: 'Cookies de Chocolate',
-		ingredientes: [
-			'2 xícaras de farinha de trigo',
-			'1 xícara de açúcar',
-			'1 xícara de manteiga derretida',
-			'2 ovos',
-			'1 xícara de gotas de chocolate',
-		],
-		modoPreparo:
-			'Misture todos os ingredientes e forme pequenas porções. Asse em forno pré-aquecido por 15 minutos.',
-		fotoReceita:
-			'https://simplelivingrecipes.com/wp-content/uploads/2022/03/fudgy-chocolate-cookies-with-cocoa-powder-holding-1.jpg',
-		likes: '',
-		usuarioPostador: 'Mariana Costa',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/47.jpg',
-		tipoRefeicao: 'Sobremesa',
-	},
-	{
-		id: 70,
-		nome: 'Salmão ao Molho de Maracujá',
-		ingredientes: [
-			'2 filés de salmão',
-			'1 maracujá',
-			'1 colher de sopa de mel',
-			'1 colher de sopa de manteiga',
-			'Azeite a gosto',
-		],
-		modoPreparo:
-			'Grelhe o salmão. Em uma panela, faça o molho com maracujá, mel e manteiga. Sirva o salmão com o molho por cima.',
-		fotoReceita:
-			'https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2023/11/19/893007908-salmao-grelhado-ao-molho-de-maracuja.jpg',
-		likes: '',
-		usuarioPostador: 'Ana Lima',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/62.jpg',
-		tipoRefeicao: 'Jantar',
-	},
-	{
-		id: 71,
-		nome: 'Quibe Assado',
-		ingredientes: [
-			'500g de carne moída',
-			'1 xícara de trigo para quibe',
-			'1 cebola picada',
-			'Hortelã picada',
-			'Azeite a gosto',
-		],
-		modoPreparo:
-			'Hidrate o trigo, misture com a carne, cebola e hortelã. Modele e asse até dourar.',
-		fotoReceita:
-			'https://www.receiteria.com.br/wp-content/uploads/quibe-assada-00.jpg',
-		likes: '',
-		usuarioPostador: 'Rafael Souza',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/67.jpg',
-		tipoRefeicao: 'Jantar',
-	},
-	{
-		id: 72,
-		nome: 'Pastel de Carne',
-		ingredientes: [
-			'300g de carne moída',
-			'1 pacote de massa para pastel',
-			'1 cebola picada',
-			'2 dentes de alho picados',
-			'Azeite a gosto',
-		],
-		modoPreparo:
-			'Refogue a carne com cebola e alho. Recheie a massa e frite os pastéis.',
-		fotoReceita:
-			'https://herancaholandesa.com.br/wp-content/uploads/sites/9/2023/10/Heranca-Janeiro-2-scaled.jpg',
-		likes: '',
-		usuarioPostador: 'Carla Mendes',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/35.jpg',
-		tipoRefeicao: 'Lanche',
-	},
-	{
-		id: 73,
-		nome: 'Creme de Espinafre',
-		ingredientes: [
-			'1 maço de espinafre',
-			'2 colheres de sopa de manteiga',
-			'1 xícara de creme de leite',
-			'Sal e pimenta a gosto',
-			'Noz-moscada a gosto',
-		],
-		modoPreparo:
-			'Cozinhe o espinafre e refogue na manteiga. Acrescente o creme de leite e tempere com sal, pimenta e noz-moscada.',
-		fotoReceita:
-			'https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2024/08/16/417472906-cremedeespinafre.jpg',
-		likes: '',
-		usuarioPostador: 'Eduarda Matos',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/25.jpg',
-		tipoRefeicao: 'Jantar',
-	},
-	{
-		id: 74,
-		nome: 'Tilápia Grelhada com Alcaparras',
-		ingredientes: [
-			'2 filés de tilápia',
-			'1 colher de sopa de alcaparras',
-			'1 limão',
-			'Azeite a gosto',
-			'Sal a gosto',
-		],
-		modoPreparo:
-			'Grelhe a tilápia com azeite e sal. Sirva com alcaparras e limão espremido por cima.',
-		fotoReceita:
-			'https://minhasreceitinhas.com.br/wp-content/uploads/2023/11/Tilapia-grelhada-com-alcaparras2-1200x1445.jpg',
-		likes: '',
-		usuarioPostador: 'Fábio Duarte',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/59.jpg',
-		tipoRefeicao: 'Jantar',
-	},
-	{
-		id: 75,
-		nome: 'Strogonoff de Frango',
-		ingredientes: [
-			'500g de peito de frango em cubos',
-			'1 lata de creme de leite',
-			'1 colher de sopa de ketchup',
-			'1 colher de sopa de mostarda',
-			'1 cebola picada',
-		],
-		modoPreparo:
-			'Refogue o frango com a cebola, adicione ketchup e mostarda. Misture o creme de leite e sirva.',
-		fotoReceita:
-			'https://cloverdetox.com/wp-content/uploads/2018/12/Estrogonofe-Light-de-Frango-com-Arroz-Branco.jpg',
-		likes: '',
-		usuarioPostador: 'Matheus Nogueira',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/44.jpg',
-		tipoRefeicao: 'Almoço',
-	},
-	{
-		id: 76,
-		nome: 'Torta de Morango',
-		ingredientes: [
-			'1 pacote de biscoito maisena',
-			'1 lata de leite condensado',
-			'1 caixa de morangos',
-			'1 lata de creme de leite',
-			'Manteiga para untar',
-		],
-		modoPreparo:
-			'Triture o biscoito, misture com manteiga e forre uma forma. Recheie com leite condensado e morangos, e cubra com creme de leite.',
-		fotoReceita:
-			'https://arosa.com.br/wp-content/uploads/2024/04/3_Torta-de-Morango_arosa_8002-copy.jpg',
-		likes: '',
-		usuarioPostador: 'Juliana Souza',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/40.jpg',
-		tipoRefeicao: 'Sobremesa',
-	},
-	{
-		id: 77,
-		nome: 'Nhoque de Batata',
-		ingredientes: [
-			'500g de batatas cozidas e amassadas',
-			'1 xícara de farinha de trigo',
-			'1 ovo',
-			'Sal a gosto',
-			'Molho de tomate',
-		],
-		modoPreparo:
-			'Misture a batata com farinha e ovo, modele os nhoques e cozinhe. Sirva com molho de tomate.',
-		fotoReceita:
-			'https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2024/10/16/793327069-nhoque-de-batata-no-liquidificador.jpg',
-		likes: '',
-		usuarioPostador: 'Thiago Oliveira',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/23.jpg',
-		tipoRefeicao: 'Almoço',
 	},
 ];

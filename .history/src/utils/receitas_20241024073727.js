@@ -1441,7 +1441,7 @@ export const receitas = [
 		modoPreparo:
 			'Grelhe a tilápia com azeite e sal. Sirva com alcaparras e limão espremido por cima.',
 		fotoReceita:
-			'https://minhasreceitinhas.com.br/wp-content/uploads/2023/11/Tilapia-grelhada-com-alcaparras2-1200x1445.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/68c60e128621f75e8a9c7cda1c4b9b56.jpg',
 		likes: '',
 		usuarioPostador: 'Fábio Duarte',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/59.jpg',
@@ -1449,6 +1449,25 @@ export const receitas = [
 	},
 	{
 		id: 75,
+		nome: 'Bolo de Cenoura com Cobertura de Chocolate',
+		ingredientes: [
+			'3 cenouras médias',
+			'2 xícaras de farinha de trigo',
+			'3 ovos',
+			'1 xícara de óleo',
+			'1 xícara de açúcar',
+		],
+		modoPreparo:
+			'Bata os ingredientes no liquidificador e leve ao forno. Prepare a cobertura com chocolate e manteiga e despeje sobre o bolo.',
+		fotoReceita:
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/aecc79e2234df44e92d1b6069bdb95ff.jpg',
+		likes: '',
+		usuarioPostador: 'Beatriz Lima',
+		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/50.jpg',
+		tipoRefeicao: 'Sobremesa',
+	},
+	{
+		id: 76,
 		nome: 'Strogonoff de Frango',
 		ingredientes: [
 			'500g de peito de frango em cubos',
@@ -1460,14 +1479,14 @@ export const receitas = [
 		modoPreparo:
 			'Refogue o frango com a cebola, adicione ketchup e mostarda. Misture o creme de leite e sirva.',
 		fotoReceita:
-			'https://cloverdetox.com/wp-content/uploads/2018/12/Estrogonofe-Light-de-Frango-com-Arroz-Branco.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/3c193d0ae9cf78441a52e50b0fdac637.jpg',
 		likes: '',
 		usuarioPostador: 'Matheus Nogueira',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/44.jpg',
 		tipoRefeicao: 'Almoço',
 	},
 	{
-		id: 76,
+		id: 77,
 		nome: 'Torta de Morango',
 		ingredientes: [
 			'1 pacote de biscoito maisena',
@@ -1479,14 +1498,14 @@ export const receitas = [
 		modoPreparo:
 			'Triture o biscoito, misture com manteiga e forre uma forma. Recheie com leite condensado e morangos, e cubra com creme de leite.',
 		fotoReceita:
-			'https://arosa.com.br/wp-content/uploads/2024/04/3_Torta-de-Morango_arosa_8002-copy.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/b00a92c752c43501e330fbd9ccac9c88.jpg',
 		likes: '',
 		usuarioPostador: 'Juliana Souza',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/40.jpg',
 		tipoRefeicao: 'Sobremesa',
 	},
 	{
-		id: 77,
+		id: 78,
 		nome: 'Nhoque de Batata',
 		ingredientes: [
 			'500g de batatas cozidas e amassadas',
@@ -1498,10 +1517,48 @@ export const receitas = [
 		modoPreparo:
 			'Misture a batata com farinha e ovo, modele os nhoques e cozinhe. Sirva com molho de tomate.',
 		fotoReceita:
-			'https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2024/10/16/793327069-nhoque-de-batata-no-liquidificador.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/70b85b3661911bcf55d1d13e0914e35b.jpg',
 		likes: '',
 		usuarioPostador: 'Thiago Oliveira',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/23.jpg',
 		tipoRefeicao: 'Almoço',
+	},
+	{
+		id: 79,
+		nome: 'Torta de Maçã',
+		ingredientes: [
+			'4 maçãs descascadas',
+			'1 xícara de açúcar',
+			'1 colher de chá de canela em pó',
+			'1 pacote de massa folhada',
+			'1 ovo para pincelar',
+		],
+		modoPreparo:
+			'Coloque as maçãs fatiadas na massa folhada, polvilhe com açúcar e canela, pincele o ovo e leve ao forno até dourar.',
+		fotoReceita:
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/a1c4230ab3b3c3c65debc18a17f876cb.jpg',
+		likes: '',
+		usuarioPostador: 'Luana Costa',
+		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/68.jpg',
+		tipoRefeicao: 'Sobremesa',
+	},
+	{
+		id: 80,
+		nome: 'Sopa de Legumes',
+		ingredientes: [
+			'2 batatas',
+			'1 cenoura',
+			'1 chuchu',
+			'1 abobrinha',
+			'1 litro de caldo de legumes',
+		],
+		modoPreparo:
+			'Pique os legumes e cozinhe no caldo até amaciarem. Sirva quente.',
+		fotoReceita:
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/728650f14e36b3436fa3b2a0c4c24b43.jpg',
+		likes: '',
+		usuarioPostador: 'Mariana Rocha',
+		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/37.jpg',
+		tipoRefeicao: 'Jantar',
 	},
 ];

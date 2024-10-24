@@ -1448,7 +1448,7 @@ export const receitas = [
 		tipoRefeicao: 'Jantar',
 	},
 	{
-		id: 75,
+		id: 76,
 		nome: 'Strogonoff de Frango',
 		ingredientes: [
 			'500g de peito de frango em cubos',
@@ -1467,7 +1467,7 @@ export const receitas = [
 		tipoRefeicao: 'Almoço',
 	},
 	{
-		id: 76,
+		id: 77,
 		nome: 'Torta de Morango',
 		ingredientes: [
 			'1 pacote de biscoito maisena',
@@ -1486,7 +1486,7 @@ export const receitas = [
 		tipoRefeicao: 'Sobremesa',
 	},
 	{
-		id: 77,
+		id: 78,
 		nome: 'Nhoque de Batata',
 		ingredientes: [
 			'500g de batatas cozidas e amassadas',
@@ -1503,5 +1503,24 @@ export const receitas = [
 		usuarioPostador: 'Thiago Oliveira',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/23.jpg',
 		tipoRefeicao: 'Almoço',
+	},
+	{
+		id: 80,
+		nome: 'Sopa de Legumes',
+		ingredientes: [
+			'2 batatas',
+			'1 cenoura',
+			'1 chuchu',
+			'1 abobrinha',
+			'1 litro de caldo de legumes',
+		],
+		modoPreparo:
+			'Pique os legumes e cozinhe no caldo até amaciarem. Sirva quente.',
+		fotoReceita:
+			'https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2024/05/19/1423023534-sopadelegumes.jpg',
+		likes: '',
+		usuarioPostador: 'Mariana Rocha',
+		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/37.jpg',
+		tipoRefeicao: 'Jantar',
 	},
 ];

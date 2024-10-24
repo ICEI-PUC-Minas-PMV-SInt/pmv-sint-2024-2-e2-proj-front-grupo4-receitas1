@@ -1098,7 +1098,7 @@ export const receitas = [
 		modoPreparo:
 			'Refogue as cebolas até caramelizar. Adicione o caldo e cozinhe por 30 minutos. Sirva com pão e queijo gratinado.',
 		fotoReceita:
-			'https://casacaroba.com/wp-content/uploads/2022/11/IMG_9753-scaled.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/sopa-de-cebola.jpg',
 		likes: '',
 		usuarioPostador: 'André Silva',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/10.jpg',
@@ -1116,7 +1116,7 @@ export const receitas = [
 		modoPreparo:
 			'Hidrate a tapioca no leite, misture o coco e sirva com leite condensado por cima.',
 		fotoReceita:
-			'https://guiadacozinha.com.br/wp-content/uploads/2019/10/tapioca-com-coco-e-leite-condensado-10844.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/tapioca-de-coco-com-leite-condensado.jpg',
 		likes: '',
 		usuarioPostador: 'Fernanda Torres',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/65.jpg',
@@ -1156,7 +1156,7 @@ export const receitas = [
 		modoPreparo:
 			'Grelhe o frango temperado e desfie. Sirva nas tortilhas com alface, queijo e guacamole.',
 		fotoReceita:
-			'https://www.segs.com.br/media/k2/items/cache/4d9927447ad94cffd639b3b86b0e2ac0_XL.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/tacos-de-frango.jpg',
 		likes: '',
 		usuarioPostador: 'Rafael Costa',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/44.jpg',
@@ -1175,7 +1175,7 @@ export const receitas = [
 		modoPreparo:
 			'Frite o bacon, misture com os ovos, queijo e creme de leite. Despeje na massa folhada e asse até dourar.',
 		fotoReceita:
-			'https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2018/11/09/quiche-queijos-bacon.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/22fef084b0e64b6cfd1b7ba6e6ce5696.jpg',
 		likes: '',
 		usuarioPostador: 'Helena Martins',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/61.jpg',
@@ -1194,7 +1194,7 @@ export const receitas = [
 		modoPreparo:
 			'Cozinhe o fubá com água até ficar cremoso. Refogue a carne com cebola, alho e molho de tomate. Sirva o ragu sobre a polenta.',
 		fotoReceita:
-			'https://conteudo.imguol.com.br/c/entretenimento/f1/2023/05/20/polenta-com-ragu-de-carne-1684588139374_v2_3x4.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/38de53fcbf86b6c03be53640b16831cc.jpg',
 		likes: '',
 		usuarioPostador: 'Camila Rocha',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/12.jpg',
@@ -1213,7 +1213,7 @@ export const receitas = [
 		modoPreparo:
 			'Recheie a massa com presunto e queijo, cubra com molho e parmesão. Asse até gratinar.',
 		fotoReceita:
-			'https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2021/09/26/765048683-canelone-tradicional-768x512.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/6fe073a774b57e4081d4939eaeb0f732.jpg',
 		likes: '',
 		usuarioPostador: 'Pedro Almeida',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/31.jpg',
@@ -1232,7 +1232,7 @@ export const receitas = [
 		modoPreparo:
 			'Refogue o frango com os pimentões e molho shoyu. Finalize com castanhas de caju.',
 		fotoReceita:
-			'https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2023/01/13/1310403723-receita-de-frango-xadrez-simples-com-legumes-foto-cybercook-1.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/fcbf7803b46e5f40802f1640cc9e990f.jpg',
 		likes: '',
 		usuarioPostador: 'Lucas Medeiros',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/56.jpg',
@@ -1251,7 +1251,7 @@ export const receitas = [
 		modoPreparo:
 			'Misture os ingredientes e leve ao forno pré-aquecido por 40 minutos. Sirva após esfriar.',
 		fotoReceita:
-			'https://guiadacozinha.com.br/wp-content/uploads/2019/10/bolo-de-fuba-com-erva-doce-24124.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/1f4420b01b746d63d269f748aa891a3c.jpg',
 		likes: '',
 		usuarioPostador: 'Sofia Ribeiro',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/70.jpg',
@@ -1270,7 +1270,7 @@ export const receitas = [
 		modoPreparo:
 			'Refogue a carne com cebola e alho, acrescente as batatas e cozinhe até amolecer.',
 		fotoReceita:
-			'https://simplificatudo.com/wp-content/uploads/2024/07/Cante-a-panela-com-batata-5.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/ccb8cba4fa784b2a72c6f2384d1de14b.jpg',
 		likes: '',
 		usuarioPostador: 'Ricardo Sousa',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/48.jpg',
@@ -1289,7 +1289,7 @@ export const receitas = [
 		modoPreparo:
 			'Cozinhe a lentilha, frite a linguiça com cebola e alho, e misture tudo. Tempere com sal.',
 		fotoReceita:
-			'https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2018/12/26/refogado-lentilha-linguica.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/fbe86ed2405fb7b1c6ef2abfc3407f97.jpg',
 		likes: '',
 		usuarioPostador: 'Isabela Martins',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/22.jpg',
@@ -1308,7 +1308,7 @@ export const receitas = [
 		modoPreparo:
 			'Cozinhe o espaguete, refogue o alho, acrescente o creme de leite e o parmesão. Misture ao macarrão e sirva.',
 		fotoReceita:
-			'https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2023/10/02/625048150-fettuccine-ao-molho-alfredo.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/56c98b20561d39b51ef9eb9ef8f2a9b7.jpg',
 		likes: '',
 		usuarioPostador: 'João Carvalho',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/18.jpg',
@@ -1327,7 +1327,7 @@ export const receitas = [
 		modoPreparo:
 			'Misture o bacalhau com as batatas, ovo e salsinha. Modele os bolinhos, passe na farinha de rosca e frite.',
 		fotoReceita:
-			'https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2023/12/14/1767687775-bolinho-de-bacalhau-ac21obso.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/5fbd37b35cf04bcf935563e99cba86a6.jpg',
 		likes: '',
 		usuarioPostador: 'Alice Ferreira',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/33.jpg',
@@ -1346,7 +1346,7 @@ export const receitas = [
 		modoPreparo:
 			'Misture todos os ingredientes e forme pequenas porções. Asse em forno pré-aquecido por 15 minutos.',
 		fotoReceita:
-			'https://simplelivingrecipes.com/wp-content/uploads/2022/03/fudgy-chocolate-cookies-with-cocoa-powder-holding-1.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/7f442b3f9fc82ae30d55f219819a13d2.jpg',
 		likes: '',
 		usuarioPostador: 'Mariana Costa',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/47.jpg',
@@ -1365,7 +1365,7 @@ export const receitas = [
 		modoPreparo:
 			'Grelhe o salmão. Em uma panela, faça o molho com maracujá, mel e manteiga. Sirva o salmão com o molho por cima.',
 		fotoReceita:
-			'https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2023/11/19/893007908-salmao-grelhado-ao-molho-de-maracuja.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/7999e0f5d60688c61e2a024d338fd6a4.jpg',
 		likes: '',
 		usuarioPostador: 'Ana Lima',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/62.jpg',
@@ -1384,7 +1384,7 @@ export const receitas = [
 		modoPreparo:
 			'Hidrate o trigo, misture com a carne, cebola e hortelã. Modele e asse até dourar.',
 		fotoReceita:
-			'https://www.receiteria.com.br/wp-content/uploads/quibe-assada-00.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/2f908aad1eab11d169bc797b011f671f.jpg',
 		likes: '',
 		usuarioPostador: 'Rafael Souza',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/67.jpg',
@@ -1403,7 +1403,7 @@ export const receitas = [
 		modoPreparo:
 			'Refogue a carne com cebola e alho. Recheie a massa e frite os pastéis.',
 		fotoReceita:
-			'https://herancaholandesa.com.br/wp-content/uploads/sites/9/2023/10/Heranca-Janeiro-2-scaled.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/a8b17c2d49963578c7fbd6ff6ed2a058.jpg',
 		likes: '',
 		usuarioPostador: 'Carla Mendes',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/35.jpg',
@@ -1422,7 +1422,7 @@ export const receitas = [
 		modoPreparo:
 			'Cozinhe o espinafre e refogue na manteiga. Acrescente o creme de leite e tempere com sal, pimenta e noz-moscada.',
 		fotoReceita:
-			'https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2024/08/16/417472906-cremedeespinafre.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/c2eec0ba47c12a45d2b4a8e317278f1e.jpg',
 		likes: '',
 		usuarioPostador: 'Eduarda Matos',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/25.jpg',
@@ -1441,7 +1441,7 @@ export const receitas = [
 		modoPreparo:
 			'Grelhe a tilápia com azeite e sal. Sirva com alcaparras e limão espremido por cima.',
 		fotoReceita:
-			'https://minhasreceitinhas.com.br/wp-content/uploads/2023/11/Tilapia-grelhada-com-alcaparras2-1200x1445.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/68c60e128621f75e8a9c7cda1c4b9b56.jpg',
 		likes: '',
 		usuarioPostador: 'Fábio Duarte',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/59.jpg',
@@ -1449,6 +1449,25 @@ export const receitas = [
 	},
 	{
 		id: 75,
+		nome: 'Bolo de Cenoura com Cobertura de Chocolate',
+		ingredientes: [
+			'3 cenouras médias',
+			'2 xícaras de farinha de trigo',
+			'3 ovos',
+			'1 xícara de óleo',
+			'1 xícara de açúcar',
+		],
+		modoPreparo:
+			'Bata os ingredientes no liquidificador e leve ao forno. Prepare a cobertura com chocolate e manteiga e despeje sobre o bolo.',
+		fotoReceita:
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/aecc79e2234df44e92d1b6069bdb95ff.jpg',
+		likes: '',
+		usuarioPostador: 'Beatriz Lima',
+		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/50.jpg',
+		tipoRefeicao: 'Sobremesa',
+	},
+	{
+		id: 76,
 		nome: 'Strogonoff de Frango',
 		ingredientes: [
 			'500g de peito de frango em cubos',
@@ -1460,14 +1479,14 @@ export const receitas = [
 		modoPreparo:
 			'Refogue o frango com a cebola, adicione ketchup e mostarda. Misture o creme de leite e sirva.',
 		fotoReceita:
-			'https://cloverdetox.com/wp-content/uploads/2018/12/Estrogonofe-Light-de-Frango-com-Arroz-Branco.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/3c193d0ae9cf78441a52e50b0fdac637.jpg',
 		likes: '',
 		usuarioPostador: 'Matheus Nogueira',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/44.jpg',
 		tipoRefeicao: 'Almoço',
 	},
 	{
-		id: 76,
+		id: 77,
 		nome: 'Torta de Morango',
 		ingredientes: [
 			'1 pacote de biscoito maisena',
@@ -1479,14 +1498,14 @@ export const receitas = [
 		modoPreparo:
 			'Triture o biscoito, misture com manteiga e forre uma forma. Recheie com leite condensado e morangos, e cubra com creme de leite.',
 		fotoReceita:
-			'https://arosa.com.br/wp-content/uploads/2024/04/3_Torta-de-Morango_arosa_8002-copy.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/b00a92c752c43501e330fbd9ccac9c88.jpg',
 		likes: '',
 		usuarioPostador: 'Juliana Souza',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/40.jpg',
 		tipoRefeicao: 'Sobremesa',
 	},
 	{
-		id: 77,
+		id: 78,
 		nome: 'Nhoque de Batata',
 		ingredientes: [
 			'500g de batatas cozidas e amassadas',
@@ -1498,10 +1517,48 @@ export const receitas = [
 		modoPreparo:
 			'Misture a batata com farinha e ovo, modele os nhoques e cozinhe. Sirva com molho de tomate.',
 		fotoReceita:
-			'https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2024/10/16/793327069-nhoque-de-batata-no-liquidificador.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/70b85b3661911bcf55d1d13e0914e35b.jpg',
 		likes: '',
 		usuarioPostador: 'Thiago Oliveira',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/23.jpg',
 		tipoRefeicao: 'Almoço',
+	},
+	{
+		id: 79,
+		nome: 'Torta de Maçã',
+		ingredientes: [
+			'4 maçãs descascadas',
+			'1 xícara de açúcar',
+			'1 colher de chá de canela em pó',
+			'1 pacote de massa folhada',
+			'1 ovo para pincelar',
+		],
+		modoPreparo:
+			'Coloque as maçãs fatiadas na massa folhada, polvilhe com açúcar e canela, pincele o ovo e leve ao forno até dourar.',
+		fotoReceita:
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/a1c4230ab3b3c3c65debc18a17f876cb.jpg',
+		likes: '',
+		usuarioPostador: 'Luana Costa',
+		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/68.jpg',
+		tipoRefeicao: 'Sobremesa',
+	},
+	{
+		id: 80,
+		nome: 'Sopa de Legumes',
+		ingredientes: [
+			'2 batatas',
+			'1 cenoura',
+			'1 chuchu',
+			'1 abobrinha',
+			'1 litro de caldo de legumes',
+		],
+		modoPreparo:
+			'Pique os legumes e cozinhe no caldo até amaciarem. Sirva quente.',
+		fotoReceita:
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/728650f14e36b3436fa3b2a0c4c24b43.jpg',
+		likes: '',
+		usuarioPostador: 'Mariana Rocha',
+		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/37.jpg',
+		tipoRefeicao: 'Jantar',
 	},
 ];
