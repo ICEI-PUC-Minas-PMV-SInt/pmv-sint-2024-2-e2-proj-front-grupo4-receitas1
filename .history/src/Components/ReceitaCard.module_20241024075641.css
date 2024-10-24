@@ -1,11 +1,10 @@
 /** @format */
 
 .fotoReceita {
-	width: 355px;
-	height: 300px;
+	width: 330px;
+	height: 310px;
 	border-radius: 2rem;
 	cursor: pointer;
-	object-fit: cover;
 }
 
 .containerReceitaCard {
