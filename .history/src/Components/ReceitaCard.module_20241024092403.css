@@ -30,21 +30,17 @@
 }
 
 .containerNomeReceita {
-	background: linear-gradient(
-		135deg,
-		#f7e3b4,
-		#d4a373
-	); /* Gradiente que combina com o header */
+	background: linear-gradient(70deg, #f7e3b4, #d4a373);
+
 	border-radius: 2rem 2rem 0 0; /* Arredondamento no topo */
 	padding: 10px 0; /* Ajuste de padding */
 	text-align: center; /* Centraliza o texto */
 }
 
 .containerNomeReceita p {
-	font-size: 16px; /* Tamanho da fonte */
-	color: white; /* Cor branca para o texto */
+	font-size: 14px; /* Tamanho da fonte */
+	color: white; /* Cor branca */
 	font-weight: 500; /* Peso da fonte */
 	letter-spacing: 0.5px; /* Espaçamento entre letras */
 	margin: 0; /* Remove margens para ajuste fino */
-	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Sombra do texto */
 }

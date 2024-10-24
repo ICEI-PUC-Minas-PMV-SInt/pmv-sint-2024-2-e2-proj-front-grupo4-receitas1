@@ -5,7 +5,6 @@ import UsuarioPostador from './UsuarioPostador.js';
 import { CommentIcon } from './CommentIcon.js';
 import ModalComentarios from './ModalComentarios.js'; // Importe o Modal
 import styles from './ReceitaCard.module.css';
-import ReactDOM from 'react-dom';
 
 const ReceitaCard = ({
 	fotoReceita,
@@ -26,15 +25,13 @@ const ReceitaCard = ({
 
 	return (
 		<div className={styles.containerReceitaCard}>
-			<div className={styles.containerNomeReceita}>
-				<p>{nome}</p>
-			</div>
 			<img
 				className={styles.fotoReceita}
 				src={fotoReceita}
 				alt={`Receita de ${nome}`}
 			/>
 
+			<p className={styles.nomeReceita}>{nome}</p>
 			<div className={styles.containerUsuarioEComentarios}>
 				<UsuarioPostador
 					fotoUsuarioPostador={fotoUsuarioPostador}
@@ -44,11 +41,7 @@ const ReceitaCard = ({
 			</div>
 
 			{/* Renderiza o modal de comentários, se estiver aberto */}
-			{modalAberto &&
-				ReactDOM.createPortal(
-					<ModalComentarios receitaId={id} onClose={fecharModal} />,
-					document.body
-				)}
+			{modalAberto && <ModalComentarios receitaId={id} onClose={fecharModal} />}
 		</div>
 	);
 };

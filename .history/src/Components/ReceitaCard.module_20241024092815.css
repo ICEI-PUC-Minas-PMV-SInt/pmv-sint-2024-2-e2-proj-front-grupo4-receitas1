@@ -41,10 +41,9 @@
 }
 
 .containerNomeReceita p {
-	font-size: 16px; /* Tamanho da fonte */
-	color: white; /* Cor branca para o texto */
+	font-size: 14px; /* Tamanho da fonte */
+	color: white; /* Cor branca */
 	font-weight: 500; /* Peso da fonte */
 	letter-spacing: 0.5px; /* Espaçamento entre letras */
 	margin: 0; /* Remove margens para ajuste fino */
-	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Sombra do texto */
 }

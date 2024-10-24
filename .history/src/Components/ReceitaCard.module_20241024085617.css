@@ -1,0 +1,39 @@
+/** @format */
+
+.fotoReceita {
+	width: 355px;
+	height: 300px;
+	border-radius: 2rem;
+	cursor: pointer;
+	object-fit: cover;
+}
+
+.containerReceitaCard {
+	display: flex;
+	flex-direction: column;
+}
+
+.containerUsuarioEComentarios {
+	display: flex;
+	max-width: 355px;
+	justify-content: space-around;
+}
+
+.containerNomeReceita {
+	background-color: black;
+}
+
+.containerNomeReceita p {
+	font-size: 14px;
+	text-align: center;
+	color: white; /* Cor branca para contrastar com o fundo escuro */
+	/* margin-top: -40px; Posição sobreposta à imagem */
+	padding: 10px 15px;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	border-radius: 1rem; /* Borda arredondada que acompanha o card */
+	width: fit-content; /* O fundo se ajusta ao tamanho do texto */
+	align-self: center; /* Centraliza o nome dentro do card */
+	position: relative; /* Permite controle de sobreposição */
+	z-index: 1; /* Garante que o nome fique acima da imagem */
+}

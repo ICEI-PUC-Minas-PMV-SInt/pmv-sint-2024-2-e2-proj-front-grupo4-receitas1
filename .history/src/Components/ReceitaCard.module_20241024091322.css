@@ -1,0 +1,50 @@
+/** @format */
+
+.fotoReceita {
+	width: 80%; /* Tamanho reduzido da imagem */
+	height: auto; /* Manter a proporção da imagem */
+	border-radius: 0 0 2rem 2rem; /* Manter o arredondamento */
+	cursor: pointer;
+	transition: transform 0.3s ease; /* Transição suave para o efeito de hover */
+	margin: 0 auto; /* Centraliza a imagem */
+}
+
+.containerReceitaCard {
+	display: flex;
+	flex-direction: column;
+	border-radius: 2rem; /* Aplicar borda ao card completo */
+	overflow: hidden; /* Garante que a borda arredondada apareça adequadamente */
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombras suaves para destacar o card */
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.containerReceitaCard:hover .fotoReceita {
+	transform: scale(1.05); /* Aumenta a imagem 5% ao passar o mouse */
+}
+
+.containerUsuarioEComentarios {
+	display: flex;
+	max-width: 355px;
+	justify-content: space-around;
+	padding: 10px; /* Espaçamento suave */
+}
+
+.containerNomeReceita {
+	background-color: rgba(
+		0,
+		0,
+		0,
+		0.8
+	); /* Cinza escuro com leve transparência */
+	border-radius: 2rem 2rem 0 0;
+	padding: 10px 0; /* Ajuste de padding */
+	text-align: center; /* Centraliza o texto diretamente no container */
+}
+
+.containerNomeReceita p {
+	font-size: 14px;
+	color: white; /* Cor branca para contraste */
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	margin: 0; /* Remove margens para ajuste fino */
+}

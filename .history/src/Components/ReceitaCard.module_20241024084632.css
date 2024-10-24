@@ -1,0 +1,33 @@
+/** @format */
+
+.fotoReceita {
+	width: 355px;
+	height: 300px;
+	border-radius: 2rem;
+	cursor: pointer;
+	object-fit: cover;
+}
+
+.containerReceitaCard {
+	display: flex;
+	flex-direction: column;
+}
+
+.containerUsuarioEComentarios {
+	display: flex;
+	max-width: 355px;
+	justify-content: space-around;
+}
+
+.nomeReceita {
+	font-size: 14px;
+	text-align: center;
+	color: #6c757d; /* Tom de cinza suave */
+	margin-top: 10px;
+	font-weight: 500;
+	letter-spacing: 0.5px; /* Um espaçamento leve entre as letras para modernidade */
+	max-width: 355px; /* Limita o tamanho do nome à largura do card */
+	overflow: hidden;
+	text-overflow: ellipsis; /* Trunca o texto se for muito longo */
+	white-space: nowrap; /* Mantém o texto em uma linha */
+}
