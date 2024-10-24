@@ -8,13 +8,6 @@ import stylesCategoria from './Categoria.module.css';
 import LargeButton from '../../Components/LargeButton.js';
 import MontagemPaginaCategoria from '../MontagemPaginaCategoria.js';
 
-const Inicio = () => {
-	return (
-		<MontagemPaginaCategoria
-			textoBotao={'Página Inicial'}
-			todasReceitas={true}
-		/>
-	);
-};
+const Inicio = () => {};
 
 export default Inicio;

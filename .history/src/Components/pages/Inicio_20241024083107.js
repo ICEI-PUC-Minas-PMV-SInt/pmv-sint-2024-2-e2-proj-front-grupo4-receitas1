@@ -9,12 +9,7 @@ import LargeButton from '../../Components/LargeButton.js';
 import MontagemPaginaCategoria from '../MontagemPaginaCategoria.js';
 
 const Inicio = () => {
-	return (
-		<MontagemPaginaCategoria
-			textoBotao={'Página Inicial'}
-			todasReceitas={true}
-		/>
-	);
+	return <MontagemPaginaCategoria todasReceitas={true} />;
 };
 
 export default Inicio;

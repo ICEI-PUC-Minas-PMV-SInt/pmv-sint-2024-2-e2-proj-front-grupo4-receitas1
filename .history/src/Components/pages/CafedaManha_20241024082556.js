@@ -6,15 +6,7 @@ import ReceitaEComentarios from '../../Components/ReceitaEComentarios.js';
 import styles from '../../Components/ReceitasList.module.css';
 import stylesCategoria from './Categoria.module.css';
 import LargeButton from '../../Components/LargeButton.js';
-import MontagemPaginaCategoria from '../MontagemPaginaCategoria.js';
 
-const Inicio = () => {
-	return (
-		<MontagemPaginaCategoria
-			textoBotao={'Página Inicial'}
-			todasReceitas={true}
-		/>
-	);
-};
+const CafedaManha = () => {};
 
-export default Inicio;
+export default CafedaManha;
