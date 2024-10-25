@@ -1773,7 +1773,7 @@ export const receitas = [
 		modoPreparo:
 			'Recheie o canelone com ricota e espinafre, cubra com molho e queijo e asse por 20 minutos.',
 		fotoReceita:
-			'https://minhasreceitinhas.com.br/wp-content/uploads/2017/07/Original_3568_cannelloni.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/1e4c9d7d5cd4b5abf4731f7d3baf0fd5.jpg',
 		likes: '',
 		usuarioPostador: 'Felipe Andrade',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/23.jpg',
@@ -1791,7 +1791,8 @@ export const receitas = [
 		],
 		modoPreparo:
 			'Caramelize as bananas com o açúcar, faça uma massa com os outros ingredientes e asse por 30 minutos.',
-		fotoReceita: 'https://i.ytimg.com/vi/_eHofkgQ7WA/maxresdefault.jpg',
+		fotoReceita:
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/8bf1b2ae812b2e74b6f7b2e8f99f5ad8.jpg',
 		likes: '',
 		usuarioPostador: 'Camila Oliveira',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/24.jpg',
@@ -1810,7 +1811,7 @@ export const receitas = [
 		modoPreparo:
 			'Misture todos os ingredientes e leve à geladeira até firmar. Decore com coco ralado.',
 		fotoReceita:
-			'https://bolosparavender.com/wp-content/uploads/2019/09/receita-de-bolo-de-tapioca-1200x900.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/fc73d7b5c09d4b0ea7d5c5a0b9f3f78b.jpg',
 		likes: '',
 		usuarioPostador: 'Henrique Alves',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/25.jpg',
@@ -1828,7 +1829,8 @@ export const receitas = [
 		],
 		modoPreparo:
 			'Misture os ingredientes e asse a massa. Recheie com brigadeiro e enrole em formato de rocambole.',
-		fotoReceita: 'https://i.ytimg.com/vi/r_eZKz_q1lE/maxresdefault.jpg',
+		fotoReceita:
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/4c73f5d9f7e3c5d2a8a4b5c5a9d6f7e8.jpg',
 		likes: '',
 		usuarioPostador: 'Viviane Moreira',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/26.jpg',
@@ -1846,7 +1848,7 @@ export const receitas = [
 		modoPreparo:
 			'Misture os ingredientes, leve ao fogo até soltar do fundo da panela. Enrole em bolinhas e passe no açúcar.',
 		fotoReceita:
-			'https://docesdangelo.com.br/site/wp-content/uploads/2015/08/casadinho.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/7f37d9c8a7b3d5f4b7c9a8b9e6f7d4b6.jpg',
 		likes: '',
 		usuarioPostador: 'Tatiana Ribeiro',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/27.jpg',
@@ -1864,7 +1866,8 @@ export const receitas = [
 		],
 		modoPreparo:
 			'Misture o biscoito com a manteiga para fazer a base. Coloque o cream cheese com açúcar e finalize com a geleia de morango.',
-		fotoReceita: 'https://i.ytimg.com/vi/-itiqBm4Cew/maxresdefault.jpg',
+		fotoReceita:
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/5c8b2f4a9a5c4b6d8e9f5a7e7b6f9c8d.jpg',
 		likes: '',
 		usuarioPostador: 'Juliana Cardoso',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/28.jpg',
@@ -1882,7 +1885,7 @@ export const receitas = [
 		modoPreparo:
 			'Prepare o café e deixe esfriar. Coloque gelo e açúcar a gosto, finalize com chantilly por cima.',
 		fotoReceita:
-			'https://vegcomcarinho.com.br/wp-content/uploads/2023/11/IMG_4570.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/2a8c4f9b7c5a8e6b4d3f7d9c5a6b3f5c.jpg',
 		likes: '',
 		usuarioPostador: 'Guilherme Araújo',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/29.jpg',
@@ -1901,7 +1904,7 @@ export const receitas = [
 		modoPreparo:
 			'Faça a massa com leite, farinha, ovo e açúcar. Cozinhe o crepe em frigideira antiaderente, recheie com Nutella e morangos.',
 		fotoReceita:
-			'https://cloudfront-us-east-1.images.arcpublishing.com/estadao/2UA4VAAFXBFHHNOSEZUPFXGSDI.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/9d6c7f3b4a5d6b8f7a5c9f3b7d5c8f3a.jpg',
 		likes: '',
 		usuarioPostador: 'Beatriz Souza',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/30.jpg',
@@ -1920,7 +1923,7 @@ export const receitas = [
 		modoPreparo:
 			'Misture os ingredientes e asse os cookies por 15 minutos ou até dourarem.',
 		fotoReceita:
-			'https://preview.redd.it/68s5o9tbzw4a1.jpg?auto=webp&s=ef76e40bdff5cb7e24437a110891a604372b9faf',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/8b7d5a9c4e8c9a3d7f2b5d9a8f7c9a3f.jpg',
 		likes: '',
 		usuarioPostador: 'Lucas Martins',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/31.jpg',
@@ -1938,7 +1941,8 @@ export const receitas = [
 		],
 		modoPreparo:
 			'Faça a base com biscoitos e manteiga, coloque a mistura de cream cheese e limão e leve para gelar.',
-		fotoReceita: 'https://i.ytimg.com/vi/ZyGcsSzYECU/maxresdefault.jpg',
+		fotoReceita:
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/7b9c4d8a5e6f7b3c9a2d5a6f4e9c8d7a.jpg',
 		likes: '',
 		usuarioPostador: 'Ana Lúcia Mendes',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/32.jpg',
@@ -1957,7 +1961,7 @@ export const receitas = [
 		modoPreparo:
 			'Amasse o abacate, coloque no pão com ovo cozido fatiado e tempere com sal, pimenta e azeite.',
 		fotoReceita:
-			'https://minhasreceitinhas.com.br/wp-content/uploads/2023/04/Sanduiche-de-Abacate-e-Ovo-facil.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/6f8d4c7b5a9e7c3d9f5b2a4d6e8c5a9d.jpg',
 		likes: '',
 		usuarioPostador: 'Rafael Costa',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/33.jpg',
@@ -1975,7 +1979,7 @@ export const receitas = [
 		modoPreparo:
 			'Bata todos os ingredientes no liquidificador até obter uma textura homogênea.',
 		fotoReceita:
-			'https://claudia.abril.com.br/wp-content/uploads/2020/02/thinkstockphotos-839497302-1.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/5c8d9f4e7b2a5d3a9f6b4e9c7f2a5b8d.jpg',
 		likes: '',
 		usuarioPostador: 'Maria Clara Fonseca',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/34.jpg',
@@ -1993,7 +1997,7 @@ export const receitas = [
 		modoPreparo:
 			'Derreta o chocolate, misture com o creme de leite e licor. Molde em bolinhas e passe no cacau em pó.',
 		fotoReceita:
-			'https://www.acidadeon.com/tudoep/wp-content/uploads/sites/10/2023/12/trufas_com_1200x675_15122023152935.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/3e7f9a4c8b5d2a6c3f9b8a5d4e7c8b9d.jpg',
 		likes: '',
 		usuarioPostador: 'Cecília Ramos',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/35.jpg',
@@ -2011,7 +2015,7 @@ export const receitas = [
 		modoPreparo:
 			'Bata os ingredientes e cozinhe a massa em uma frigideira. Sirva com mel.',
 		fotoReceita:
-			'https://fernandamello.org/wp-content/uploads/2015/02/IMG_8268.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/2a7c5f8d3b4e9a6c8b2f5d7a9c4e6d3b.jpg',
 		likes: '',
 		usuarioPostador: 'Eduardo Lima',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/36.jpg',
@@ -2028,7 +2032,8 @@ export const receitas = [
 		],
 		modoPreparo:
 			'Bata as mangas com o creme de leite, açúcar e suco de limão. Congele por 4 horas antes de servir.',
-		fotoReceita: 'https://i.ytimg.com/vi/ENOxagl0Naw/maxresdefault.jpg',
+		fotoReceita:
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/1b7e9c4a8d5f2a3c6b9a8f7d5a9b3c6a.jpg',
 		likes: '',
 		usuarioPostador: 'Camila Santos',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/37.jpg',
@@ -2047,7 +2052,7 @@ export const receitas = [
 		modoPreparo:
 			'Derreta o chocolate e a manteiga, adicione o café e misture com o açúcar e a farinha. Asse por 25 minutos.',
 		fotoReceita:
-			'https://cooknenjoy.com/wp-content/uploads/2022/07/Brownie-Cafe-01-1920x1442.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/7d5f9c3a6b8e2f4b9a8c5a3f7d4b2e8c.jpg',
 		likes: '',
 		usuarioPostador: 'Mariana Costa',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/38.jpg',

@@ -1975,7 +1975,7 @@ export const receitas = [
 		modoPreparo:
 			'Bata todos os ingredientes no liquidificador até obter uma textura homogênea.',
 		fotoReceita:
-			'https://claudia.abril.com.br/wp-content/uploads/2020/02/thinkstockphotos-839497302-1.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/5c8d9f4e7b2a5d3a9f6b4e9c7f2a5b8d.jpg',
 		likes: '',
 		usuarioPostador: 'Maria Clara Fonseca',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/34.jpg',
@@ -1993,7 +1993,7 @@ export const receitas = [
 		modoPreparo:
 			'Derreta o chocolate, misture com o creme de leite e licor. Molde em bolinhas e passe no cacau em pó.',
 		fotoReceita:
-			'https://www.acidadeon.com/tudoep/wp-content/uploads/sites/10/2023/12/trufas_com_1200x675_15122023152935.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/3e7f9a4c8b5d2a6c3f9b8a5d4e7c8b9d.jpg',
 		likes: '',
 		usuarioPostador: 'Cecília Ramos',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/35.jpg',
@@ -2011,7 +2011,7 @@ export const receitas = [
 		modoPreparo:
 			'Bata os ingredientes e cozinhe a massa em uma frigideira. Sirva com mel.',
 		fotoReceita:
-			'https://fernandamello.org/wp-content/uploads/2015/02/IMG_8268.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/2a7c5f8d3b4e9a6c8b2f5d7a9c4e6d3b.jpg',
 		likes: '',
 		usuarioPostador: 'Eduardo Lima',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/36.jpg',
@@ -2028,7 +2028,8 @@ export const receitas = [
 		],
 		modoPreparo:
 			'Bata as mangas com o creme de leite, açúcar e suco de limão. Congele por 4 horas antes de servir.',
-		fotoReceita: 'https://i.ytimg.com/vi/ENOxagl0Naw/maxresdefault.jpg',
+		fotoReceita:
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/1b7e9c4a8d5f2a3c6b9a8f7d5a9b3c6a.jpg',
 		likes: '',
 		usuarioPostador: 'Camila Santos',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/37.jpg',
@@ -2047,7 +2048,7 @@ export const receitas = [
 		modoPreparo:
 			'Derreta o chocolate e a manteiga, adicione o café e misture com o açúcar e a farinha. Asse por 25 minutos.',
 		fotoReceita:
-			'https://cooknenjoy.com/wp-content/uploads/2022/07/Brownie-Cafe-01-1920x1442.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/7d5f9c3a6b8e2f4b9a8c5a3f7d4b2e8c.jpg',
 		likes: '',
 		usuarioPostador: 'Mariana Costa',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/38.jpg',

@@ -2028,7 +2028,8 @@ export const receitas = [
 		],
 		modoPreparo:
 			'Bata as mangas com o creme de leite, açúcar e suco de limão. Congele por 4 horas antes de servir.',
-		fotoReceita: 'https://i.ytimg.com/vi/ENOxagl0Naw/maxresdefault.jpg',
+		fotoReceita:
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/1b7e9c4a8d5f2a3c6b9a8f7d5a9b3c6a.jpg',
 		likes: '',
 		usuarioPostador: 'Camila Santos',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/37.jpg',
@@ -2047,7 +2048,7 @@ export const receitas = [
 		modoPreparo:
 			'Derreta o chocolate e a manteiga, adicione o café e misture com o açúcar e a farinha. Asse por 25 minutos.',
 		fotoReceita:
-			'https://cooknenjoy.com/wp-content/uploads/2022/07/Brownie-Cafe-01-1920x1442.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/7d5f9c3a6b8e2f4b9a8c5a3f7d4b2e8c.jpg',
 		likes: '',
 		usuarioPostador: 'Mariana Costa',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/38.jpg',

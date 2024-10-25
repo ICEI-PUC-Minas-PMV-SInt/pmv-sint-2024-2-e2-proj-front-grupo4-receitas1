@@ -1505,7 +1505,7 @@ export const receitas = [
 		tipoRefeicao: 'Almoço',
 	},
 	{
-		id: 78,
+		id: 81,
 		nome: 'Pão de Alho',
 		ingredientes: [
 			'1 pão francês',
@@ -1517,14 +1517,14 @@ export const receitas = [
 		modoPreparo:
 			'Misture a manteiga, alho e salsa. Corte o pão ao meio, espalhe a mistura e coloque cheddar. Leve ao forno até dourar.',
 		fotoReceita:
-			'https://static.itdg.com.br/images/1200-675/bdf5859e802e5edf6c66d25f4927b2bc/shutterstock-1658158945.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/54a3e5c21e6722c74c1d0482a3a68482.jpg',
 		likes: '',
 		usuarioPostador: 'Marcos Silva',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/1.jpg',
 		tipoRefeicao: 'Lanche',
 	},
 	{
-		id: 79,
+		id: 82,
 		nome: 'Mini Pizzas',
 		ingredientes: [
 			'1 pacote de massa de pizza',
@@ -1536,14 +1536,14 @@ export const receitas = [
 		modoPreparo:
 			'Abra a massa, corte em círculos, espalhe o molho, coloque o queijo e as azeitonas. Polvilhe orégano e asse até dourar.',
 		fotoReceita:
-			'https://www.herbalife.com/dmassets/regional-reusable-assets/emea/images/ri-pbm-mini-vegetable-pizza.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/1d2e4006eb6d1a0b9f945f29eeb02f93.jpg',
 		likes: '',
 		usuarioPostador: 'Fernanda Almeida',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/2.jpg',
 		tipoRefeicao: 'Lanche',
 	},
 	{
-		id: 80,
+		id: 83,
 		nome: 'Sanduíche Natural',
 		ingredientes: [
 			'4 fatias de pão integral',
@@ -1555,27 +1555,27 @@ export const receitas = [
 		modoPreparo:
 			'Monte o sanduíche com as fatias de pão, peito de peru, alface, tomate e maionese. Sirva frio.',
 		fotoReceita:
-			'https://guiadacozinha.com.br/wp-content/uploads/2020/10/sanduiche-natural-facil.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/d60e6d6f7fd2f6c91bbfcd1c3c1db09a.jpg',
 		likes: '',
 		usuarioPostador: 'Lucas Santos',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/3.jpg',
 		tipoRefeicao: 'Lanche',
 	},
 	{
-		id: 81,
+		id: 84,
 		nome: 'Batata Frita',
 		ingredientes: ['4 batatas grandes', 'Sal a gosto', 'Óleo para fritar'],
 		modoPreparo:
 			'Descasque e corte as batatas em tiras. Frite em óleo quente até ficarem douradas. Tempere com sal.',
 		fotoReceita:
-			'https://www.sabornamesa.com.br/media/k2/items/cache/377829b055e89e3afb894e7528a10996_XL.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/8d5d6c1f20d154e81631394bc8dc20bc.jpg',
 		likes: '',
 		usuarioPostador: 'Paula Costa',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/4.jpg',
 		tipoRefeicao: 'Lanche',
 	},
 	{
-		id: 82,
+		id: 85,
 		nome: 'Espetinho de Frango',
 		ingredientes: [
 			'500g de peito de frango',
@@ -1587,14 +1587,14 @@ export const receitas = [
 		modoPreparo:
 			'Corte o frango, pimentão e cebola em cubos. Tempere e espete em palitos. Grelhe até dourar.',
 		fotoReceita:
-			'https://i.pinimg.com/originals/fe/88/11/fe881139d2726c8aee4c281ed0040862.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/7da5e1a73d45c4855c798b77cdb7fa67.jpg',
 		likes: '',
 		usuarioPostador: 'Renata Gomes',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/5.jpg',
 		tipoRefeicao: 'Lanche',
 	},
 	{
-		id: 83,
+		id: 86,
 		nome: 'Torrada com Abacate',
 		ingredientes: [
 			'2 fatias de pão',
@@ -1605,14 +1605,14 @@ export const receitas = [
 		modoPreparo:
 			'Toste o pão. Amasse o abacate, misture o limão e espalhe sobre o pão. Tempere a gosto.',
 		fotoReceita:
-			'https://www.estadao.com.br/resizer/v2/YVYLP7DJ35M3PIUDYTNEIGQQXI.jpg?quality=80&auth=ac681582f4b9adcc1a4d1b7c95a9674995934525aacb76df3985faec74e21d14&width=1200',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/9e3de0328e79aa42f61cd5e61f6e53a3.jpg',
 		likes: '',
 		usuarioPostador: 'Sérgio Almeida',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/6.jpg',
 		tipoRefeicao: 'Lanche',
 	},
 	{
-		id: 84,
+		id: 87,
 		nome: 'Biscoito de Polvilho',
 		ingredientes: [
 			'500g de polvilho doce',
@@ -1624,14 +1624,33 @@ export const receitas = [
 		modoPreparo:
 			'Misture todos os ingredientes, modele os biscoitos e asse em forno pré-aquecido até dourar.',
 		fotoReceita:
-			'https://www.grupopq.com.br/wp-content/uploads/2024/03/biscoitos-de-polvilho-assados-1024x1024.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/29e36d1d56e53171c1a65cde905bf92e.jpg',
 		likes: '',
 		usuarioPostador: 'Tiago Nunes',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/7.jpg',
 		tipoRefeicao: 'Lanche',
 	},
 	{
-		id: 85,
+		id: 88,
+		nome: 'Coxinha de Frango',
+		ingredientes: [
+			'500g de peito de frango desfiado',
+			'2 xícaras de massa de coxinha',
+			'1 cebola picada',
+			'Farinha de rosca para empanar',
+			'Óleo para fritar',
+		],
+		modoPreparo:
+			'Refogue a cebola, adicione o frango. Modele a massa em forma de coxinha, recheie, empane e frite.',
+		fotoReceita:
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/7a9fc0b6a9a343f3c0cbf77d15298ee1.jpg',
+		likes: '',
+		usuarioPostador: 'Juliana Ferreira',
+		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/8.jpg',
+		tipoRefeicao: 'Lanche',
+	},
+	{
+		id: 89,
 		nome: 'Bruschetta de Tomate',
 		ingredientes: [
 			'1 baguete',
@@ -1643,14 +1662,33 @@ export const receitas = [
 		modoPreparo:
 			'Fatie a baguete, regue com azeite e grelhe. Misture tomate, alho e manjericão. Coloque sobre o pão.',
 		fotoReceita:
-			'https://colonialconservas.com.br/wp-content/uploads/2022/11/bruschetta-tomate-mozarela-bufala-scaled-e1667333655624.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/9f6c42f2df053ee14b1ae229bc99fa3d.jpg',
 		likes: '',
 		usuarioPostador: 'Daniel Oliveira',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/9.jpg',
 		tipoRefeicao: 'Lanche',
 	},
 	{
-		id: 86,
+		id: 90,
+		nome: 'Pavê de Chocolate',
+		ingredientes: [
+			'1 pacote de biscoito de chocolate',
+			'2 latas de leite condensado',
+			'1 caixa de creme de leite',
+			'2 colheres de sopa de chocolate em pó',
+			'Chocolate granulado para decorar',
+		],
+		modoPreparo:
+			'Em um refratário, faça camadas de biscoito, mistura de leite condensado e creme de leite. Finalize com granulado e leve à geladeira.',
+		fotoReceita:
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/c19eb74c367d2c1fa8b7c8ac9c26cf6b.jpg',
+		likes: '',
+		usuarioPostador: 'Cláudia Santos',
+		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/10.jpg',
+		tipoRefeicao: 'Sobremesa',
+	},
+	{
+		id: 91,
 		nome: 'Mousse de Maracujá',
 		ingredientes: [
 			'1 lata de leite condensado',
@@ -1660,14 +1698,110 @@ export const receitas = [
 		],
 		modoPreparo:
 			'Misture todos os ingredientes e bata no liquidificador. Leve à geladeira até firmar.',
-		fotoReceita: 'https://i.ytimg.com/vi/oS11S-H43pw/maxresdefault.jpg',
+		fotoReceita:
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/5ffb3f5c2c4d0e8ae6dcd2f5f2ee1e29.jpg',
 		likes: '',
 		usuarioPostador: 'Gustavo Lima',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/11.jpg',
 		tipoRefeicao: 'Sobremesa',
 	},
 	{
-		id: 87,
+		id: 92,
+		nome: 'Bolo de Cenoura',
+		ingredientes: [
+			'2 cenouras grandes',
+			'3 ovos',
+			'1/2 xícara de óleo',
+			'1 xícara de açúcar',
+			'1 xícara de farinha de trigo',
+		],
+		modoPreparo:
+			'Bata todos os ingredientes no liquidificador, coloque em uma forma untada e asse por 40 minutos. Cubra com chocolate derretido.',
+		fotoReceita:
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/7c6c4e48566052a5c4f24863639b8ab0.jpg',
+		likes: '',
+		usuarioPostador: 'Sofia Martins',
+		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/12.jpg',
+		tipoRefeicao: 'Sobremesa',
+	},
+	{
+		id: 93,
+		nome: 'Torta de Limão',
+		ingredientes: [
+			'1 pacote de biscoito de maisena',
+			'1/2 xícara de manteiga derretida',
+			'1 lata de leite condensado',
+			'1/2 xícara de suco de limão',
+			'3 claras em neve',
+		],
+		modoPreparo:
+			'Misture os biscoitos com a manteiga e forre uma forma. Bata os outros ingredientes e despeje sobre a base. Asse por 30 minutos.',
+		fotoReceita:
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/80e6e230f6f1d35162f7d74d18e0c415.jpg',
+		likes: '',
+		usuarioPostador: 'Ricardo Dias',
+		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/13.jpg',
+		tipoRefeicao: 'Sobremesa',
+	},
+	{
+		id: 94,
+		nome: 'Pudim de Leite Condensado',
+		ingredientes: [
+			'1 lata de leite condensado',
+			'2 medidas da lata de leite',
+			'3 ovos',
+			'1 xícara de açúcar para a calda',
+		],
+		modoPreparo:
+			'Bata todos os ingredientes no liquidificador. Caramelize o açúcar em uma forma, despeje a mistura e asse em banho-maria.',
+		fotoReceita:
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/32c5c0ff3a87aeebfd98f9f1e68a5f3d.jpg',
+		likes: '',
+		usuarioPostador: 'Aline Costa',
+		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/14.jpg',
+		tipoRefeicao: 'Sobremesa',
+	},
+	{
+		id: 95,
+		nome: 'Torta de Morango',
+		ingredientes: [
+			'1 pacote de biscoito de chocolate',
+			'1/2 xícara de manteiga',
+			'2 caixas de morangos',
+			'1 lata de leite condensado',
+			'1 caixa de creme de leite',
+		],
+		modoPreparo:
+			'Faça uma base com os biscoitos e manteiga, misture os morangos com o leite condensado e creme de leite e despeje sobre a base.',
+		fotoReceita:
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/ee8037ef8a7c97e8c1f0b6b6335c8737.jpg',
+		likes: '',
+		usuarioPostador: 'Bruno Almeida',
+		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/15.jpg',
+		tipoRefeicao: 'Sobremesa',
+	},
+	{
+		id: 96,
+		nome: 'Bolo de Chocolate',
+		ingredientes: [
+			'3 ovos',
+			'1 xícara de açúcar',
+			'1/2 xícara de óleo',
+			'1 xícara de leite',
+			'2 xícaras de farinha de trigo',
+			'1 xícara de chocolate em pó',
+		],
+		modoPreparo:
+			'Bata tudo na batedeira, coloque em uma forma untada e asse por 40 minutos. Cubra com cobertura de chocolate.',
+		fotoReceita:
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/9cf3eab7588bff1e15050b23a2c9cfb2.jpg',
+		likes: '',
+		usuarioPostador: 'Isabela Freitas',
+		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/16.jpg',
+		tipoRefeicao: 'Sobremesa',
+	},
+	{
+		id: 97,
 		nome: 'Torta de Chocolate',
 		ingredientes: [
 			'1 pacote de biscoito de chocolate',
@@ -1678,14 +1812,15 @@ export const receitas = [
 		],
 		modoPreparo:
 			'Misture os biscoitos com a manteiga, forre uma forma. Misture os outros ingredientes e despeje sobre a base. Deixe na geladeira até firmar.',
-		fotoReceita: 'https://s02.video.glbimg.com/x720/12992653.jpg',
+		fotoReceita:
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/70d206e69a684d17c4081e35385c9a1d.jpg',
 		likes: '',
 		usuarioPostador: 'Eduardo Lima',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/17.jpg',
 		tipoRefeicao: 'Sobremesa',
 	},
 	{
-		id: 88,
+		id: 98,
 		nome: 'Brownie de Chocolate',
 		ingredientes: [
 			'1 xícara de manteiga',
@@ -1697,360 +1832,10 @@ export const receitas = [
 		modoPreparo:
 			'Derreta a manteiga e misture os ingredientes. Despeje em uma forma untada e asse por 25 minutos.',
 		fotoReceita:
-			'https://static.itdg.com.br/images/1200-675/0191a4f23349e54e618a65f2051d68a8/shutterstock-1915577575-2-.jpg',
+			'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/4c6c1fc556f6cfedc7c5df2ab4b37f92.jpg',
 		likes: '',
 		usuarioPostador: 'Patrícia Silva',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/18.jpg',
-		tipoRefeicao: 'Sobremesa',
-	},
-	{
-		id: 89,
-		nome: 'Biscoitos de Aveia',
-		ingredientes: [
-			'1 xícara de aveia',
-			'1/2 xícara de açúcar',
-			'1 ovo',
-			'1/4 xícara de manteiga',
-			'1/2 xícara de uvas-passas',
-		],
-		modoPreparo:
-			'Misture todos os ingredientes, faça pequenas bolinhas e asse em forno preaquecido por 20 minutos.',
-		fotoReceita:
-			'https://static.itdg.com.br/images/1200-675/d522fc10353c5dc5c27734fb0de607b7/49043-original.jpg',
-		likes: '',
-		usuarioPostador: 'Marina Souza',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/20.jpg',
-		tipoRefeicao: 'Lanche',
-	},
-	{
-		id: 90,
-		nome: 'Muffin de Mirtilo',
-		ingredientes: [
-			'1 e 1/2 xícara de farinha de trigo',
-			'1/2 xícara de açúcar',
-			'1/2 xícara de leite',
-			'1/4 xícara de óleo',
-			'1 xícara de mirtilos frescos',
-		],
-		modoPreparo:
-			'Misture os ingredientes secos e depois adicione os líquidos. Incorpore os mirtilos e asse por 25 minutos.',
-		fotoReceita:
-			'https://www.pilotandoumfogao.com.br/wp-content/uploads/2017/09/Muffins-de-mirtilo-Pilotando-um-Fog%C3%A3o.jpg',
-		likes: '',
-		usuarioPostador: 'João Silva',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/21.jpg',
-		tipoRefeicao: 'Lanche',
-	},
-	{
-		id: 91,
-		nome: 'Pão de Banana',
-		ingredientes: [
-			'2 bananas maduras',
-			'1/2 xícara de açúcar',
-			'1/4 xícara de manteiga',
-			'1 xícara de farinha de trigo',
-			'1 colher de chá de fermento',
-		],
-		modoPreparo:
-			'Amasse as bananas e misture com os outros ingredientes. Despeje em uma forma e asse por 30 minutos.',
-		fotoReceita:
-			'https://static.itdg.com.br/images/1200-675/c10a2270818c905cab2f55dd352d92f6/7646-original.jpg',
-		likes: '',
-		usuarioPostador: 'Ana Paula Lima',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/22.jpg',
-		tipoRefeicao: 'Lanche',
-	},
-	{
-		id: 92,
-		nome: 'Canelone de Ricota',
-		ingredientes: [
-			'250g de massa para canelone',
-			'1 xícara de ricota',
-			'1/2 xícara de espinafre',
-			'Molho de tomate a gosto',
-			'Queijo parmesão para gratinar',
-		],
-		modoPreparo:
-			'Recheie o canelone com ricota e espinafre, cubra com molho e queijo e asse por 20 minutos.',
-		fotoReceita:
-			'https://minhasreceitinhas.com.br/wp-content/uploads/2017/07/Original_3568_cannelloni.jpg',
-		likes: '',
-		usuarioPostador: 'Felipe Andrade',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/23.jpg',
-		tipoRefeicao: 'Lanche',
-	},
-	{
-		id: 93,
-		nome: 'Torta de Banana Caramelada',
-		ingredientes: [
-			'5 bananas',
-			'1/2 xícara de açúcar',
-			'2 ovos',
-			'1 xícara de farinha de trigo',
-			'1/4 xícara de leite',
-		],
-		modoPreparo:
-			'Caramelize as bananas com o açúcar, faça uma massa com os outros ingredientes e asse por 30 minutos.',
-		fotoReceita: 'https://i.ytimg.com/vi/_eHofkgQ7WA/maxresdefault.jpg',
-		likes: '',
-		usuarioPostador: 'Camila Oliveira',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/24.jpg',
-		tipoRefeicao: 'Sobremesa',
-	},
-	{
-		id: 94,
-		nome: 'Bolo de Tapioca',
-		ingredientes: [
-			'1 xícara de tapioca granulada',
-			'1 xícara de leite de coco',
-			'1 xícara de açúcar',
-			'1/2 xícara de leite condensado',
-			'Coco ralado para decorar',
-		],
-		modoPreparo:
-			'Misture todos os ingredientes e leve à geladeira até firmar. Decore com coco ralado.',
-		fotoReceita:
-			'https://bolosparavender.com/wp-content/uploads/2019/09/receita-de-bolo-de-tapioca-1200x900.jpg',
-		likes: '',
-		usuarioPostador: 'Henrique Alves',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/25.jpg',
-		tipoRefeicao: 'Sobremesa',
-	},
-	{
-		id: 95,
-		nome: 'Rocambole de Chocolate',
-		ingredientes: [
-			'1 xícara de farinha de trigo',
-			'4 ovos',
-			'1/2 xícara de açúcar',
-			'1 xícara de chocolate em pó',
-			'Recheio de brigadeiro',
-		],
-		modoPreparo:
-			'Misture os ingredientes e asse a massa. Recheie com brigadeiro e enrole em formato de rocambole.',
-		fotoReceita: 'https://i.ytimg.com/vi/r_eZKz_q1lE/maxresdefault.jpg',
-		likes: '',
-		usuarioPostador: 'Viviane Moreira',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/26.jpg',
-		tipoRefeicao: 'Sobremesa',
-	},
-	{
-		id: 96,
-		nome: 'Beijinho de Coco',
-		ingredientes: [
-			'1 lata de leite condensado',
-			'1/2 xícara de coco ralado',
-			'1 colher de sopa de manteiga',
-			'Açúcar para enrolar',
-		],
-		modoPreparo:
-			'Misture os ingredientes, leve ao fogo até soltar do fundo da panela. Enrole em bolinhas e passe no açúcar.',
-		fotoReceita:
-			'https://docesdangelo.com.br/site/wp-content/uploads/2015/08/casadinho.jpg',
-		likes: '',
-		usuarioPostador: 'Tatiana Ribeiro',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/27.jpg',
-		tipoRefeicao: 'Sobremesa',
-	},
-	{
-		id: 97,
-		nome: 'Mini Cheesecake de Morango',
-		ingredientes: [
-			'1 pacote de biscoito maisena',
-			'1/4 xícara de manteiga derretida',
-			'1 xícara de cream cheese',
-			'1/2 xícara de açúcar',
-			'Geléia de morango para cobrir',
-		],
-		modoPreparo:
-			'Misture o biscoito com a manteiga para fazer a base. Coloque o cream cheese com açúcar e finalize com a geleia de morango.',
-		fotoReceita: 'https://i.ytimg.com/vi/-itiqBm4Cew/maxresdefault.jpg',
-		likes: '',
-		usuarioPostador: 'Juliana Cardoso',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/28.jpg',
-		tipoRefeicao: 'Sobremesa',
-	},
-	{
-		id: 98,
-		nome: 'Café Gelado com Chantilly',
-		ingredientes: [
-			'1 xícara de café forte',
-			'Gelo a gosto',
-			'Açúcar a gosto',
-			'Chantilly para decorar',
-		],
-		modoPreparo:
-			'Prepare o café e deixe esfriar. Coloque gelo e açúcar a gosto, finalize com chantilly por cima.',
-		fotoReceita:
-			'https://vegcomcarinho.com.br/wp-content/uploads/2023/11/IMG_4570.jpg',
-		likes: '',
-		usuarioPostador: 'Guilherme Araújo',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/29.jpg',
-		tipoRefeicao: 'Sobremesa',
-	},
-	{
-		id: 99,
-		nome: 'Crepe de Morango com Nutella',
-		ingredientes: [
-			'1 xícara de leite',
-			'1 xícara de farinha de trigo',
-			'1 ovo',
-			'1 colher de sopa de açúcar',
-			'Nutella e morangos para rechear',
-		],
-		modoPreparo:
-			'Faça a massa com leite, farinha, ovo e açúcar. Cozinhe o crepe em frigideira antiaderente, recheie com Nutella e morangos.',
-		fotoReceita:
-			'https://cloudfront-us-east-1.images.arcpublishing.com/estadao/2UA4VAAFXBFHHNOSEZUPFXGSDI.jpg',
-		likes: '',
-		usuarioPostador: 'Beatriz Souza',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/30.jpg',
-		tipoRefeicao: 'Sobremesa',
-	},
-	{
-		id: 100,
-		nome: 'Cookie de Chocolate Branco e Cranberry',
-		ingredientes: [
-			'1 xícara de farinha de trigo',
-			'1/2 xícara de açúcar',
-			'1/2 xícara de manteiga',
-			'1/2 xícara de chocolate branco picado',
-			'1/2 xícara de cranberries secas',
-		],
-		modoPreparo:
-			'Misture os ingredientes e asse os cookies por 15 minutos ou até dourarem.',
-		fotoReceita:
-			'https://preview.redd.it/68s5o9tbzw4a1.jpg?auto=webp&s=ef76e40bdff5cb7e24437a110891a604372b9faf',
-		likes: '',
-		usuarioPostador: 'Lucas Martins',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/31.jpg',
-		tipoRefeicao: 'Lanche',
-	},
-	{
-		id: 101,
-		nome: 'Cheesecake de Limão',
-		ingredientes: [
-			'1 pacote de biscoito maisena',
-			'1/2 xícara de manteiga derretida',
-			'1 xícara de cream cheese',
-			'1/4 xícara de suco de limão',
-			'1/2 xícara de açúcar',
-		],
-		modoPreparo:
-			'Faça a base com biscoitos e manteiga, coloque a mistura de cream cheese e limão e leve para gelar.',
-		fotoReceita: 'https://i.ytimg.com/vi/ZyGcsSzYECU/maxresdefault.jpg',
-		likes: '',
-		usuarioPostador: 'Ana Lúcia Mendes',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/32.jpg',
-		tipoRefeicao: 'Sobremesa',
-	},
-	{
-		id: 102,
-		nome: 'Sanduíche de Abacate com Ovo',
-		ingredientes: [
-			'2 fatias de pão integral',
-			'1/2 abacate',
-			'1 ovo cozido',
-			'Sal e pimenta a gosto',
-			'Azeite para regar',
-		],
-		modoPreparo:
-			'Amasse o abacate, coloque no pão com ovo cozido fatiado e tempere com sal, pimenta e azeite.',
-		fotoReceita:
-			'https://minhasreceitinhas.com.br/wp-content/uploads/2023/04/Sanduiche-de-Abacate-e-Ovo-facil.jpg',
-		likes: '',
-		usuarioPostador: 'Rafael Costa',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/33.jpg',
-		tipoRefeicao: 'Lanche',
-	},
-	{
-		id: 103,
-		nome: 'Smoothie de Frutas Vermelhas',
-		ingredientes: [
-			'1 xícara de frutas vermelhas congeladas',
-			'1/2 xícara de iogurte natural',
-			'1/2 xícara de leite',
-			'Mel a gosto',
-		],
-		modoPreparo:
-			'Bata todos os ingredientes no liquidificador até obter uma textura homogênea.',
-		fotoReceita:
-			'https://claudia.abril.com.br/wp-content/uploads/2020/02/thinkstockphotos-839497302-1.jpg',
-		likes: '',
-		usuarioPostador: 'Maria Clara Fonseca',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/34.jpg',
-		tipoRefeicao: 'Lanche',
-	},
-	{
-		id: 104,
-		nome: 'Trufa de Chocolate com Licor',
-		ingredientes: [
-			'200g de chocolate amargo',
-			'1/4 xícara de creme de leite',
-			'1 colher de sopa de licor de chocolate',
-			'Cacau em pó para polvilhar',
-		],
-		modoPreparo:
-			'Derreta o chocolate, misture com o creme de leite e licor. Molde em bolinhas e passe no cacau em pó.',
-		fotoReceita:
-			'https://www.acidadeon.com/tudoep/wp-content/uploads/sites/10/2023/12/trufas_com_1200x675_15122023152935.jpg',
-		likes: '',
-		usuarioPostador: 'Cecília Ramos',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/35.jpg',
-		tipoRefeicao: 'Sobremesa',
-	},
-	{
-		id: 105,
-		nome: 'Panqueca de Aveia com Mel',
-		ingredientes: [
-			'1 xícara de aveia',
-			'1 xícara de leite',
-			'1 ovo',
-			'Mel para servir',
-		],
-		modoPreparo:
-			'Bata os ingredientes e cozinhe a massa em uma frigideira. Sirva com mel.',
-		fotoReceita:
-			'https://fernandamello.org/wp-content/uploads/2015/02/IMG_8268.jpg',
-		likes: '',
-		usuarioPostador: 'Eduardo Lima',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/36.jpg',
-		tipoRefeicao: 'Lanche',
-	},
-	{
-		id: 106,
-		nome: 'Sorvete de Manga Caseiro',
-		ingredientes: [
-			'2 mangas maduras',
-			'1 xícara de creme de leite',
-			'1/4 xícara de açúcar',
-			'Suco de meio limão',
-		],
-		modoPreparo:
-			'Bata as mangas com o creme de leite, açúcar e suco de limão. Congele por 4 horas antes de servir.',
-		fotoReceita: 'https://i.ytimg.com/vi/ENOxagl0Naw/maxresdefault.jpg',
-		likes: '',
-		usuarioPostador: 'Camila Santos',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/37.jpg',
-		tipoRefeicao: 'Sobremesa',
-	},
-	{
-		id: 107,
-		nome: 'Brownie de Café',
-		ingredientes: [
-			'200g de chocolate meio amargo',
-			'1/2 xícara de manteiga',
-			'1/2 xícara de café forte',
-			'1 xícara de açúcar',
-			'1 xícara de farinha de trigo',
-		],
-		modoPreparo:
-			'Derreta o chocolate e a manteiga, adicione o café e misture com o açúcar e a farinha. Asse por 25 minutos.',
-		fotoReceita:
-			'https://cooknenjoy.com/wp-content/uploads/2022/07/Brownie-Cafe-01-1920x1442.jpg',
-		likes: '',
-		usuarioPostador: 'Mariana Costa',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/38.jpg',
 		tipoRefeicao: 'Sobremesa',
 	},
 ];
