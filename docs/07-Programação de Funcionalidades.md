@@ -18,7 +18,7 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 |RF-008| O sistema deve ter uma função de salvar as receitas|  |  |
 |RF-009| O sistema deve ter um algoritimo de recomendação com base no que cada cliente pesquisa com frequência|  |  |
 |RF-010| O sistema deve conter um mecanismo de tags, para facilitar as buscas|  |  |
-|RF-011| O sistema deve ter uma pré apresentação da receita passando pelo feed|  |  |
+|RF-011| O sistema deve ter uma pré apresentação da receita passando pelo feed| ReceitaCard | Rodrigo |
 
 
 
