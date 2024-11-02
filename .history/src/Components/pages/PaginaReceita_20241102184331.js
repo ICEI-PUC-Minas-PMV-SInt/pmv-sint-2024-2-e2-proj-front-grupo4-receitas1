@@ -73,10 +73,7 @@ const PaginaReceita = () => {
 						{/* Exibe o bloco de comentários se comentariosVisiveis for true */}
 						{comentariosVisiveis && (
 							<div className={styles.comentarios}>
-								<Comentarios
-									receitaId={receita.id}
-									className={styles.comentariosPersonalizados}
-								/>
+								<Comentarios receitaId={receita.id} />
 							</div>
 						)}
 					</div>

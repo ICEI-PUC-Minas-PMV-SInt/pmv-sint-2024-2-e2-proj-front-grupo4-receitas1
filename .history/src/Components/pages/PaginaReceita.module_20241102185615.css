@@ -1,8 +1,4 @@
-/**
- * PaginaReceita.module.css
- *
- * @format
- */
+/** @format */
 
 .paginaReceita {
 	display: flex;
@@ -69,7 +65,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 900px;
+	width: 900px; /* Alinha com a largura da imagem */
 	margin-top: 2rem;
 }
 
@@ -84,17 +80,17 @@
 
 .receitaInfo ul {
 	width: 100%;
-	padding-left: 40px;
+	padding-left: 40px; /* Aumenta o espaço à esquerda para os itens da lista */
 	margin: 0;
 	list-style-position: inside;
 }
 
 .receitaInfo ul li {
-	margin-bottom: 0.5rem;
+	margin-bottom: 0.5rem; /* Espaço entre os itens */
 }
 
 .receitaInfo ul li:last-child {
-	margin-bottom: 1.5rem;
+	margin-bottom: 1.5rem; /* Espaço maior após o último ingrediente */
 }
 
 .receitaInfo p {
@@ -131,19 +127,17 @@
 }
 
 .comentarios {
-	width: 900px; /* Largura fixa para o bloco */
-	margin: 2rem auto; /* Centraliza o bloco horizontalmente */
-	display: flex;
-	flex-direction: column;
-	/* margin-left: 10%; */
+	width: 900px;
+	margin-top: 2rem;
+	background-color: #f9f9f9; /* Opcional: Fundo sutil para destacar a seção */
+	border-radius: 8px;
+	padding: 1.5rem;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
 }
 
 .comentariosPersonalizados {
-	min-width: 70%;
-	/* margin: 20px auto; */
-	padding: 60px;
-	border: 1px solid #ddd;
-	border-radius: 20px;
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-	align-self: center;
+	width: 900px;
+	margin-top: 2rem;
+	background-color: black;
+	align-items: center;
 }

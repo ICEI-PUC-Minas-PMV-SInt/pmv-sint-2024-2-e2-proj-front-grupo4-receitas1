@@ -137,13 +137,3 @@
 	flex-direction: column;
 	/* margin-left: 10%; */
 }
-
-.comentariosPersonalizados {
-	min-width: 70%;
-	/* margin: 20px auto; */
-	padding: 60px;
-	border: 1px solid #ddd;
-	border-radius: 20px;
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-	align-self: center;
-}

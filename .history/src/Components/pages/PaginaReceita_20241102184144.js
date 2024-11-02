@@ -70,15 +70,6 @@ const PaginaReceita = () => {
 							<SaveIcon />
 							<ShareIcon />
 						</div>
-						{/* Exibe o bloco de comentários se comentariosVisiveis for true */}
-						{comentariosVisiveis && (
-							<div className={styles.comentarios}>
-								<Comentarios
-									receitaId={receita.id}
-									className={styles.comentariosPersonalizados}
-								/>
-							</div>
-						)}
 					</div>
 					<div className={styles.receitaInfo}>
 						<h3>Ingredientes</h3>
@@ -91,6 +82,13 @@ const PaginaReceita = () => {
 						<p>{receita.modoPreparo}</p>
 					</div>
 				</div>
+
+				{/* Exibe o bloco de comentários se comentariosVisiveis for true */}
+				{comentariosVisiveis && (
+					<div className={styles.comentarios}>
+						<Comentarios receitaId={receita.id} />
+					</div>
+				)}
 
 				<div className={styles.receitasRecomendadas}>
 					<h3 className={styles.recomendacoesTitulo}>Receitas Recomendadas</h3>
