@@ -7,8 +7,8 @@ import ReceitaCard from '../ReceitaCard.js';
 import styles from './PaginaReceita.module.css';
 import Breadcrumbs from '../Breadcrumbs.js';
 import UsuarioPostador from '../UsuarioPostador.js';
-import { SaveIcon } from '../SaveIcon.js';
-import { ShareIcon } from '../ShareIcon.js';
+import SaveIcon from '../SaveIcon.js';
+import ShareIcon from '../ShareIcon.js';
 import { LikeIcon } from '../LikeIcon.js';
 import { CommentIcon } from '../CommentIcon.js';
 
@@ -58,20 +58,27 @@ const PaginaReceita = () => {
 						</div>
 						<img src={receita.fotoReceita} alt={`Receita de ${receita.nome}`} />
 						<div className={styles.botoes}>
-							<LikeIcon />
-							<CommentIcon />
-							<SaveIcon />
-							<ShareIcon />
+							<button className={styles.likeBtn}>Like</button>
+							<button
+								className={styles.comentariosBtn}
+								onClick={() => {
+									/* abre comentários */
+								}}
+							>
+								Comentários
+							</button>
+							<button className={styles.salvarBtn}>Salvar</button>
+							<button className={styles.compartilharBtn}>Compartilhar</button>
 						</div>
 					</div>
 					<div className={styles.receitaInfo}>
-						<h3>Ingredientes</h3>
+						<h3>Ingredientes:</h3>
 						<ul>
 							{receita.ingredientes.map((ingrediente, index) => (
 								<li key={index}>{ingrediente}</li>
 							))}
 						</ul>
-						<h3>Modo de Preparo</h3>
+						<h3>Modo de Preparo:</h3>
 						<p>{receita.modoPreparo}</p>
 					</div>
 				</div>

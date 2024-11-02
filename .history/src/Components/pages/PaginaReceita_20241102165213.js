@@ -58,20 +58,20 @@ const PaginaReceita = () => {
 						</div>
 						<img src={receita.fotoReceita} alt={`Receita de ${receita.nome}`} />
 						<div className={styles.botoes}>
-							<LikeIcon />
+							<button className={styles.likeBtn}>Like</button>
 							<CommentIcon />
 							<SaveIcon />
 							<ShareIcon />
 						</div>
 					</div>
 					<div className={styles.receitaInfo}>
-						<h3>Ingredientes</h3>
+						<h3>Ingredientes:</h3>
 						<ul>
 							{receita.ingredientes.map((ingrediente, index) => (
 								<li key={index}>{ingrediente}</li>
 							))}
 						</ul>
-						<h3>Modo de Preparo</h3>
+						<h3>Modo de Preparo:</h3>
 						<p>{receita.modoPreparo}</p>
 					</div>
 				</div>

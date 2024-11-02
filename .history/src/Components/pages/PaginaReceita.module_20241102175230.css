@@ -10,7 +10,7 @@
 	flex: 2;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: center; /* Centraliza o conteúdo */
 }
 
 .receitaImagemBotoes {
@@ -61,6 +61,7 @@
 	gap: 1rem;
 }
 
+/* Ajuste do container para o conteúdo da receita */
 .receitaInfo {
 	display: flex;
 	flex-direction: column;
@@ -73,30 +74,16 @@
 	background-color: whitesmoke;
 	color: #3c3c3c;
 	padding: 10px 20px;
-	width: 100%;
+	width: 100%; /* Ocupa toda a largura do container */
 	text-align: left;
-	margin: 0 0 1rem 0;
+	margin: 0 0 1rem 0; /* Margem inferior para separar os itens */
 }
 
-.receitaInfo ul {
-	width: 100%;
-	padding-left: 40px; /* Aumenta o espaço à esquerda para os itens da lista */
-	margin: 0;
-	list-style-position: inside;
-}
-
-.receitaInfo ul li {
-	margin-bottom: 0.5rem; /* Espaço entre os itens */
-}
-
-.receitaInfo ul li:last-child {
-	margin-bottom: 1.5rem; /* Espaço maior após o último ingrediente */
-}
-
+.receitaInfo ul,
 .receitaInfo p {
-	width: 100%;
-	padding-left: 40px;
-	margin: 0;
+	width: 100%; /* Ocupa toda a largura do container */
+	padding-left: 20px; /* Recuo para alinhar com o título */
+	margin: 0; /* Remove margens adicionais */
 }
 
 .receitasRecomendadas {

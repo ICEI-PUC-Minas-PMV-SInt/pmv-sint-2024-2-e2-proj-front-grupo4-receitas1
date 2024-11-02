@@ -65,13 +65,13 @@ const PaginaReceita = () => {
 						</div>
 					</div>
 					<div className={styles.receitaInfo}>
-						<h3>Ingredientes</h3>
+						<h3>Ingredientes:</h3>
 						<ul>
 							{receita.ingredientes.map((ingrediente, index) => (
 								<li key={index}>{ingrediente}</li>
 							))}
 						</ul>
-						<h3>Modo de Preparo</h3>
+						<h3>Modo de Preparo:</h3>
 						<p>{receita.modoPreparo}</p>
 					</div>
 				</div>
