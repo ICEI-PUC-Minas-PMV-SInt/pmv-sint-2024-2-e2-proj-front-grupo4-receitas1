@@ -16,7 +16,6 @@ import ScrollToTop from './Components/ScrollToTop.js';
 function App() {
 	return (
 		<Router>
-			<ScrollToTop />
 			<Navbar receitas={receitas} /> {/* Passa as receitas para o Navbar */}
 			<Container customClass='min-height'>
 				<Routes>

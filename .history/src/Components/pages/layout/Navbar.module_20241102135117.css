@@ -2,23 +2,34 @@
 
 .navbar {
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
 	align-items: center;
 	background: linear-gradient(90deg, #f7e3b4, #d4a373);
 	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-	padding: 15px 40px;
-	width: 100%;
+	padding: 15px 0;
+	width: 100vw;
 }
 
 .navbarContent {
 	display: flex;
 	align-items: center;
-	gap: 80px;
+	width: 100%;
+	max-width: 1200px;
+	padding: 0 40px;
 }
 
 .logo {
 	width: 80%;
 	max-width: 120px;
+	margin-right: auto; /* Adiciona margem automática para empurrar a logo para a esquerda */
+}
+
+.searchBarContainer {
+	flex-grow: 1; /* Permite que a barra de pesquisa ocupe o espaço central */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 20px;
 }
 
 .list {

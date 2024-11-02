@@ -11,14 +11,12 @@ import Container from './Components/pages/layout/Container';
 import Navbar from './Components/pages/layout/Navbar';
 import { receitas } from './utils/receitas'; // Caminho correto para receitas
 import PaginaReceita from './Components/pages/PaginaReceita.js';
-import ScrollToTop from './Components/ScrollToTop.js';
 
 function App() {
 	return (
 		<Router>
-			<ScrollToTop />
-			<Navbar receitas={receitas} /> {/* Passa as receitas para o Navbar */}
 			<Container customClass='min-height'>
+				<Navbar receitas={receitas} /> {/* Passa as receitas para o Navbar */}
 				<Routes>
 					<Route path='/' element={<Inicio />} />
 					<Route path='/cafedamanha' element={<CafedaManha />} />
