@@ -1,0 +1,68 @@
+/**
+ * PaginaReceita.module.css
+ *
+ * @format
+ */
+
+.paginaReceita {
+	display: flex;
+	gap: 2rem;
+	margin: 2rem;
+}
+
+.receitaConteudo {
+	flex: 2;
+}
+
+.receitaImagemBotoes {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	align-items: center;
+}
+
+.receitaImagemBotoes > img {
+	width: 900px;
+	height: 593px;
+	border-radius: 1rem;
+	object-fit: cover; /* Certifica que a imagem preencha o container */
+}
+
+.receitaImagemBotoes > p {
+	font-size: 28px;
+	font-family: 'Poppins', sans-serif; /* Altere para sua fonte preferida */
+	font-weight: 600;
+	color: #333; /* Cor do título */
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.8); /* Fundo branco translúcido */
+	padding: 10px 20px; /* Espaçamento interno */
+	/* margin-top: -60px; Posiciona o título colado com a imagem */
+	width: fit-content; /* Ajusta a largura ao conteúdo */
+	border-radius: 15px; /* Borda arredondada para suavidade */
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Sombra sutil para dar destaque */
+}
+
+.botoes {
+	display: flex;
+	gap: 1rem;
+}
+
+.likeBtn,
+.comentariosBtn,
+.salvarBtn,
+.compartilharBtn {
+	padding: 0.5rem 1rem;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+.receitaInfo {
+	margin-top: 2rem;
+}
+
+.receitasRecomendadas {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}

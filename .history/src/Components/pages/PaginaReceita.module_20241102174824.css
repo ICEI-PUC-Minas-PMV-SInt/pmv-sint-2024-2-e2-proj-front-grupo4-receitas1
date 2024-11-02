@@ -1,0 +1,130 @@
+/**
+ * PaginaReceita.module.css
+ *
+ * @format
+ */
+
+.paginaReceita {
+	display: flex;
+	gap: 2rem;
+	margin: 2rem;
+}
+
+.receitaConteudo {
+	flex: 2;
+}
+
+.receitaImagemBotoes {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	align-items: center;
+}
+
+.receitaImagemBotoes > img {
+	width: 900px;
+	height: 593px;
+	border-radius: 1rem;
+	object-fit: cover; /* Certifica que a imagem preencha o container */
+}
+
+.nomeReceitaEUsuarioPostador {
+	display: flex;
+	justify-content: space-around;
+	width: 74%;
+}
+
+.usuarioPostadorPgReceita > img {
+	width: 50px;
+}
+
+.usuarioPostadorPgReceita > p {
+	font-size: 18px;
+}
+
+.nomeReceitaEUsuarioPostador > p {
+	font-size: 2rem;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	background: linear-gradient(
+		45deg,
+		#ff7e5f,
+		#feb47b
+	); /* Gradiente semelhante ao das recomendações */
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	padding: 10px 20px;
+	letter-spacing: 1px;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra para destaque */
+	margin: 0; /* Remove qualquer margem extra */
+}
+
+.botoes {
+	display: flex;
+	gap: 1rem;
+}
+
+.likeBtn,
+.comentariosBtn,
+.salvarBtn,
+.compartilharBtn {
+	padding: 0.5rem 1rem;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+.receitaInfo {
+	margin-top: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 900px;
+	margin-left: 13%;
+}
+
+.receitaInfo > ul {
+	align-self: self-start;
+	margin-left: 12%;
+}
+
+.receitaInfo > p {
+	align-self: self-start;
+	margin-left: 12%;
+	max-width: fit-content;
+}
+
+.receitaInfo > h3 {
+	background-color: whitesmoke;
+	color: #3c3c3c;
+	width: 90%;
+	padding: 10px 20px;
+}
+
+.receitasRecomendadas {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.recomendacoesTitulo {
+	font-size: 1.8rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: linear-gradient(45deg, #ff7e5f, #feb47b);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-align: center;
+	margin: 20px 0;
+	letter-spacing: 1px;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.recomendacoesLista {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+	justify-content: center;
+}

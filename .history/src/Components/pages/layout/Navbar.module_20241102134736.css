@@ -1,0 +1,51 @@
+/** @format */
+
+.navbar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: linear-gradient(90deg, #f7e3b4, #d4a373);
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+	padding: 15px 0; /* remove padding lateral e adicione espaçamento em cima e embaixo */
+	width: 100vw; /* Garante largura total da viewport */
+}
+
+.navbarContent {
+	display: flex;
+	align-items: center;
+	gap: 80px;
+	width: 100%;
+	max-width: 1200px; /* Centraliza o conteúdo sem limitar o navbar */
+	padding: 0 40px; /* Adiciona espaço nas laterais */
+}
+
+.logo {
+	width: 80%;
+	max-width: 120px;
+}
+
+.list {
+	display: flex;
+	list-style: none;
+	align-items: center;
+	margin: 0;
+}
+
+.item {
+	flex-grow: 1;
+	text-align: center;
+}
+
+.item a {
+	color: #333;
+	text-decoration: none;
+	display: block;
+	padding: 10px 30px;
+	border-radius: 5px;
+	transition: background 0.3s, color 0.3s;
+}
+
+.item a:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+	color: #000;
+}

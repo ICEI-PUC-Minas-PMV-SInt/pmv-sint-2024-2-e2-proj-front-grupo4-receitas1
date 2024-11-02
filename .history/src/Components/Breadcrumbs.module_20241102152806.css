@@ -1,0 +1,35 @@
+/** @format */
+
+.breadcrumbs {
+	display: flex;
+	align-items: center;
+	font-size: 1rem;
+	color: #555;
+	font-family: 'Poppins', sans-serif;
+	justify-content: flex-start;
+	padding-top: 10px;
+	padding-left: 50px;
+}
+
+.link {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color: #007bff;
+	font-weight: 500;
+	transition: color 0.3s ease;
+}
+
+.link:hover {
+	color: #0056b3;
+}
+
+.chevron {
+	margin: 0 8px;
+	color: #aaa;
+}
+
+.receitaNome {
+	color: #333;
+	font-weight: bold;
+}
