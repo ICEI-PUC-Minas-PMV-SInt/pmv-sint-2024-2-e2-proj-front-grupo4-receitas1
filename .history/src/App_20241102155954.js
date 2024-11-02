@@ -21,8 +21,8 @@ function App() {
 			<Container customClass='min-height'>
 				<Routes>
 					<Route path='/' element={<Inicio />} />
-					<Route path='/cafedamanha' element={<CafedaManha />} />
-					<Route path='/almoco' element={<Almoco />} />
+					<Route path='/café da manhã' element={<CafedaManha />} />
+					<Route path='/almoço' element={<Almoco />} />
 					<Route path='/jantar' element={<Jantar />} />
 					<Route path='/sobremesa' element={<Sobremesa />} />
 					<Route path='/lanche' element={<Lanche />} />

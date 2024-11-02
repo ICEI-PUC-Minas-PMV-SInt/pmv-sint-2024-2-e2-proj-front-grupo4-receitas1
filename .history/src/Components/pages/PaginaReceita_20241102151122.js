@@ -35,51 +35,50 @@ const PaginaReceita = () => {
 	}
 
 	return (
-		<>
+		<div className={styles.paginaReceita}>
 			<Breadcrumbs
 				categoria={receita.tipoRefeicao}
 				receitaNome={receita.nome}
 			/>
-			<div className={styles.paginaReceita}>
-				<div className={styles.receitaConteudo}>
-					<div className={styles.receitaImagemBotoes}>
-						<p className={styles.receitaNome}>{receita.nome}</p>
-						<img src={receita.fotoReceita} alt={`Receita de ${receita.nome}`} />
-						<div className={styles.botoes}>
-							<button className={styles.likeBtn}>Like</button>
-							<button
-								className={styles.comentariosBtn}
-								onClick={() => {
-									/* abre comentários */
-								}}
-							>
-								Comentários
-							</button>
-							<button className={styles.salvarBtn}>Salvar</button>
-							<button className={styles.compartilharBtn}>Compartilhar</button>
-						</div>
-					</div>
-					<div className={styles.receitaInfo}>
-						<h3>Ingredientes:</h3>
-						<ul>
-							{receita.ingredientes.map((ingrediente, index) => (
-								<li key={index}>{ingrediente}</li>
-							))}
-						</ul>
-						<h3>Modo de Preparo:</h3>
-						<p>{receita.modoPreparo}</p>
+
+			<div className={styles.receitaConteudo}>
+				<div className={styles.receitaImagemBotoes}>
+					<p className={styles.receitaNome}>{receita.nome}</p>
+					<img src={receita.fotoReceita} alt={`Receita de ${receita.nome}`} />
+					<div className={styles.botoes}>
+						<button className={styles.likeBtn}>Like</button>
+						<button
+							className={styles.comentariosBtn}
+							onClick={() => {
+								/* abre comentários */
+							}}
+						>
+							Comentários
+						</button>
+						<button className={styles.salvarBtn}>Salvar</button>
+						<button className={styles.compartilharBtn}>Compartilhar</button>
 					</div>
 				</div>
-				<div className={styles.receitasRecomendadas}>
-					<h3 className={styles.recomendacoesTitulo}>Receitas Recomendadas</h3>
-					<div className={styles.recomendacoesLista}>
-						{receitasRecomendadas.map(recomendada => (
-							<ReceitaCard key={recomendada.id} {...recomendada} />
+				<div className={styles.receitaInfo}>
+					<h3>Ingredientes:</h3>
+					<ul>
+						{receita.ingredientes.map((ingrediente, index) => (
+							<li key={index}>{ingrediente}</li>
 						))}
-					</div>
+					</ul>
+					<h3>Modo de Preparo:</h3>
+					<p>{receita.modoPreparo}</p>
 				</div>
 			</div>
-		</>
+			<div className={styles.receitasRecomendadas}>
+				<h3 className={styles.recomendacoesTitulo}>Receitas Recomendadas</h3>
+				<div className={styles.recomendacoesLista}>
+					{receitasRecomendadas.map(recomendada => (
+						<ReceitaCard key={recomendada.id} {...recomendada} />
+					))}
+				</div>
+			</div>
+		</div>
 	);
 };
 
