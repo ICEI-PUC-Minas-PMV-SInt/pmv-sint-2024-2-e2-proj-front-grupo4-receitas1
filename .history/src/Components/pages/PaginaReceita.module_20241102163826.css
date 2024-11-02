@@ -35,11 +35,7 @@
 }
 
 .usuarioPostadorPgReceita > img {
-	width: 50px;
-}
-
-.usuarioPostadorPgReceita > p {
-	font-size: 18px;
+	width: 100px;
 }
 
 .nomeReceitaEUsuarioPostador > p {

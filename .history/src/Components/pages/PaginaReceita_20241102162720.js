@@ -47,7 +47,6 @@ const PaginaReceita = () => {
 						<div className={styles.nomeReceitaEUsuarioPostador}>
 							<p className={styles.receitaNome}>{receita.nome}</p>
 							<UsuarioPostador
-								className={styles.usuarioPostadorPgReceita}
 								fotoUsuarioPostador={receita.fotoUsuarioPostador}
 								usuarioPostador={receita.usuarioPostador}
 							/>

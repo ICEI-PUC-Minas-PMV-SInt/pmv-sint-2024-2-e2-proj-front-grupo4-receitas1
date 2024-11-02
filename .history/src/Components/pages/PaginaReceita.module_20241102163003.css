@@ -30,16 +30,8 @@
 
 .nomeReceitaEUsuarioPostador {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	width: 74%;
-}
-
-.usuarioPostadorPgReceita > img {
-	width: 50px;
-}
-
-.usuarioPostadorPgReceita > p {
-	font-size: 18px;
 }
 
 .nomeReceitaEUsuarioPostador > p {
@@ -47,7 +39,7 @@
 	font-family: 'Poppins', sans-serif;
 	font-weight: bold;
 	text-transform: uppercase;
-	text-align: center;
+	/* text-align: center; */
 	background: linear-gradient(
 		45deg,
 		#ff7e5f,

@@ -30,16 +30,8 @@
 
 .nomeReceitaEUsuarioPostador {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	width: 74%;
-}
-
-.usuarioPostadorPgReceita > img {
-	width: 50px;
-}
-
-.usuarioPostadorPgReceita > p {
-	font-size: 18px;
 }
 
 .nomeReceitaEUsuarioPostador > p {
