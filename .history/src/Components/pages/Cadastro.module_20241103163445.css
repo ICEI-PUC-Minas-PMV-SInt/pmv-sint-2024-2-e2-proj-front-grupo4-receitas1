@@ -1,0 +1,102 @@
+/** @format */
+
+.cadastroContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background: linear-gradient(
+		135deg,
+		#f7e3b4,
+		#d4a373
+	); /* Gradiente suave como o navbar */
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.logo {
+	width: 150px;
+	margin-bottom: 25px;
+}
+
+.titulo {
+	font-size: 2.4rem;
+	font-weight: 700;
+	color: #333;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.formContainer {
+	width: 100%;
+	max-width: 400px;
+	background: #fff;
+	padding: 40px 30px;
+	border-radius: 12px;
+	box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.input {
+	width: 100%;
+	padding: 12px;
+	border-radius: 10px;
+	border: 1px solid #d4a373; /* Cor dourada suave para as bordas */
+	background-color: #f7e3b4;
+	color: #333;
+	font-size: 1rem;
+	transition: all 0.3s ease;
+}
+
+.input::placeholder {
+	color: #666;
+}
+
+.input:focus {
+	border-color: #d4a373; /* Dourado mais forte no foco */
+	outline: none;
+	box-shadow: 0 0 5px rgba(212, 163, 115, 0.3); /* Efeito de foco dourado suave */
+}
+
+.fileInput {
+	padding: 10px;
+	border: none;
+	background: #d4a373; /* Fundo dourado suave */
+	border-radius: 10px;
+	font-size: 1rem;
+	color: #333;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.fileInput:hover {
+	background: #f7e3b4; /* Hover com cor mais clara */
+}
+
+.button {
+	padding: 14px;
+	font-size: 1rem;
+	font-weight: 600;
+	color: #fff;
+	background-color: #d4a373;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	box-shadow: 0px 4px 10px rgba(212, 163, 115, 0.2);
+}
+
+.button:hover {
+	background-color: #c2975b; /* Tom dourado mais intenso */
+	box-shadow: 0px 6px 12px rgba(212, 163, 115, 0.4); /* Sombra mais intensa no hover */
+}
+
+.button:active {
+	background-color: #b2824f;
+	box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.3); /* Efeito de pressionado */
+}

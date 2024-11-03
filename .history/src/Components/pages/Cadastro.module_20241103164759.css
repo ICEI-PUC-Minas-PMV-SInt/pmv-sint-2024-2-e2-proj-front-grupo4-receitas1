@@ -1,0 +1,80 @@
+/**
+ * src/components/SignUp.module.css
+ *
+ * @format
+ */
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: linear-gradient(90deg, #f7e3b4, #d4a373);
+}
+
+.form {
+	background-color: rgba(0, 0, 0, 0.1);
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	padding: 2rem;
+	width: 100%;
+	max-width: 400px;
+	color: #000;
+}
+
+.title {
+	text-align: center;
+	font-size: 1.8rem;
+	margin-bottom: 1.5rem;
+	color: #000;
+}
+
+.message {
+	text-align: center;
+	font-size: 1rem;
+	color: #4caf50; /* Cor de confirmação */
+	margin-bottom: 1rem;
+}
+
+.inputGroup {
+	margin-bottom: 1rem;
+}
+
+.label {
+	display: block;
+	margin-bottom: 0.5rem;
+	font-size: 0.9rem;
+	color: #000;
+}
+
+.input {
+	width: 100%;
+	padding: 0.8rem;
+	border: 1px solid #d4a373;
+	border-radius: 5px;
+	background-color: #fff;
+	color: #000;
+	font-size: 1rem;
+}
+
+.input:focus {
+	outline: none;
+	border-color: #a45d3d;
+	box-shadow: 0 0 5px rgba(164, 93, 61, 0.5);
+}
+
+.button {
+	width: 100%;
+	padding: 0.8rem;
+	border: none;
+	border-radius: 5px;
+	background-color: #a45d3d;
+	color: #fff;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.button:hover {
+	background-color: #8a492d;
+}

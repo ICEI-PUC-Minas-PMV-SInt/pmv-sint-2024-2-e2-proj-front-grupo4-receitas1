@@ -31,11 +31,6 @@ const Cadastro = () => {
 		}, 2000);
 	};
 
-	// Função para redirecionar para a página de login
-	const redirectToLogin = () => {
-		navigate('/login');
-	};
-
 	return (
 		<div className={styles.containerGeralLogoETela}>
 			<div className={styles.containerLogo}>
@@ -90,12 +85,6 @@ const Cadastro = () => {
 					<button type='submit' className={styles.button}>
 						Cadastrar
 					</button>
-					<p className={styles.signupPrompt}>
-						Já possui uma conta?
-						<span className={styles.signupLink} onClick={redirectToLogin}>
-							Faça login
-						</span>
-					</p>
 				</form>
 			</div>
 		</div>

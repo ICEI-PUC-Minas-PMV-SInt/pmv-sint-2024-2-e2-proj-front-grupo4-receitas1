@@ -1,13 +1,13 @@
 /** @format */
 
+// src/components/Login.jsx
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import styles from './Cadastro.module.css';
 import logo from '../../img/logo.png';
 
-const Cadastro = () => {
+const Login = () => {
 	const [formData, setFormData] = useState({
-		name: '',
 		email: '',
 		password: '',
 	});
@@ -21,19 +21,27 @@ const Cadastro = () => {
 
 	const handleSubmit = e => {
 		e.preventDefault();
-		localStorage.setItem('user', JSON.stringify(formData));
-		setMessage('Cadastro realizado com sucesso!');
-		setFormData({ name: '', email: '', password: '' });
+		const savedUser = JSON.parse(localStorage.getItem('user'));
 
-		// Redireciona após 2 segundos
-		setTimeout(() => {
-			navigate('/login');
-		}, 2000);
+		// Valida os dados de login com os dados salvos no localStorage
+		if (
+			savedUser &&
+			savedUser.email === formData.email &&
+			savedUser.password === formData.password
+		) {
+			setMessage('Login realizado com sucesso!');
+			setTimeout(() => {
+				// Redireciona para a página inicial
+				navigate('/');
+			}, 1000);
+		} else {
+			setMessage('Email ou senha incorretos.');
+		}
 	};
 
-	// Função para redirecionar para a página de login
-	const redirectToLogin = () => {
-		navigate('/login');
+	// Função para redirecionar para a página de cadastro
+	const redirectToCadastro = () => {
+		navigate('/cadastro');
 	};
 
 	return (
@@ -43,22 +51,8 @@ const Cadastro = () => {
 			</div>
 			<div className={styles.container}>
 				<form className={styles.form} onSubmit={handleSubmit}>
-					<h2 className={styles.title}>Cadastro</h2>
+					<h2 className={styles.title}>Login</h2>
 					{message && <p className={styles.message}>{message}</p>}
-					<div className={styles.inputGroup}>
-						<label htmlFor='name' className={styles.label}>
-							Nome
-						</label>
-						<input
-							type='text'
-							id='name'
-							name='name'
-							className={styles.input}
-							value={formData.name}
-							onChange={handleChange}
-							required
-						/>
-					</div>
 					<div className={styles.inputGroup}>
 						<label htmlFor='email' className={styles.label}>
 							Email
@@ -88,12 +82,12 @@ const Cadastro = () => {
 						/>
 					</div>
 					<button type='submit' className={styles.button}>
-						Cadastrar
+						Entrar
 					</button>
 					<p className={styles.signupPrompt}>
-						Já possui uma conta?
-						<span className={styles.signupLink} onClick={redirectToLogin}>
-							Faça login
+						Ainda não tem conta?{' '}
+						<span className={styles.signupLink} onClick={redirectToCadastro}>
+							Cadastre-se
 						</span>
 					</p>
 				</form>
@@ -102,4 +96,4 @@ const Cadastro = () => {
 	);
 };
 
-export default Cadastro;
+export default Login;

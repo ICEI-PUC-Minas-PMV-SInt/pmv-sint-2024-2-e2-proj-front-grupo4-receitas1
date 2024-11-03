@@ -25,15 +25,10 @@ const Cadastro = () => {
 		setMessage('Cadastro realizado com sucesso!');
 		setFormData({ name: '', email: '', password: '' });
 
-		// Redireciona após 2 segundos
+		// Redireciona após 3 segundos
 		setTimeout(() => {
 			navigate('/login');
-		}, 2000);
-	};
-
-	// Função para redirecionar para a página de login
-	const redirectToLogin = () => {
-		navigate('/login');
+		}, 3000);
 	};
 
 	return (
@@ -90,12 +85,6 @@ const Cadastro = () => {
 					<button type='submit' className={styles.button}>
 						Cadastrar
 					</button>
-					<p className={styles.signupPrompt}>
-						Já possui uma conta?
-						<span className={styles.signupLink} onClick={redirectToLogin}>
-							Faça login
-						</span>
-					</p>
 				</form>
 			</div>
 		</div>

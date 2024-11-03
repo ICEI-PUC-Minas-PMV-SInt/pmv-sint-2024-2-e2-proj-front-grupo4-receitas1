@@ -1,0 +1,136 @@
+/**
+ * src/components/Cadastro.module.css
+ *
+ * @format
+ */
+
+.containerGeralLogoETela {
+	display: flex;
+}
+
+.containerLogo {
+	flex: 1;
+	background: linear-gradient(90deg, #f7e3b4, #d4a373);
+	display: flex;
+	justify-content: center;
+	padding-top: 12rem;
+}
+
+.containerLogo img {
+	max-width: 200px;
+	height: 200px;
+}
+
+/* Background com galeria de imagens */
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	flex: 5;
+	background: url('https://blog.livup.com.br/wp-content/uploads/2020/03/cozinha-terapeutica.jpg')
+		center/cover no-repeat;
+	background-blend-mode: darken;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	color: #f0f0f0;
+	overflow: hidden;
+}
+
+/* Overlay escura para melhorar a legibilidade */
+.container::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 1;
+}
+
+/* Ajustes no formulário */
+.form {
+	background-color: rgba(51, 51, 51, 0.9); /* Fundo semi-transparente */
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	padding: 2rem;
+	width: 100%;
+	max-width: 400px;
+	color: #f0f0f0;
+	z-index: 2;
+}
+
+.title {
+	text-align: center;
+	font-size: 1.8rem;
+	margin-bottom: 1.5rem;
+	color: #f0f0f0;
+}
+
+.message {
+	text-align: center;
+	font-size: 1rem;
+	color: #4caf50;
+	margin-bottom: 1rem;
+}
+
+.inputGroup {
+	margin-bottom: 1rem;
+}
+
+.label {
+	display: block;
+	margin-bottom: 0.5rem;
+	font-size: 0.9rem;
+	color: #e0e0e0;
+}
+
+.input {
+	width: 94%;
+	padding: 0.8rem;
+	border: 1px solid #555555;
+	border-radius: 5px;
+	background-color: #222222;
+	color: #f0f0f0;
+	font-size: 1rem;
+}
+
+.input:focus {
+	outline: none;
+	border-color: #888888;
+	box-shadow: 0 0 5px rgba(136, 136, 136, 0.5);
+}
+
+.button {
+	width: 100%;
+	padding: 0.8rem;
+	border: none;
+	border-radius: 5px;
+	background-color: #888888;
+	color: #1a1a1a;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.button:hover {
+	background-color: #aaaaaa;
+}
+
+.signupPrompt {
+	display: flex;
+	justify-content: center;
+	gap: 5px;
+}
+
+.signupLink {
+	cursor: pointer;
+}
+
+.signupLink:hover {
+	color: #66bb6a;
+	text-decoration: underline;
+	transform: scale(1.05); /* Aumenta o tamanho ligeiramente */
+}

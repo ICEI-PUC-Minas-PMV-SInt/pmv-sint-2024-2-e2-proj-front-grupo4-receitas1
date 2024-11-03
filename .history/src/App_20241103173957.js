@@ -11,7 +11,6 @@ import PaginaReceita from './Components/pages/PaginaReceita.js';
 import ScrollToTop from './Components/ScrollToTop.js';
 import Cadastro from './Components/pages/Cadastro.js';
 import Layout from './Components/pages/layout/Layout.js';
-import Login from './Components/pages/Login.js';
 
 function App() {
 	return (
@@ -26,8 +25,8 @@ function App() {
 					<Route path='/sobremesa' element={<Sobremesa />} />
 					<Route path='/lanche' element={<Lanche />} />
 					<Route path='/receitas/:id' element={<PaginaReceita />} />
-					<Route path='/cadastro' element={<Cadastro />} />
-					<Route path='/login' element={<Login />} /> {/* Rota sem Navbar */}
+					<Route path='/cadastro' element={<Cadastro />} />{' '}
+					{/* Rota sem Navbar */}
 				</Routes>
 			</Layout>
 		</Router>

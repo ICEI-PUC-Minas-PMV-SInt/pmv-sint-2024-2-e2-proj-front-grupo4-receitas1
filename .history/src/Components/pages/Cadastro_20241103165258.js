@@ -1,9 +1,8 @@
 /** @format */
 
+// src/components/SignUp.jsx
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import styles from './Cadastro.module.css';
-import logo from '../../img/logo.png';
 
 const Cadastro = () => {
 	const [formData, setFormData] = useState({
@@ -12,7 +11,6 @@ const Cadastro = () => {
 		password: '',
 	});
 	const [message, setMessage] = useState('');
-	const navigate = useNavigate();
 
 	const handleChange = e => {
 		const { name, value } = e.target;
@@ -24,23 +22,10 @@ const Cadastro = () => {
 		localStorage.setItem('user', JSON.stringify(formData));
 		setMessage('Cadastro realizado com sucesso!');
 		setFormData({ name: '', email: '', password: '' });
-
-		// Redireciona após 2 segundos
-		setTimeout(() => {
-			navigate('/login');
-		}, 2000);
-	};
-
-	// Função para redirecionar para a página de login
-	const redirectToLogin = () => {
-		navigate('/login');
 	};
 
 	return (
-		<div className={styles.containerGeralLogoETela}>
-			<div className={styles.containerLogo}>
-				<img className={styles.logo} src={logo} alt='Logosabordomomento' />
-			</div>
+		<>
 			<div className={styles.container}>
 				<form className={styles.form} onSubmit={handleSubmit}>
 					<h2 className={styles.title}>Cadastro</h2>
@@ -90,15 +75,9 @@ const Cadastro = () => {
 					<button type='submit' className={styles.button}>
 						Cadastrar
 					</button>
-					<p className={styles.signupPrompt}>
-						Já possui uma conta?
-						<span className={styles.signupLink} onClick={redirectToLogin}>
-							Faça login
-						</span>
-					</p>
 				</form>
 			</div>
-		</div>
+		</>
 	);
 };
 
