@@ -95,10 +95,7 @@ function Navbar() {
 								className={styles.avatar}
 							/>
 							<div className={styles.welcomeMessage}>
-								<div>
-									<p>Bem-vindo(a), </p>
-									<p>{user.name}</p>
-								</div>
+								<p>Bem-vindo, {user.name}</p>
 								<button onClick={handleLogout} className={styles.logoutButton}>
 									Sair
 								</button>

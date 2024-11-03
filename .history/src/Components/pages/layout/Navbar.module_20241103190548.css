@@ -54,8 +54,7 @@
 	position: absolute;
 	right: 40px;
 	top: 20px;
-	margin-top: 2.8rem;
-	margin-right: 3rem;
+	margin-top: 2.5rem;
 }
 
 .authButtons {
@@ -85,7 +84,7 @@
 	color: #333;
 	flex-direction: column;
 	text-align: center;
-	padding-right: 5rem;
+	padding-right: 4rem;
 }
 
 .avatar {
@@ -94,7 +93,6 @@
 	border-radius: 50%;
 	border: 2px solid #d4a373;
 	object-fit: cover;
-	cursor: pointer;
 }
 
 .welcomeMessage {

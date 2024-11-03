@@ -94,7 +94,6 @@
 	border-radius: 50%;
 	border: 2px solid #d4a373;
 	object-fit: cover;
-	cursor: pointer;
 }
 
 .welcomeMessage {
