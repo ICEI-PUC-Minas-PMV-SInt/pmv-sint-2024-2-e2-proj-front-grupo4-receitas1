@@ -7,16 +7,19 @@ import Jantar from './Components/pages/Jantar';
 import Sobremesa from './Components/pages/Sobremesa';
 import Lanche from './Components/pages/Lanche';
 import Inicio from './Components/pages/Inicio';
+import Container from './Components/pages/layout/Container';
+import Navbar from './Components/pages/layout/Navbar';
+import { receitas } from './utils/receitas'; // Caminho correto para receitas
 import PaginaReceita from './Components/pages/PaginaReceita.js';
 import ScrollToTop from './Components/ScrollToTop.js';
 import Cadastro from './Components/pages/Cadastro.js';
-import Layout from './Components/pages/layout/Layout.js';
 
 function App() {
 	return (
 		<Router>
 			<ScrollToTop />
-			<Layout>
+			<Navbar receitas={receitas} /> {/* Passa as receitas para o Navbar */}
+			<Container customClass='min-height'>
 				<Routes>
 					<Route path='/' element={<Inicio />} />
 					<Route path='/cafedamanha' element={<CafedaManha />} />
@@ -25,12 +28,12 @@ function App() {
 					<Route path='/sobremesa' element={<Sobremesa />} />
 					<Route path='/lanche' element={<Lanche />} />
 					<Route path='/receitas/:id' element={<PaginaReceita />} />
-					<Route path='/cadastro' element={<Cadastro />} />{' '}
-					{/* Rota sem Navbar */}
 				</Routes>
-			</Layout>
+			</Container>
 		</Router>
 	);
 }
 
 export default App;
+
+<Route path='/cadastro' element={<Cadastro />} />;

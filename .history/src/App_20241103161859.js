@@ -10,7 +10,7 @@ import Inicio from './Components/pages/Inicio';
 import PaginaReceita from './Components/pages/PaginaReceita.js';
 import ScrollToTop from './Components/ScrollToTop.js';
 import Cadastro from './Components/pages/Cadastro.js';
-import Layout from './Components/pages/layout/Layout.js';
+import Layout from './Layout';
 
 function App() {
 	return (
