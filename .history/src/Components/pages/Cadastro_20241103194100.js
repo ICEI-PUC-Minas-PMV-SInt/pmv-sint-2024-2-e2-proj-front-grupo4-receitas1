@@ -101,13 +101,6 @@ const Cadastro = () => {
 							Faça login
 						</span>
 					</p>
-					<button
-						type='button'
-						onClick={handleSkip}
-						className={styles.skipButton}
-					>
-						Continuar sem uma conta
-					</button>
 				</form>
 			</div>
 		</div>
