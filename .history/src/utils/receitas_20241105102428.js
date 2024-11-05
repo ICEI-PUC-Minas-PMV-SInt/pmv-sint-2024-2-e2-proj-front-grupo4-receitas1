@@ -163,7 +163,7 @@ export const receitas = [
 		modoPreparo:
 			'Refogue o frango com cebola, alho e azeite. Adicione a farinha e o caldo de frango até formar uma massa. Modele as coxinhas, empane na farinha de rosca e frite em óleo quente até dourar.',
 		fotoReceita:
-			'https://static.itdg.com.br/images/1200-675/1dc3e596953e0d2e6bfff1b90fbcbb29/118911-original.jpg',
+			'https://salgadosparavender.com.br/wp-content/uploads/2024/05/coxinha-para-vender.jpg',
 		likes: '',
 		usuarioPostador: 'Julia Lima',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/8.jpg',

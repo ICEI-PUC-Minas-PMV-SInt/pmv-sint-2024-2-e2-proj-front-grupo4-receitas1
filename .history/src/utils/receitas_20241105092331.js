@@ -163,7 +163,7 @@ export const receitas = [
 		modoPreparo:
 			'Refogue o frango com cebola, alho e azeite. Adicione a farinha e o caldo de frango até formar uma massa. Modele as coxinhas, empane na farinha de rosca e frite em óleo quente até dourar.',
 		fotoReceita:
-			'https://static.itdg.com.br/images/1200-675/1dc3e596953e0d2e6bfff1b90fbcbb29/118911-original.jpg',
+			'https://salgadosparavender.com.br/wp-content/uploads/2024/05/coxinha-para-vender.jpg',
 		likes: '',
 		usuarioPostador: 'Julia Lima',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/8.jpg',
@@ -2070,7 +2070,7 @@ export const receitas = [
 		likes: '',
 		usuarioPostador: 'Lucas Oliveira',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/5.jpg',
-		tipoRefeicao: 'Café da Manhã',
+		tipoRefeicao: 'Café da manhã',
 		receitaFitness: true,
 		calorias: 250,
 	},
@@ -2087,11 +2087,11 @@ export const receitas = [
 		modoPreparo:
 			'Adicione todos os ingredientes no liquidificador e bata até ficar homogêneo. Sirva imediatamente.',
 		fotoReceita:
-			'https://glowchef.com/wp-content/uploads/2017/01/smoothie-detox-ananas.jpg',
+			'https://cdn.panelinha.com.br/receita/958014000000-Smoothie-verde.jpg',
 		likes: '',
 		usuarioPostador: 'Mariana Lima',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/6.jpg',
-		tipoRefeicao: 'Café da Manhã',
+		tipoRefeicao: 'Café da manhã',
 		receitaFitness: true,
 		calorias: 180,
 	},
@@ -2107,11 +2107,11 @@ export const receitas = [
 		modoPreparo:
 			'Misture a aveia e o leite em um pote. Adicione as frutas por cima e leve à geladeira durante a noite. De manhã, adicione o mel e aproveite.',
 		fotoReceita:
-			'https://www.peroladaterra.com/wp-content/uploads/2021/12/overnight-oats-de-frutas-vermelhas-pronto-1024x851.jpg',
+			'https://cdn.panelinha.com.br/receita/958014000000-overnight-oats.jpg',
 		likes: '',
 		usuarioPostador: 'Sofia Costa',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/7.jpg',
-		tipoRefeicao: 'Café da Manhã',
+		tipoRefeicao: 'Café da manhã',
 		receitaFitness: true,
 		calorias: 300,
 	},
@@ -2128,11 +2128,11 @@ export const receitas = [
 		modoPreparo:
 			'Misture todos os ingredientes até formar uma massa homogênea. Coloque em forminhas de muffin e asse a 180°C por 20 minutos.',
 		fotoReceita:
-			'https://receitadaboa.com.br/wp-content/uploads/2024/09/Muffins-de-aveia-e-maca.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-muffin-de-maca-00.jpg',
 		likes: '',
 		usuarioPostador: 'Ricardo Santos',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/8.jpg',
-		tipoRefeicao: 'Café da Manhã',
+		tipoRefeicao: 'Café da manhã',
 		receitaFitness: true,
 		calorias: 200,
 	},
@@ -2149,11 +2149,11 @@ export const receitas = [
 		modoPreparo:
 			'Bata o ovo com a tapioca e tempere com sal. Aqueça uma frigideira e despeje a massa. Após 1 minuto, adicione a ricota e o espinafre como recheio e dobre a crepioca. Cozinhe até dourar.',
 		fotoReceita:
-			'https://painacozinha.com/wp-content/uploads/317.Crepioca-com-Recheio-de-Ricota-e-Espinafre.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-crepioca-fitness-00.jpg',
 		likes: '',
 		usuarioPostador: 'Bianca Nunes',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/9.jpg',
-		tipoRefeicao: 'Café da Manhã',
+		tipoRefeicao: 'Café da manhã',
 		receitaFitness: true,
 		calorias: 220,
 	},
@@ -2170,11 +2170,11 @@ export const receitas = [
 		modoPreparo:
 			'Aqueça uma frigideira antiaderente, adicione as claras e misture com espinafre e tomate. Tempere com sal e pimenta e cozinhe até firmar.',
 		fotoReceita:
-			'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNlKqN18gOKedGpFkfLS00TNClSAie76hopOne8UftOvblO3bZmEG4MHFYy3Ze8-zzPMqF-Aeuz8WoyGw0VyACN68lYQxCc_MErjIvSjsLFbowMv9vWCk9Zv5nYCONB02n7GSEWMSdKMI/s1600/33526189_1417807424992688_3022038632706867200_n.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-omelete-de-claras-00.jpg',
 		likes: '',
 		usuarioPostador: 'Gabriel Ribeiro',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/10.jpg',
-		tipoRefeicao: 'Café da Manhã',
+		tipoRefeicao: 'Café da manhã',
 		receitaFitness: true,
 		calorias: 120,
 	},
@@ -2191,11 +2191,11 @@ export const receitas = [
 		modoPreparo:
 			'Toaste o pão, espalhe o abacate amassado. Cozinhe o ovo em água até que a clara fique firme e a gema ainda cremosa. Coloque sobre o pão com abacate e tempere.',
 		fotoReceita:
-			'https://blog.gsuplementos.com.br/wp-content/uploads/2022/02/iStock-1069905212.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-pao-com-abacate-00.jpg',
 		likes: '',
 		usuarioPostador: 'Isabela Martins',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/11.jpg',
-		tipoRefeicao: 'Café da Manhã',
+		tipoRefeicao: 'Café da manhã',
 		receitaFitness: true,
 		calorias: 250,
 	},
@@ -2211,11 +2211,11 @@ export const receitas = [
 		modoPreparo:
 			'Misture a chia, o leite e o mel em um pote. Leve à geladeira por algumas horas ou durante a noite. Sirva com frutas frescas por cima.',
 		fotoReceita:
-			'https://claudia.abril.com.br/wp-content/uploads/2020/02/thinkstockphotos-496206662.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-pudim-de-chia-00.jpg',
 		likes: '',
 		usuarioPostador: 'Rafaela Silva',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/12.jpg',
-		tipoRefeicao: 'Café da Manhã',
+		tipoRefeicao: 'Café da manhã',
 		receitaFitness: true,
 		calorias: 180,
 	},
@@ -2231,11 +2231,11 @@ export const receitas = [
 		modoPreparo:
 			'Em um pote ou tigela, adicione o iogurte, a granola e o mel. Acrescente frutas picadas, se desejar, e sirva.',
 		fotoReceita:
-			'https://static.vecteezy.com/ti/fotos-gratis/p2/47572663-grego-iogurte-parfait-em-camadas-com-granola-misturado-bagas-e-uma-montao-do-mel-gratis-foto.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-iogurte-com-granola-00.jpg',
 		likes: '',
 		usuarioPostador: 'Carlos Lima',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/13.jpg',
-		tipoRefeicao: 'Café da Manhã',
+		tipoRefeicao: 'Café da manhã',
 		receitaFitness: true,
 		calorias: 200,
 	},
@@ -2251,11 +2251,12 @@ export const receitas = [
 		],
 		modoPreparo:
 			'Aqueça o pão folha, espalhe o frango desfiado, adicione alface, tomate e o molho de iogurte ou mostarda. Enrole e sirva.',
-		fotoReceita: 'https://assets.unileversolutions.com/recipes-v2/35823.jpg',
+		fotoReceita:
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-wrap-00.jpg',
 		likes: '',
 		usuarioPostador: 'Fernanda Rocha',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/14.jpg',
-		tipoRefeicao: 'Café da Manhã',
+		tipoRefeicao: 'Café da manhã',
 		receitaFitness: true,
 		calorias: 220,
 	},
@@ -2273,7 +2274,7 @@ export const receitas = [
 		modoPreparo:
 			'Tempere o frango com sal e pimenta e grelhe até ficar cozido. Em uma assadeira, coloque os legumes com um fio de azeite, sal e pimenta e asse a 200°C por 20 minutos. Sirva o frango com os legumes.',
 		fotoReceita:
-			'https://www.moringaimperial.com/wp-content/uploads/2023/12/file-de-peito-de-frango-grelhado-e-salada-de-legumes-frescos-menu-de-almoco-saudavel.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-frango-com-legumes-00.jpg',
 		likes: '',
 		usuarioPostador: 'João Mendes',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/15.jpg',
@@ -2295,7 +2296,7 @@ export const receitas = [
 		modoPreparo:
 			'Misture a quinoa, o frango e os vegetais. Tempere com sal, pimenta e salsinha. Sirva quente ou frio, conforme preferir.',
 		fotoReceita:
-			'https://www.danibarg.com/wp-content/uploads/2017/11/marmiteira_quinoa_frango_uma_panela.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-salada-de-quinoa-00.jpg',
 		likes: '',
 		usuarioPostador: 'Clara Dias',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/16.jpg',
@@ -2316,7 +2317,7 @@ export const receitas = [
 		modoPreparo:
 			'Tempere o salmão com sal, pimenta e suco de limão. Coloque em uma assadeira junto com os aspargos, regue com azeite e asse a 180°C por 15-20 minutos.',
 		fotoReceita:
-			'https://painacozinha.com/wp-content/uploads/2023/09/56.Salmao-assado-com-aspargos-e-molho-de-limao.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-salmao-00.jpg',
 		likes: '',
 		usuarioPostador: 'Renata Freitas',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/17.jpg',
@@ -2338,7 +2339,7 @@ export const receitas = [
 		modoPreparo:
 			'Corte a abobrinha ao meio e retire parte do miolo. Refogue a carne com cebola, alho, sal e pimenta, e adicione o molho de tomate. Recheie as abobrinhas com a carne e asse a 180°C por 20 minutos.',
 		fotoReceita:
-			'https://www.saboresajinomoto.com.br/uploads/images/recipes/abobrinha-recheada.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-abobrinha-recheada-00.jpg',
 		likes: '',
 		usuarioPostador: 'Thiago Santos',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/18.jpg',
@@ -2359,7 +2360,7 @@ export const receitas = [
 		modoPreparo:
 			'Em uma assadeira, alterne camadas de berinjela, queijo cottage e molho de tomate. Tempere com sal e pimenta e finalize com manjericão. Asse a 180°C por 25 minutos.',
 		fotoReceita:
-			'https://imagens.ne10.uol.com.br/veiculos/_midias/jpg/2024/07/08/lasanha_de_espinafre_em_prato_branco_1339_7643-27427362.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-lasanha-de-berinjela-00.jpg',
 		likes: '',
 		usuarioPostador: 'Aline Costa',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/19.jpg',
@@ -2381,7 +2382,7 @@ export const receitas = [
 		modoPreparo:
 			'Forme bolinhas com o frango temperado com sal, pimenta, cebola e alho. Grelhe as almôndegas e reserve. Cozinhe o espaguete de abobrinha rapidamente e sirva com o molho de tomate e almôndegas.',
 		fotoReceita:
-			'https://painacozinha.com/wp-content/uploads/2023/09/9.Espaguete-de-abobrinha-com-almondegas-de-frango.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-espaguete-de-abobrinha-00.jpg',
 		likes: '',
 		usuarioPostador: 'Beatriz Lopes',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/20.jpg',
@@ -2402,7 +2403,7 @@ export const receitas = [
 		modoPreparo:
 			'Cozinhe a batata doce e amasse até obter um purê. Tempere a tilápia com sal e grelhe em uma frigideira com azeite. Sirva o filé com o purê e finalize com salsinha.',
 		fotoReceita:
-			'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuBawV3G7x1Te1dN7V-cl7RAf50o5jRyorGU1wB4vdlXzrADWJmG7VaoQB9jhGz7NxR4csspw-aYKZmUgzb-ujXc_NGaAoT6v4dVBxeeAAEHGVpj5cU8Whsb4fo70kUhKHRi56oFcGm48/s1600/IMG_3647.JPG',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-tilapia-00.jpg',
 		likes: '',
 		usuarioPostador: 'Eduardo Alves',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/21.jpg',
@@ -2423,7 +2424,8 @@ export const receitas = [
 		],
 		modoPreparo:
 			'Misture todos os ingredientes em uma tigela e tempere com azeite, sal e pimenta. Sirva a salada fresca.',
-		fotoReceita: 'https://i.ytimg.com/vi/ABKYUg1Dv6I/maxresdefault.jpg',
+		fotoReceita:
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-salada-de-grao-de-bico-00.jpg',
 		likes: '',
 		usuarioPostador: 'Patrícia Santos',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/22.jpg',
@@ -2445,7 +2447,7 @@ export const receitas = [
 		modoPreparo:
 			'Cozinhe a carne moída e tempere com sal e pimenta. Em cada folha de alface, adicione a carne, o guacamole feito com abacate e limão, e finalize com tomate picado.',
 		fotoReceita:
-			'https://painacozinha.com/wp-content/uploads/209.Tacos-de-Alface-com-Carne-Moida-Magra.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-taco-de-alface-00.jpg',
 		likes: '',
 		usuarioPostador: 'Daniel Araújo',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/23.jpg',
@@ -2466,7 +2468,7 @@ export const receitas = [
 		modoPreparo:
 			'Cozinhe a couve-flor até ficar macia. Misture o frango com queijo cottage, tempere com sal, pimenta e noz-moscada, e coloque sobre a couve-flor. Asse a 180°C por 15 minutos.',
 		fotoReceita:
-			'https://www.minhareceita.com.br/app/uploads/2019/09/couve-flor.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-couve-flor-gratinada-00.jpg',
 		likes: '',
 		usuarioPostador: 'Amanda Pereira',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/24.jpg',
@@ -2488,7 +2490,7 @@ export const receitas = [
 		modoPreparo:
 			'Refogue a cebola e o alho. Adicione a abóbora, o gengibre e o caldo de legumes. Cozinhe até a abóbora ficar macia e bata tudo no liquidificador até obter um creme. Tempere e sirva quente.',
 		fotoReceita:
-			'https://www.saboresajinomoto.com.br/uploads/images/recipes/sopa-creme-de-abobora-com-gengibre.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-sopa-de-abobora-00.jpg',
 		likes: '',
 		usuarioPostador: 'Juliana Carvalho',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/25.jpg',
@@ -2510,7 +2512,7 @@ export const receitas = [
 		modoPreparo:
 			'Refogue a cebola e o alho, adicione o espinafre e cozinhe até murchar. Misture o leite e o frango desfiado. Cozinhe até engrossar um pouco e sirva quente.',
 		fotoReceita:
-			'https://guiadacozinha.com.br/wp-content/uploads/2018/12/frango-ao-creme-de-espinafre.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-creme-de-espinafre-00.jpg',
 		likes: '',
 		usuarioPostador: 'Fernando Lima',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/26.jpg',
@@ -2530,7 +2532,8 @@ export const receitas = [
 		],
 		modoPreparo:
 			'Em uma tigela, misture as folhas, o ovo e o abacate. Tempere com azeite, sal e pimenta. Sirva imediatamente.',
-		fotoReceita: 'https://i.ytimg.com/vi/tEDzKqx5lIs/maxresdefault.jpg',
+		fotoReceita:
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-salada-00.jpg',
 		likes: '',
 		usuarioPostador: 'Marcela Santos',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/27.jpg',
@@ -2552,7 +2555,7 @@ export const receitas = [
 		modoPreparo:
 			'Tempere o peixe e os legumes com azeite, sal e pimenta. Coloque tudo em uma assadeira e asse a 180°C por 20-25 minutos.',
 		fotoReceita:
-			'https://catracalivre.com.br/wp-content/uploads/2024/07/istock-515705844.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-peixe-assado-00.jpg',
 		likes: '',
 		usuarioPostador: 'Lucas Almeida',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/28.jpg',
@@ -2574,7 +2577,7 @@ export const receitas = [
 		modoPreparo:
 			'Hidrate o cuscuz conforme instruções da embalagem. Misture com os legumes cozidos e o grão-de-bico. Tempere com azeite, sal e pimenta. Sirva quente ou frio.',
 		fotoReceita:
-			'https://www.marrocos.com/imagens/Receitas-de-cuscuz-marroquino-1200x737.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-cuscuz-marroquino-00.jpg',
 		likes: '',
 		usuarioPostador: 'Clara Silva',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/29.jpg',
@@ -2595,7 +2598,8 @@ export const receitas = [
 		],
 		modoPreparo:
 			'Tempere o frango e grelhe até dourar. Em cada folha de alface, adicione o frango, o homus, a cenoura e o pepino. Enrole o wrap e sirva.',
-		fotoReceita: 'https://i.ytimg.com/vi/FatHS-yoU5Q/maxresdefault.jpg',
+		fotoReceita:
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-wrap-00.jpg',
 		likes: '',
 		usuarioPostador: 'Marcos Oliveira',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/30.jpg',
@@ -2617,7 +2621,7 @@ export const receitas = [
 		modoPreparo:
 			'Corte a berinjela ao meio e retire parte do miolo. Misture a quinoa com os vegetais e tempere com sal e pimenta. Recheie as metades da berinjela e asse a 180°C por 25 minutos.',
 		fotoReceita:
-			'https://escolavegana.com/wp-content/uploads/2024/07/Berinjela-Recheada-com-Quinoa-Vegana-e-Low-Carb-canvax-1.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-berinjela-recheada-00.jpg',
 		likes: '',
 		usuarioPostador: 'Renata Nunes',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/31.jpg',
@@ -2638,7 +2642,7 @@ export const receitas = [
 		modoPreparo:
 			'Bata os ovos e misture o espinafre e o queijo cottage. Tempere com sal e pimenta. Aqueça uma frigideira antiaderente e despeje a mistura. Cozinhe até dourar dos dois lados.',
 		fotoReceita:
-			'https://receitadaboa.com.br/wp-content/uploads/2024/08/iStock-485040276.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-omelete-00.jpg',
 		likes: '',
 		usuarioPostador: 'Lara Ferreira',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/32.jpg',
@@ -2659,7 +2663,7 @@ export const receitas = [
 		modoPreparo:
 			'Grelhe as fatias de abobrinha até ficarem macias. Em uma travessa, adicione os tomates e a muçarela sobre a abobrinha grelhada. Tempere com azeite, sal e pimenta.',
 		fotoReceita:
-			'https://claudia.abril.com.br/wp-content/uploads/2016/10/receita-rolinhos-abobrinha-mussarela-bufala.jpg?crop=1&resize=1212,909',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-abobrinha-grelhada-00.jpg',
 		likes: '',
 		usuarioPostador: 'Bruno Costa',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/33.jpg',
@@ -2681,7 +2685,7 @@ export const receitas = [
 		modoPreparo:
 			'Em uma panela, adicione todos os ingredientes e cozinhe até que os legumes estejam macios. Tempere com sal e pimenta e sirva quente.',
 		fotoReceita:
-			'https://www.minhareceita.com.br/app/uploads/2024/07/sopa-de-legumes-com-frango-portal-minha-receita.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-sopa-00.jpg',
 		likes: '',
 		usuarioPostador: 'Camila Rocha',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/34.jpg',
@@ -2701,7 +2705,7 @@ export const receitas = [
 		modoPreparo:
 			'Bata todos os ingredientes no liquidificador até ficar cremoso. Sirva em uma taça e leve à geladeira por 30 minutos antes de consumir.',
 		fotoReceita:
-			'https://assets.unileversolutions.com/recipes-v3/215150-default.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-mousse-de-abacate-00.jpg',
 		likes: '',
 		usuarioPostador: 'Lucas Monteiro',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/35.jpg',
@@ -2720,7 +2724,7 @@ export const receitas = [
 		modoPreparo:
 			'Bata todos os ingredientes até obter uma mistura homogênea. Coloque em formas de picolé e leve ao congelador por pelo menos 4 horas.',
 		fotoReceita:
-			'https://cardapiosaudavel.com.br/wp-content/uploads/2020/09/picole-de-banana-com-pasta-de-amendoim.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-picole-de-banana-00.jpg',
 		likes: '',
 		usuarioPostador: 'Ana Beatriz',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/36.jpg',
@@ -2741,7 +2745,7 @@ export const receitas = [
 		modoPreparo:
 			'Misture todos os ingredientes em uma caneca e leve ao micro-ondas por 1 a 2 minutos até cozinhar. Deixe esfriar um pouco antes de consumir.',
 		fotoReceita:
-			'https://escolavegana.com/wp-content/uploads/2024/02/Bolo-de-Caneca-Fitness-de-Aveia-e-Cacau-canvax.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-bolo-de-caneca-00.jpg',
 		likes: '',
 		usuarioPostador: 'Carla Souza',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/37.jpg',
@@ -2761,7 +2765,7 @@ export const receitas = [
 		modoPreparo:
 			'Misture a chia, o leite de coco e o mel em um pote. Leve à geladeira por pelo menos 4 horas (ou durante a noite). Sirva com frutas vermelhas por cima.',
 		fotoReceita:
-			'https://receitadaboa.com.br/wp-content/uploads/2024/08/pudim-de-chia-com-frutas-vermelhas_11zon-scaled.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-pudim-de-chia-00.jpg',
 		likes: '',
 		usuarioPostador: 'Pedro Martins',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/38.jpg',
@@ -2781,7 +2785,7 @@ export const receitas = [
 		modoPreparo:
 			'Corte a maçã ao meio, retire as sementes e polvilhe com canela. Adicione as nozes e o mel (se desejar). Asse a 180°C por 15 minutos e sirva quente.',
 		fotoReceita:
-			'https://www.comidaereceitas.com.br/wp-content/uploads/2010/09/macas-assadas-recheadas-com-frutas-nozes-e-mel-em-uma-tabua-de-madeira.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-maca-assada-00.jpg',
 		likes: '',
 		usuarioPostador: 'Mariana Lopes',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/39.jpg',
@@ -2799,7 +2803,8 @@ export const receitas = [
 		],
 		modoPreparo:
 			'Em uma taça, coloque o iogurte, adicione a granola por cima e finalize com as frutas picadas. Sirva fresco.',
-		fotoReceita: 'https://i.ytimg.com/vi/YayGGD-b9tk/maxresdefault.jpg',
+		fotoReceita:
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-iogurte-com-granola-00.jpg',
 		likes: '',
 		usuarioPostador: 'Paula Silva',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/40.jpg',
@@ -2818,7 +2823,7 @@ export const receitas = [
 		modoPreparo:
 			'Bata todos os ingredientes no processador até formar uma massa. Modele pequenas bolinhas e passe no cacau em pó para finalizar. Armazene na geladeira.',
 		fotoReceita:
-			'https://cdn.oceanserver.com.br/lojas/eat/uploads_produto/trufas-de-tamaras1-60f9c3ed79050.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-trufa-fitness-00.jpg',
 		likes: '',
 		usuarioPostador: 'Leonardo Costa',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/41.jpg',
@@ -2839,7 +2844,7 @@ export const receitas = [
 		modoPreparo:
 			'Misture todos os ingredientes em uma tigela. Despeje em uma forma pequena e asse a 180°C por 25 minutos. Deixe esfriar antes de servir.',
 		fotoReceita:
-			'https://static.itdg.com.br/images/1200-675/aa18a8e0850d23310791c780b7823058/267180-original.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-bolo-de-cenoura-00.jpg',
 		likes: '',
 		usuarioPostador: 'Fernanda Souza',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/42.jpg',
@@ -2858,7 +2863,7 @@ export const receitas = [
 		modoPreparo:
 			'Bata as bananas e as frutas vermelhas no liquidificador ou processador até obter uma textura cremosa. Sirva imediatamente ou leve ao congelador por 15 minutos para firmar.',
 		fotoReceita:
-			'https://s2-receitas.glbimg.com/qcj1X9MZZcf0INWF9X2rjd3bMGY=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2024/d/4/8Ga2fiT6yEc58RAobW6A/sorvete-de-banana-com-frutas-vermelhas-vegano.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-sorvete-de-banana-00.jpg',
 		likes: '',
 		usuarioPostador: 'Carlos Mendes',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/43.jpg',
@@ -2876,7 +2881,8 @@ export const receitas = [
 		],
 		modoPreparo:
 			'Bata a manga com o leite de coco até obter um creme. Misture a chia e leve à geladeira por 1 hora antes de servir.',
-		fotoReceita: 'https://i.ytimg.com/vi/OGpQjzDZ9nA/maxresdefault.jpg',
+		fotoReceita:
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-creme-de-manga-00.jpg',
 		likes: '',
 		usuarioPostador: 'Laura Rocha',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/44.jpg',
@@ -2896,7 +2902,7 @@ export const receitas = [
 		modoPreparo:
 			'Misture todos os ingredientes até formar uma massa. Coloque em forminhas e asse a 180°C por 20 minutos. Deixe esfriar antes de consumir.',
 		fotoReceita:
-			'https://receitadaboa.com.br/wp-content/uploads/2024/09/iStock-535406674.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-bolinhos-de-aveia-00.jpg',
 		likes: '',
 		usuarioPostador: 'Sofia Ribeiro',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/45.jpg',
@@ -2916,7 +2922,7 @@ export const receitas = [
 		modoPreparo:
 			'Passe o abacate amassado nas fatias de pão. Adicione as rodelas de ovo e tempere com sal e pimenta.',
 		fotoReceita:
-			'https://receitason.com/wp-content/uploads/2023/04/ovo-pao-abacate.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-sanduiche-fitness-00.jpg',
 		likes: '',
 		usuarioPostador: 'João Fernandes',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/46.jpg',
@@ -2935,7 +2941,7 @@ export const receitas = [
 		modoPreparo:
 			'Disponha os palitinhos de cenoura e pepino em um prato e sirva com homus como acompanhamento.',
 		fotoReceita:
-			'https://www.galloportugal.com/wp-content/uploads/2020/09/Hummus_potes2.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-homus-com-legumes-00.jpg',
 		likes: '',
 		usuarioPostador: 'Alice Costa',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/47.jpg',
@@ -2955,7 +2961,7 @@ export const receitas = [
 		modoPreparo:
 			'Aqueça a frigideira, coloque a goma de tapioca e espalhe até formar um disco. Adicione o cottage e o tomate, tempere com orégano e dobre ao meio.',
 		fotoReceita:
-			'https://projetomestrecuca.com.br/wp-content/uploads/2014/02/img_20130602_110723.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-tapioca-fitness-00.jpg',
 		likes: '',
 		usuarioPostador: 'Rafael Lima',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/48.jpg',
@@ -2974,7 +2980,7 @@ export const receitas = [
 		modoPreparo:
 			'Em uma assadeira, espalhe as fatias de batata doce, regue com azeite e tempere com sal e pimenta. Asse a 180°C por 20-25 minutos, virando na metade do tempo, até ficarem crocantes.',
 		fotoReceita:
-			'https://static.itdg.com.br/images/1200-675/fde7379d6fe7fd222e59da8f558733d9/346243-original.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-chips-de-batata-doce-00.jpg',
 		likes: '',
 		usuarioPostador: 'Carolina Mendes',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/49.jpg',
@@ -2994,7 +3000,7 @@ export const receitas = [
 		modoPreparo:
 			'Misture todos os ingredientes até formar uma massa. Modele em pequenas porções e asse a 180°C por 15 minutos ou até dourar levemente.',
 		fotoReceita:
-			'https://cooknenjoy.com/wp-content/uploads/2021/03/biscoito-aveia-e-mel-02-1200x675.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-biscoito-de-aveia-00.jpg',
 		likes: '',
 		usuarioPostador: 'Felipe Silva',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/50.jpg',
@@ -3004,7 +3010,7 @@ export const receitas = [
 	},
 	{
 		id: 154,
-		nome: 'Shake de Proteína com Morango',
+		nome: 'Shake de Proteína com Morango e Leite de Amêndoas',
 		ingredientes: [
 			'1 xícara de leite de amêndoas',
 			'1/2 xícara de morangos frescos',
@@ -3014,7 +3020,7 @@ export const receitas = [
 		modoPreparo:
 			'Bata todos os ingredientes no liquidificador até obter uma mistura homogênea. Sirva imediatamente.',
 		fotoReceita:
-			'https://www.hipertrofia.org/blog/wp-content/uploads/2024/08/shake-morango-aveia.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-shake-de-proteina-00.jpg',
 		likes: '',
 		usuarioPostador: 'Juliana Andrade',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/51.jpg',
@@ -3035,7 +3041,7 @@ export const receitas = [
 		modoPreparo:
 			'Misture todos os ingredientes e distribua a massa em forminhas de muffin. Asse a 180°C por 20 minutos ou até dourar.',
 		fotoReceita:
-			'https://static1.squarespace.com/static/5ba7a02a7fdcb8cb9072e572/5ba7a36171c10b701702757f/60869d81cf547c371bac01a0/1619435041480/Muffins+Salgados+de+Legumes_2.jpg?format=1500w',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-muffin-de-legumes-00.jpg',
 		likes: '',
 		usuarioPostador: 'Bruno Ferreira',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/52.jpg',
@@ -3055,7 +3061,7 @@ export const receitas = [
 		modoPreparo:
 			'Em um pote, misture o iogurte, as sementes de chia e as frutas secas. Adicione o mel por cima, se desejar, e sirva.',
 		fotoReceita:
-			'https://www.comidaereceitas.com.br/wp-content/uploads/2013/12/Sobremesa-lactea-com-banana-e-molho-de-chocolate.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-iogurte-com-frutas-00.jpg',
 		likes: '',
 		usuarioPostador: 'Camila Oliveira',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/53.jpg',
@@ -3074,7 +3080,8 @@ export const receitas = [
 		],
 		modoPreparo:
 			'Espalhe o queijo cottage sobre o wrap, adicione a rúcula e o peito de peru. Enrole o wrap e sirva frio.',
-		fotoReceita: 'https://cdn.vidaativa.pt/uploads/2020/10/wraps-saudaveis.jpg',
+		fotoReceita:
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-wrap-integral-00.jpg',
 		likes: '',
 		usuarioPostador: 'Tatiana Rocha',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/54.jpg',

@@ -163,7 +163,7 @@ export const receitas = [
 		modoPreparo:
 			'Refogue o frango com cebola, alho e azeite. Adicione a farinha e o caldo de frango até formar uma massa. Modele as coxinhas, empane na farinha de rosca e frite em óleo quente até dourar.',
 		fotoReceita:
-			'https://static.itdg.com.br/images/1200-675/1dc3e596953e0d2e6bfff1b90fbcbb29/118911-original.jpg',
+			'https://salgadosparavender.com.br/wp-content/uploads/2024/05/coxinha-para-vender.jpg',
 		likes: '',
 		usuarioPostador: 'Julia Lima',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/8.jpg',
@@ -2070,7 +2070,7 @@ export const receitas = [
 		likes: '',
 		usuarioPostador: 'Lucas Oliveira',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/5.jpg',
-		tipoRefeicao: 'Café da Manhã',
+		tipoRefeicao: 'Café da manhã',
 		receitaFitness: true,
 		calorias: 250,
 	},
@@ -2091,7 +2091,7 @@ export const receitas = [
 		likes: '',
 		usuarioPostador: 'Mariana Lima',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/6.jpg',
-		tipoRefeicao: 'Café da Manhã',
+		tipoRefeicao: 'Café da manhã',
 		receitaFitness: true,
 		calorias: 180,
 	},
@@ -2111,7 +2111,7 @@ export const receitas = [
 		likes: '',
 		usuarioPostador: 'Sofia Costa',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/7.jpg',
-		tipoRefeicao: 'Café da Manhã',
+		tipoRefeicao: 'Café da manhã',
 		receitaFitness: true,
 		calorias: 300,
 	},
@@ -2132,7 +2132,7 @@ export const receitas = [
 		likes: '',
 		usuarioPostador: 'Ricardo Santos',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/8.jpg',
-		tipoRefeicao: 'Café da Manhã',
+		tipoRefeicao: 'Café da manhã',
 		receitaFitness: true,
 		calorias: 200,
 	},
@@ -2153,7 +2153,7 @@ export const receitas = [
 		likes: '',
 		usuarioPostador: 'Bianca Nunes',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/9.jpg',
-		tipoRefeicao: 'Café da Manhã',
+		tipoRefeicao: 'Café da manhã',
 		receitaFitness: true,
 		calorias: 220,
 	},
@@ -2174,7 +2174,7 @@ export const receitas = [
 		likes: '',
 		usuarioPostador: 'Gabriel Ribeiro',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/10.jpg',
-		tipoRefeicao: 'Café da Manhã',
+		tipoRefeicao: 'Café da manhã',
 		receitaFitness: true,
 		calorias: 120,
 	},
@@ -2195,7 +2195,7 @@ export const receitas = [
 		likes: '',
 		usuarioPostador: 'Isabela Martins',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/11.jpg',
-		tipoRefeicao: 'Café da Manhã',
+		tipoRefeicao: 'Café da manhã',
 		receitaFitness: true,
 		calorias: 250,
 	},
@@ -2215,7 +2215,7 @@ export const receitas = [
 		likes: '',
 		usuarioPostador: 'Rafaela Silva',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/12.jpg',
-		tipoRefeicao: 'Café da Manhã',
+		tipoRefeicao: 'Café da manhã',
 		receitaFitness: true,
 		calorias: 180,
 	},
@@ -2235,7 +2235,7 @@ export const receitas = [
 		likes: '',
 		usuarioPostador: 'Carlos Lima',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/13.jpg',
-		tipoRefeicao: 'Café da Manhã',
+		tipoRefeicao: 'Café da manhã',
 		receitaFitness: true,
 		calorias: 200,
 	},
@@ -2255,7 +2255,7 @@ export const receitas = [
 		likes: '',
 		usuarioPostador: 'Fernanda Rocha',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/14.jpg',
-		tipoRefeicao: 'Café da Manhã',
+		tipoRefeicao: 'Café da manhã',
 		receitaFitness: true,
 		calorias: 220,
 	},
@@ -2994,7 +2994,7 @@ export const receitas = [
 		modoPreparo:
 			'Misture todos os ingredientes até formar uma massa. Modele em pequenas porções e asse a 180°C por 15 minutos ou até dourar levemente.',
 		fotoReceita:
-			'https://cooknenjoy.com/wp-content/uploads/2021/03/biscoito-aveia-e-mel-02-1200x675.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-biscoito-de-aveia-00.jpg',
 		likes: '',
 		usuarioPostador: 'Felipe Silva',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/50.jpg',
@@ -3004,7 +3004,7 @@ export const receitas = [
 	},
 	{
 		id: 154,
-		nome: 'Shake de Proteína com Morango',
+		nome: 'Shake de Proteína com Morango e Leite de Amêndoas',
 		ingredientes: [
 			'1 xícara de leite de amêndoas',
 			'1/2 xícara de morangos frescos',
@@ -3014,7 +3014,7 @@ export const receitas = [
 		modoPreparo:
 			'Bata todos os ingredientes no liquidificador até obter uma mistura homogênea. Sirva imediatamente.',
 		fotoReceita:
-			'https://www.hipertrofia.org/blog/wp-content/uploads/2024/08/shake-morango-aveia.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-shake-de-proteina-00.jpg',
 		likes: '',
 		usuarioPostador: 'Juliana Andrade',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/51.jpg',
@@ -3035,7 +3035,7 @@ export const receitas = [
 		modoPreparo:
 			'Misture todos os ingredientes e distribua a massa em forminhas de muffin. Asse a 180°C por 20 minutos ou até dourar.',
 		fotoReceita:
-			'https://static1.squarespace.com/static/5ba7a02a7fdcb8cb9072e572/5ba7a36171c10b701702757f/60869d81cf547c371bac01a0/1619435041480/Muffins+Salgados+de+Legumes_2.jpg?format=1500w',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-muffin-de-legumes-00.jpg',
 		likes: '',
 		usuarioPostador: 'Bruno Ferreira',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/52.jpg',
@@ -3055,7 +3055,7 @@ export const receitas = [
 		modoPreparo:
 			'Em um pote, misture o iogurte, as sementes de chia e as frutas secas. Adicione o mel por cima, se desejar, e sirva.',
 		fotoReceita:
-			'https://www.comidaereceitas.com.br/wp-content/uploads/2013/12/Sobremesa-lactea-com-banana-e-molho-de-chocolate.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-iogurte-com-frutas-00.jpg',
 		likes: '',
 		usuarioPostador: 'Camila Oliveira',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/53.jpg',
@@ -3074,7 +3074,8 @@ export const receitas = [
 		],
 		modoPreparo:
 			'Espalhe o queijo cottage sobre o wrap, adicione a rúcula e o peito de peru. Enrole o wrap e sirva frio.',
-		fotoReceita: 'https://cdn.vidaativa.pt/uploads/2020/10/wraps-saudaveis.jpg',
+		fotoReceita:
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-wrap-integral-00.jpg',
 		likes: '',
 		usuarioPostador: 'Tatiana Rocha',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/54.jpg',
