@@ -3083,7 +3083,7 @@ export const receitas = [
 		calorias: 160,
 	},
 	{
-		id: 158,
+		id: 70,
 		nome: 'Estrogonofe de Grão-de-Bico',
 		ingredientes: [
 			'2 xícaras de grão-de-bico cozido',
@@ -3099,7 +3099,7 @@ export const receitas = [
 		modoPreparo:
 			'Em uma panela, aqueça o azeite e refogue a cebola e o alho até dourarem. Adicione o grão-de-bico cozido e misture bem. Acrescente o molho de tomate, o leite de coco e a mostarda. Tempere com sal e pimenta a gosto. Deixe cozinhar em fogo baixo por cerca de 10 minutos, mexendo ocasionalmente. Finalize com salsinha picada e sirva com arroz integral.',
 		fotoReceita:
-			'https://res.cloudinary.com/caseiraapp/image/upload/v1629505217/f2f76sc8dekgcmgscxm8.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-estrogonofe-de-grao-de-bico-00.jpg',
 		likes: '',
 		usuarioPostador: 'Mariana Silva',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/70.jpg',
@@ -3108,7 +3108,7 @@ export const receitas = [
 		calorias: 350,
 	},
 	{
-		id: 159,
+		id: 71,
 		nome: 'Lasanha de Berinjela com Tofu',
 		ingredientes: [
 			'2 berinjelas médias cortadas em fatias finas',
@@ -3124,7 +3124,7 @@ export const receitas = [
 		modoPreparo:
 			'Preaqueça o forno a 180°C. Grelhe as fatias de berinjela em uma frigideira com azeite até ficarem macias. Reserve. Em outra panela, aqueça o azeite e refogue a cebola e o alho até dourarem. Adicione o tofu amassado, tempere com sal, pimenta e manjericão, e cozinhe por alguns minutos. Em um refratário, monte camadas alternadas de berinjela, molho de tomate e a mistura de tofu. Repita as camadas até terminar os ingredientes. Se desejar, polvilhe levedura nutricional por cima. Leve ao forno por 25 minutos. Sirva quente.',
 		fotoReceita:
-			'https://fernandascheer.com.br/wp-content/uploads/2016/08/Lasanha-de-tofu-e-berinjela.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-lasanha-de-berinjela-00.jpg',
 		likes: '',
 		usuarioPostador: 'Carlos Eduardo',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/71.jpg',
@@ -3133,7 +3133,7 @@ export const receitas = [
 		calorias: 400,
 	},
 	{
-		id: 160,
+		id: 72,
 		nome: 'Quibe de Abóbora com Quinoa',
 		ingredientes: [
 			'2 xícaras de abóbora cabotiá cozida e amassada',
@@ -3148,7 +3148,7 @@ export const receitas = [
 		modoPreparo:
 			'Preaqueça o forno a 200°C. Em uma panela, aqueça o azeite e refogue a cebola e o alho até dourarem. Em uma tigela grande, misture a abóbora amassada, a quinoa cozida, o refogado de cebola e alho, e a hortelã picada. Tempere com sal e pimenta a gosto. Transfira a mistura para uma assadeira untada, alisando a superfície. Se desejar, polvilhe gergelim por cima. Asse por 30 minutos ou até dourar. Deixe esfriar um pouco antes de cortar em pedaços. Sirva com salada verde.',
 		fotoReceita:
-			'https://cdn0.tudoreceitas.com/pt/posts/6/3/8/quibe_de_abobora_com_quinoa_11836_paso_6_orig.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-quibe-de-abobora-00.jpg',
 		likes: '',
 		usuarioPostador: 'Fernanda Costa',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/72.jpg',
@@ -3157,7 +3157,7 @@ export const receitas = [
 		calorias: 320,
 	},
 	{
-		id: 161,
+		id: 74,
 		nome: 'Salada de Grão-de-Bico com Legumes Assados',
 		ingredientes: [
 			'1 xícara de grão-de-bico cozido',
@@ -3173,7 +3173,7 @@ export const receitas = [
 		modoPreparo:
 			'Preaqueça o forno a 200°C. Em uma assadeira, distribua a abobrinha, a cenoura e o pimentão, tempere com azeite, sal e pimenta, e leve para assar por cerca de 20 minutos. Em uma tigela grande, misture o grão-de-bico, os legumes assados e os tomates-cereja. Regue com o suco de limão, acrescente a salsinha e ajuste o sal, se necessário. Sirva como prato principal ou acompanhando folhas verdes.',
 		fotoReceita:
-			'https://www.dicasetricas.com/wp-content/uploads/2018/08/stew-with-chickpeas-and-vegetables.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-salada-de-grao-de-bico-00.jpg',
 		likes: '',
 		usuarioPostador: 'Juliana Azevedo',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/74.jpg',
@@ -3182,7 +3182,7 @@ export const receitas = [
 		calorias: 280,
 	},
 	{
-		id: 162,
+		id: 75,
 		nome: 'Sopa Cremosa de Abóbora e Gengibre',
 		ingredientes: [
 			'500g de abóbora cabotiá picada',
@@ -3197,7 +3197,7 @@ export const receitas = [
 		modoPreparo:
 			'Aqueça o azeite em uma panela e refogue a cebola e o alho até dourarem. Adicione a abóbora e o gengibre e refogue por alguns minutos. Acrescente o caldo de legumes e deixe cozinhar até a abóbora ficar macia. Bata a mistura no liquidificador até obter um creme. Tempere com sal e pimenta e sirva com salsinha picada.',
 		fotoReceita:
-			'https://luciannajardim.com.br/wp-content/uploads/2019/02/nutricionista-rio-de-janeiro-lucianna-jardim-receita-low-carb-fit-paleo-88.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-sopa-de-abobora-00.jpg',
 		likes: '',
 		usuarioPostador: 'Isabela Almeida',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/75.jpg',
@@ -3206,7 +3206,7 @@ export const receitas = [
 		calorias: 180,
 	},
 	{
-		id: 163,
+		id: 76,
 		nome: 'Espaguete de Abobrinha com Pesto de Manjericão',
 		ingredientes: [
 			'2 abobrinhas médias em tiras finas (espiralizadas)',
@@ -3220,7 +3220,7 @@ export const receitas = [
 		modoPreparo:
 			'No processador, bata o manjericão, as nozes e o alho. Adicione o azeite aos poucos até formar uma pasta. Tempere com sal e pimenta. Misture o pesto com as tiras de abobrinha e sirva com tomates-cereja, se desejar.',
 		fotoReceita:
-			'https://antoniobernardi.com.br/wp-content/uploads/2024/03/fdb-Copia-2.png',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-espaguete-de-abobrinha-00.jpg',
 		likes: '',
 		usuarioPostador: 'Carlos Souza',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/76.jpg',
@@ -3229,7 +3229,7 @@ export const receitas = [
 		calorias: 200,
 	},
 	{
-		id: 164,
+		id: 77,
 		nome: 'Hambúrguer de Lentilha com Batata Doce Assada',
 		ingredientes: [
 			'1 xícara de lentilhas cozidas',
@@ -3244,7 +3244,7 @@ export const receitas = [
 		modoPreparo:
 			'Preaqueça o forno a 200°C. Amasse as lentilhas e misture com cebola, alho, farinha de linhaça e cominho. Tempere e forme hambúrgueres. Asse-os junto com as rodelas de batata-doce por 20 minutos, virando na metade do tempo.',
 		fotoReceita:
-			'https://i.pinimg.com/originals/df/a0/d5/dfa0d58803d98e946ef8471438c6f2f0.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-hamburguer-de-lentilha-00.jpg',
 		likes: '',
 		usuarioPostador: 'Fernanda Oliveira',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/77.jpg',
@@ -3253,7 +3253,7 @@ export const receitas = [
 		calorias: 250,
 	},
 	{
-		id: 165,
+		id: 79,
 		nome: 'Torta de Grão-de-Bico e Espinafre',
 		ingredientes: [
 			'1 xícara de grão-de-bico cozido e amassado',
@@ -3267,7 +3267,7 @@ export const receitas = [
 		modoPreparo:
 			'Preaqueça o forno a 180°C. Misture todos os ingredientes e coloque em uma forma untada. Asse por 25 minutos ou até dourar. Deixe esfriar um pouco antes de servir.',
 		fotoReceita:
-			'https://escolavegana.com/wp-content/uploads/2024/03/Torta-de-Grao-de-Bico-e-Espinafre-Fitness-Vegana-MMM.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-torta-de-grao-de-bico-00.jpg',
 		likes: '',
 		usuarioPostador: 'Sofia Martins',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/79.jpg',
@@ -3276,7 +3276,7 @@ export const receitas = [
 		calorias: 270,
 	},
 	{
-		id: 166,
+		id: 80,
 		nome: 'Ratatouille',
 		ingredientes: [
 			'1 berinjela cortada em cubos',
@@ -3292,7 +3292,7 @@ export const receitas = [
 		modoPreparo:
 			'Em uma panela, aqueça o azeite e refogue a cebola e o alho até dourarem. Adicione a berinjela, a abobrinha e o pimentão, cozinhando até que os legumes estejam macios. Acrescente os tomates e tempere com sal, pimenta e ervas. Cozinhe por mais alguns minutos e sirva quente.',
 		fotoReceita:
-			'https://s2.glbimg.com/mGsEpt28JXNZbzb-A29Vk5JVa8M%3D/1200x/smart/filters%3Acover%28%29%3Astrip_icc%28%29/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2018/c/r/mLrOqnRiemx034biSdHw/ratatouille.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-ratatouille-00.jpg',
 		likes: '',
 		usuarioPostador: 'Laura Ramos',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/80.jpg',
@@ -3301,7 +3301,7 @@ export const receitas = [
 		calorias: 180,
 	},
 	{
-		id: 167,
+		id: 81,
 		nome: 'Chili Vegano',
 		ingredientes: [
 			'1 xícara de feijão preto cozido',
@@ -3317,7 +3317,7 @@ export const receitas = [
 		modoPreparo:
 			'Em uma panela, refogue a cebola e o alho até dourar. Adicione o pimentão, os tomates e os temperos, cozinhando por alguns minutos. Misture os feijões e cozinhe em fogo baixo por 20 minutos. Sirva quente com tortillas ou arroz.',
 		fotoReceita:
-			'https://tse4.mm.bing.net/th?id=OIP.SAEQB7mkFamZTy_EItnxMgHaJQ&pid=Api',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-chili-vegano-00.jpg',
 		likes: '',
 		usuarioPostador: 'Ricardo Nunes',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/81.jpg',
@@ -3326,7 +3326,7 @@ export const receitas = [
 		calorias: 320,
 	},
 	{
-		id: 168,
+		id: 82,
 		nome: 'Tofu Grelhado com Molho de Soja e Gergelim',
 		ingredientes: [
 			'300g de tofu firme cortado em fatias',
@@ -3339,7 +3339,7 @@ export const receitas = [
 		modoPreparo:
 			'Marinar o tofu no molho de soja e óleo de gergelim por 30 minutos. Grelhar as fatias de tofu em uma frigideira antiaderente até dourar. Polvilhe com sementes de gergelim e cebolinhas antes de servir.',
 		fotoReceita:
-			'https://brucalderon.com.br/wp-content/uploads/2021/06/Tofu-Grelhado-Bru-Calderon-2-1024x1024.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-tofu-grelhado-00.jpg',
 		likes: '',
 		usuarioPostador: 'Sofia Almeida',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/82.jpg',
@@ -3348,7 +3348,7 @@ export const receitas = [
 		calorias: 250,
 	},
 	{
-		id: 169,
+		id: 83,
 		nome: 'Curry de Grão-de-Bico',
 		ingredientes: [
 			'1 xícara de grão-de-bico cozido',
@@ -3363,7 +3363,7 @@ export const receitas = [
 		modoPreparo:
 			'Refogue a cebola e o alho até dourar. Adicione o curry e cozinhe por mais um minuto. Misture o grão-de-bico, o tomate e o leite de coco. Deixe cozinhar por 10 minutos e finalize com coentro fresco. Sirva com arroz.',
 		fotoReceita:
-			'https://static1.minhavida.com.br/recipes/ee/3f/b5/19/curry-com-legumes-e-grao-de-bico-orig-1.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-curry-de-grao-de-bico-00.jpg',
 		likes: '',
 		usuarioPostador: 'André Carvalho',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/83.jpg',
@@ -3372,7 +3372,7 @@ export const receitas = [
 		calorias: 320,
 	},
 	{
-		id: 170,
+		id: 84,
 		nome: 'Pasta de Grão-de-Bico com Espinafre',
 		ingredientes: [
 			'200g de massa integral',
@@ -3385,7 +3385,7 @@ export const receitas = [
 		modoPreparo:
 			'Cozer a massa conforme instruções da embalagem. Em uma frigideira, refogue o alho e adicione o grão-de-bico e o espinafre, cozinhando até o espinafre murchar. Misture com a massa cozida e tempere com azeite, sal e pimenta. Sirva quente.',
 		fotoReceita:
-			'https://t2.uc.ltmcdn.com/pt/posts/8/7/9/como_fazer_grao_de_bico_com_espinafres_8978_600.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-pasta-de-grao-de-bico-00.jpg',
 		likes: '',
 		usuarioPostador: 'Tânia Lopes',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/84.jpg',
@@ -3394,7 +3394,7 @@ export const receitas = [
 		calorias: 290,
 	},
 	{
-		id: 171,
+		id: 86,
 		nome: 'Pudim de Chia com Leite de Coco',
 		ingredientes: [
 			'1/4 xícara de sementes de chia',
@@ -3405,7 +3405,7 @@ export const receitas = [
 		modoPreparo:
 			'Misture as sementes de chia com o leite de coco e o melado em um recipiente. Deixe na geladeira por pelo menos 4 horas ou durante a noite. Antes de servir, misture bem e decore com frutas.',
 		fotoReceita:
-			'https://boaforma.abril.com.br/wp-content/uploads/sites/2/2018/05/pudim-de-chia-com-frutas-vermelhas.jpg?crop=1&h=720&quality=90&strip=info&w=1280',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-pudim-de-chia-00.jpg',
 		likes: '',
 		usuarioPostador: 'Carlos Almeida',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/86.jpg',
@@ -3414,7 +3414,7 @@ export const receitas = [
 		calorias: 150,
 	},
 	{
-		id: 172,
+		id: 87,
 		nome: 'Bolo de Banana e Aveia',
 		ingredientes: [
 			'2 bananas maduras amassadas',
@@ -3426,7 +3426,7 @@ export const receitas = [
 		modoPreparo:
 			'Preaqueça o forno a 180°C. Misture todos os ingredientes até formar uma massa homogênea. Coloque em uma forma untada e asse por 25-30 minutos ou até dourar. Deixe esfriar antes de servir.',
 		fotoReceita:
-			'https://receitatodahora.com.br/wp-content/uploads/2022/07/bolo-de-banana-com-aveia.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-bolo-de-banana-00.jpg',
 		likes: '',
 		usuarioPostador: 'Sofia Nunes',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/87.jpg',
@@ -3435,7 +3435,7 @@ export const receitas = [
 		calorias: 200,
 	},
 	{
-		id: 173,
+		id: 90,
 		nome: 'Pudim de Coco Vegano',
 		ingredientes: [
 			'1 lata de leite de coco',
@@ -3447,7 +3447,7 @@ export const receitas = [
 		modoPreparo:
 			'Em uma panela, misture todos os ingredientes e cozinhe em fogo médio, mexendo sempre, até engrossar. Despeje em formas individuais e leve à geladeira por pelo menos 4 horas antes de servir.',
 		fotoReceita:
-			'https://cdn0.tudoreceitas.com/pt/posts/6/8/6/pudim_de_coco_11686_600.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-pudim-de-coco-00.jpg',
 		likes: '',
 		usuarioPostador: 'Juliana Ferreira',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/90.jpg',
@@ -3456,7 +3456,7 @@ export const receitas = [
 		calorias: 180,
 	},
 	{
-		id: 174,
+		id: 91,
 		nome: 'Bolo de Chocolate Vegano',
 		ingredientes: [
 			'1 xícara de farinha de trigo',
@@ -3470,7 +3470,7 @@ export const receitas = [
 		modoPreparo:
 			'Preaqueça o forno a 180°C. Misture todos os ingredientes até obter uma massa homogênea. Despeje em uma forma untada e asse por 30-35 minutos. Deixe esfriar antes de servir.',
 		fotoReceita:
-			'https://receitinhas.com.br/wp-content/uploads/2022/04/Bolo-Vegano-de-Chocolate-Imagem-por-CyberCook-1024x596.jpeg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-bolo-de-chocolate-vegano-00.jpg',
 		likes: '',
 		usuarioPostador: 'Fernando Lima',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/91.jpg',
@@ -3479,7 +3479,7 @@ export const receitas = [
 		calorias: 220,
 	},
 	{
-		id: 175,
+		id: 92,
 		nome: 'Mousse de Frutas Vermelhas',
 		ingredientes: [
 			'1 xícara de frutas vermelhas congeladas',
@@ -3490,7 +3490,7 @@ export const receitas = [
 		modoPreparo:
 			'Bata todos os ingredientes no liquidificador até ficar homogêneo. Deixe na geladeira por 1 hora para firmar. Sirva gelado.',
 		fotoReceita:
-			'https://www.mmo.co.mz/wp-content/uploads/2020/04/Mousse-de-Frutas-Vermelhas-755x420.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-mousse-de-frutas-vermelhas-00.jpg',
 		likes: '',
 		usuarioPostador: 'Patrícia Gomes',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/92.jpg',
@@ -3499,7 +3499,7 @@ export const receitas = [
 		calorias: 160,
 	},
 	{
-		id: 176,
+		id: 93,
 		nome: 'Picolé de Manga com Coco',
 		ingredientes: [
 			'2 mangas maduras',
@@ -3509,7 +3509,7 @@ export const receitas = [
 		modoPreparo:
 			'Bata as mangas, o leite de coco e o açúcar no liquidificador até ficar homogêneo. Despeje em forminhas de picolé e leve ao congelador por 4 horas ou até firmar.',
 		fotoReceita:
-			'https://overdoso.com.br/wp-content/uploads/2022/10/picoles-de-manga-e-coco-simple-veganista-rotated.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-picole-de-manga-00.jpg',
 		likes: '',
 		usuarioPostador: 'Roberto Santos',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/93.jpg',
@@ -3518,7 +3518,7 @@ export const receitas = [
 		calorias: 100,
 	},
 	{
-		id: 177,
+		id: 94,
 		nome: 'Cookies de Aveia e Banana',
 		ingredientes: [
 			'2 bananas maduras amassadas',
@@ -3528,7 +3528,7 @@ export const receitas = [
 		modoPreparo:
 			'Preaqueça o forno a 180°C. Misture todos os ingredientes até formar uma massa. Modele em pequenas bolinhas e coloque em uma assadeira. Asse por 15-20 minutos ou até dourar.',
 		fotoReceita:
-			'https://www.sistersmommies.com.br/wp-content/uploads/2018/08/cookies_banana_aveia-sisters-mommies.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-cookies-de-aveia-e-banana-00.jpg',
 		likes: '',
 		usuarioPostador: 'Mariana Lima',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/94.jpg',
@@ -3537,7 +3537,7 @@ export const receitas = [
 		calorias: 130,
 	},
 	{
-		id: 178,
+		id: 95,
 		nome: 'Wrap de Hummus e Vegetais',
 		ingredientes: [
 			'1 tortilla integral',
@@ -3550,7 +3550,7 @@ export const receitas = [
 		modoPreparo:
 			'Espalhe o hummus na tortilla. Adicione os vegetais em tiras e as folhas verdes. Enrole bem e corte ao meio antes de servir.',
 		fotoReceita:
-			'https://i0.wp.com/www.wholly-plants.com/wp-content/uploads/2018/07/Hummus-Wrap-2_.jpg?resize=1161%2C850&ssl=1',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-wrap-vegano-00.jpg',
 		likes: '',
 		usuarioPostador: 'Ana Clara',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/95.jpg',
@@ -3559,7 +3559,7 @@ export const receitas = [
 		calorias: 220,
 	},
 	{
-		id: 179,
+		id: 96,
 		nome: 'Pipoca Temperada',
 		ingredientes: [
 			'1/2 xícara de milho para pipoca',
@@ -3570,7 +3570,7 @@ export const receitas = [
 		modoPreparo:
 			'Aqueça o óleo em uma panela grande. Adicione o milho e tampe a panela. Quando a pipoca parar de estourar, retire do fogo e tempere com salsa, alho em pó e sal.',
 		fotoReceita:
-			'https://3.bp.blogspot.com/--zjH9GRZEdI/XOWDOIb7OvI/AAAAAAAAmGs/hMfQAqh9JegVNeRtub8sClVKubOXydwQACLcBGAs/s1600/web-0793.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-pipoca-temperada-00.jpg',
 		likes: '',
 		usuarioPostador: 'Carlos Mendes',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/96.jpg',
@@ -3579,7 +3579,7 @@ export const receitas = [
 		calorias: 130,
 	},
 	{
-		id: 180,
+		id: 97,
 		nome: 'Bolachas de Aveia e Melado',
 		ingredientes: [
 			'1 xícara de aveia em flocos',
@@ -3591,7 +3591,7 @@ export const receitas = [
 		modoPreparo:
 			'Preaqueça o forno a 180°C. Misture todos os ingredientes até formar uma massa. Modele pequenas bolinhas e coloque em uma assadeira. Asse por 15-20 minutos ou até dourar.',
 		fotoReceita:
-			'https://4.bp.blogspot.com/-jOx0Kv8ZHSg/Wa2f9sVBBFI/AAAAAAAAIJs/WyOJVPNSuH4HQZB58-bndoyjSlSu-5RfwCLcBGAs/s1600/1.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-bolachas-de-aveia-00.jpg',
 		likes: '',
 		usuarioPostador: 'Fernanda Lima',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/97.jpg',
@@ -3600,7 +3600,46 @@ export const receitas = [
 		calorias: 150,
 	},
 	{
-		id: 181,
+		id: 98,
+		nome: 'Smoothie Verde',
+		ingredientes: [
+			'1 banana congelada',
+			'1 xícara de espinafre fresco',
+			'1/2 xícara de leite de amêndoas',
+			'1 colher de sopa de manteiga de amendoim',
+		],
+		modoPreparo:
+			'Bata todos os ingredientes no liquidificador até obter uma mistura homogênea. Sirva imediatamente.',
+		fotoReceita:
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-smoothie-verde-00.jpg',
+		likes: '',
+		usuarioPostador: 'Lucas Silva',
+		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/98.jpg',
+		tipoRefeicao: 'Lanche',
+		vegana: true,
+		calorias: 200,
+	},
+	{
+		id: 99,
+		nome: 'Chips de Batata Doce',
+		ingredientes: [
+			'1 batata-doce média cortada em fatias finas',
+			'1 colher de sopa de azeite de oliva',
+			'Salgue a gosto',
+		],
+		modoPreparo:
+			'Preaqueça o forno a 200°C. Misture as fatias de batata-doce com azeite e sal. Espalhe em uma assadeira e asse por 20-25 minutos, virando na metade do tempo, até ficarem crocantes.',
+		fotoReceita:
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-chips-de-batata-doce-00.jpg',
+		likes: '',
+		usuarioPostador: 'Sofia Costa',
+		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/99.jpg',
+		tipoRefeicao: 'Lanche',
+		vegana: true,
+		calorias: 180,
+	},
+	{
+		id: 100,
 		nome: 'Salada de Frutas com Iogurte Vegano',
 		ingredientes: [
 			'1 banana fatiada',
@@ -3613,16 +3652,16 @@ export const receitas = [
 		modoPreparo:
 			'Em uma tigela, misture todas as frutas. Adicione o iogurte vegano e o melado, se desejar. Sirva imediatamente.',
 		fotoReceita:
-			'https://folhago.com.br/blogs/receitas-faceis/wp-content/uploads/2021/12/salada-de-frutas-com-iogurte-natural-scaled.jpeg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-salada-de-frutas-vegana-00.jpg',
 		likes: '',
 		usuarioPostador: 'Mariana Ribeiro',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/91.jpg',
+		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/100.jpg',
 		tipoRefeicao: 'Lanche',
 		vegana: true,
 		calorias: 150,
 	},
 	{
-		id: 182,
+		id: 101,
 		nome: 'Tapioca com Banana e Canela',
 		ingredientes: [
 			'2 colheres de sopa de goma de tapioca',
@@ -3633,16 +3672,16 @@ export const receitas = [
 		modoPreparo:
 			'Aqueça uma frigideira e espalhe a goma de tapioca para formar um disco. Cozinhe por 1-2 minutos e adicione as fatias de banana e canela. Dobre a tapioca ao meio e sirva quente.',
 		fotoReceita:
-			'https://receitinhas.com.br/wp-content/uploads/2022/07/Tapioca-de-banana-com-canela.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-tapioca-com-banana-00.jpg',
 		likes: '',
 		usuarioPostador: 'Ricardo Gomes',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/93.jpg',
+		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/101.jpg',
 		tipoRefeicao: 'Lanche',
 		vegana: true,
 		calorias: 200,
 	},
 	{
-		id: 183,
+		id: 102,
 		nome: 'Hummus com Palitos de Legumes',
 		ingredientes: [
 			'1 xícara de grão-de-bico cozido',
@@ -3655,16 +3694,16 @@ export const receitas = [
 		modoPreparo:
 			'No processador, bata todos os ingredientes até ficar homogêneo. Sirva o hummus em um recipiente com os palitos de legumes ao lado.',
 		fotoReceita:
-			'https://img.freepik.com/fotos-premium/hummus-em-tigela-palitos-de-legumes-grao-de-bico-azeitonas_2831-566.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-hummus-vegano-00.jpg',
 		likes: '',
 		usuarioPostador: 'Tatiane Alves',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/7.jpg',
+		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/102.jpg',
 		tipoRefeicao: 'Lanche',
 		vegana: true,
 		calorias: 250,
 	},
 	{
-		id: 184,
+		id: 103,
 		nome: 'Biscoitos de Amendoim Veganos',
 		ingredientes: [
 			'1 xícara de manteiga de amendoim',
@@ -3676,16 +3715,16 @@ export const receitas = [
 		modoPreparo:
 			'Preaqueça o forno a 180°C. Misture todos os ingredientes até formar uma massa. Modele em bolinhas e coloque em uma assadeira. Asse por 10-12 minutos. Deixe esfriar antes de servir.',
 		fotoReceita:
-			'https://overdoso.com.br/wp-content/uploads/2022/01/Biscoitos-veganos-de-pasta-de-amendoim-simple-veganista-rotated.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-biscoitos-de-amendoim-vegano-00.jpg',
 		likes: '',
 		usuarioPostador: 'Gustavo Silva',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/2.jpg',
+		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/103.jpg',
 		tipoRefeicao: 'Lanche',
 		vegana: true,
 		calorias: 170,
 	},
 	{
-		id: 185,
+		id: 104,
 		nome: 'Muffins de Banana e Aveia',
 		ingredientes: [
 			'2 bananas maduras amassadas',
@@ -3697,16 +3736,16 @@ export const receitas = [
 		modoPreparo:
 			'Preaqueça o forno a 180°C. Misture todos os ingredientes até formar uma massa homogênea. Coloque em forminhas de muffin e asse por 20-25 minutos. Deixe esfriar antes de servir.',
 		fotoReceita:
-			'https://receitasdamama.pt/wp-content/uploads/2023/06/Muffins-de-Aveia-e-Banana.webp',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-muffins-de-banana-00.jpg',
 		likes: '',
 		usuarioPostador: 'Camila Torres',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/90.jpg',
+		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/104.jpg',
 		tipoRefeicao: 'Lanche',
 		vegana: true,
 		calorias: 190,
 	},
 	{
-		id: 186,
+		id: 105,
 		nome: 'Pão Integral com Abacate e Tomate',
 		ingredientes: [
 			'2 fatias de pão integral',
@@ -3718,16 +3757,16 @@ export const receitas = [
 		modoPreparo:
 			'Toaste as fatias de pão. Amasse o abacate e tempere com sal, pimenta e suco de limão. Espalhe sobre o pão e cubra com as rodelas de tomate.',
 		fotoReceita:
-			'https://img.freepik.com/fotos-gratis/saboroso-sanduiche-de-pao-integral-com-pure-de-abacate-e-tomate_1220-6046.jpg?ext=jpg&size=626',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-pao-com-abacate-00.jpg',
 		likes: '',
 		usuarioPostador: 'Amanda Lima',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/15.jpg',
+		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/105.jpg',
 		tipoRefeicao: 'Café da manhã',
 		vegana: true,
 		calorias: 250,
 	},
 	{
-		id: 187,
+		id: 106,
 		nome: 'Aveia Cozida com Frutas',
 		ingredientes: [
 			'1/2 xícara de aveia em flocos',
@@ -3739,16 +3778,16 @@ export const receitas = [
 		modoPreparo:
 			'Em uma panela, cozinhe a aveia com água ou leite vegetal até engrossar. Sirva com banana, melado e canela por cima.',
 		fotoReceita:
-			'https://www.mommystips.com.br/wp-content/uploads/2020/01/22-2.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-aveia-com-frutas-00.jpg',
 		likes: '',
 		usuarioPostador: 'Bruno Ferreira',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/54.jpg',
+		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/106.jpg',
 		tipoRefeicao: 'Café da manhã',
 		vegana: true,
 		calorias: 210,
 	},
 	{
-		id: 188,
+		id: 107,
 		nome: 'Smoothie Bowl de Frutas',
 		ingredientes: [
 			'1 banana congelada',
@@ -3759,16 +3798,16 @@ export const receitas = [
 		modoPreparo:
 			'Bata a banana, os morangos e o leite vegetal no liquidificador até obter uma mistura homogênea. Despeje em uma tigela e decore com granola e frutas frescas.',
 		fotoReceita:
-			'https://tse4.mm.bing.net/th?id=OIP.Rjlm0US91ivN8qfa45oGPwHaJ4&pid=Api',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-smoothie-bowl-00.jpg',
 		likes: '',
 		usuarioPostador: 'Carla Santos',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/55.jpg',
+		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/107.jpg',
 		tipoRefeicao: 'Café da manhã',
 		vegana: true,
 		calorias: 230,
 	},
 	{
-		id: 189,
+		id: 108,
 		nome: 'Panquecas de Aveia e Banana',
 		ingredientes: [
 			'1 banana madura',
@@ -3780,16 +3819,16 @@ export const receitas = [
 		modoPreparo:
 			'Misture todos os ingredientes em uma tigela até formar uma massa. Aqueça uma frigideira e despeje porções da massa para formar panquecas. Cozinhe até dourar dos dois lados.',
 		fotoReceita:
-			'https://metidaagourmet.com/wp-content/uploads/2021/03/PANQUECA-FIT-BANANA-AVEIA-BLOG-1.jpg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-panqueca-de-aveia-e-banana-00.jpg',
 		likes: '',
 		usuarioPostador: 'Eduardo Almeida',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/88.jpg',
+		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/108.jpg',
 		tipoRefeicao: 'Café da manhã',
 		vegana: true,
 		calorias: 200,
 	},
 	{
-		id: 190,
+		id: 109,
 		nome: 'Bowl de Quinoa com Frutas',
 		ingredientes: [
 			'1/2 xícara de quinoa cozida',
@@ -3800,16 +3839,16 @@ export const receitas = [
 		modoPreparo:
 			'Em uma tigela, coloque a quinoa cozida e adicione as frutas. Polvilhe as sementes de chia e regue com melado, se desejar. Misture bem e sirva.',
 		fotoReceita:
-			'https://storage.googleapis.com/avena-recipes/2019/10/1571781899778.jpeg',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-bowl-de-quinoa-com-frutas-00.jpg',
 		likes: '',
 		usuarioPostador: 'Natália Martins',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/5.jpg',
+		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/109.jpg',
 		tipoRefeicao: 'Café da manhã',
 		vegana: true,
 		calorias: 220,
 	},
 	{
-		id: 191,
+		id: 110,
 		nome: 'Crepioca de Espinafre',
 		ingredientes: [
 			'2 colheres de sopa de goma de tapioca',
@@ -3820,16 +3859,16 @@ export const receitas = [
 		modoPreparo:
 			'Misture a goma de tapioca com o espinafre e o leite. Aqueça uma frigideira e despeje a mistura, cozinhando até firmar. Dobre ao meio e sirva quente.',
 		fotoReceita:
-			'https://tse3.mm.bing.net/th?id=OIP.TkH76cdPoGh3Mw5wr41hVAHaHa&pid=Api',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-crepioca-00.jpg',
 		likes: '',
 		usuarioPostador: 'Paula Fernandes',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/11.jpg',
+		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/110.jpg',
 		tipoRefeicao: 'Café da manhã',
 		vegana: true,
 		calorias: 150,
 	},
 	{
-		id: 192,
+		id: 111,
 		nome: 'Iogurte Vegano com Granola',
 		ingredientes: [
 			'1 pote de iogurte vegetal (coco, amêndoas, soja)',
@@ -3839,16 +3878,16 @@ export const receitas = [
 		modoPreparo:
 			'Coloque o iogurte em uma tigela, adicione a granola por cima e decore com frutas vermelhas. Sirva imediatamente.',
 		fotoReceita:
-			'https://blogdaescolavegana.com/wp-content/uploads/2024/04/Parfait-de-Iogurte-Vegano-com-Camadas-de-Frutas-e-Granola-MMM.png',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-iogurte-vegano-00.jpg',
 		likes: '',
 		usuarioPostador: 'Ricardo Lopes',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/24.jpg',
+		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/111.jpg',
 		tipoRefeicao: 'Café da manhã',
 		vegana: true,
 		calorias: 200,
 	},
 	{
-		id: 193,
+		id: 112,
 		nome: 'Panquecas de Aveia e Frutas',
 		ingredientes: [
 			'1/2 xícara de aveia em flocos',
@@ -3860,16 +3899,16 @@ export const receitas = [
 		modoPreparo:
 			'Bata todos os ingredientes no liquidificador até obter uma massa homogênea. Aqueça uma frigideira e despeje pequenas porções da massa. Cozinhe até dourar dos dois lados. Decore com frutas e sirva.',
 		fotoReceita:
-			'https://i0.wp.com/quilosaudavel.com/wp-content/uploads/2023/06/Panqueca-de-aveia-com-frutas.webp',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-panqueca-de-aveia-e-frutas-00.jpg',
 		likes: '',
 		usuarioPostador: 'Juliana Silva',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/23.jpg',
+		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/112.jpg',
 		tipoRefeicao: 'Café da manhã',
 		vegana: true,
 		calorias: 230,
 	},
 	{
-		id: 194,
+		id: 113,
 		nome: 'Tapioca de Banana e Canela',
 		ingredientes: [
 			'2 colheres de sopa de goma de tapioca',
@@ -3879,16 +3918,16 @@ export const receitas = [
 		modoPreparo:
 			'Prepare a tapioca em uma frigideira até firmar. Adicione as fatias de banana e polvilhe canela. Dobre e sirva quente.',
 		fotoReceita:
-			'https://tse3.mm.bing.net/th?id=OIP.-349T8rihu76pdMGLpLr7AHaHa&pid=Api',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-tapioca-de-banana-00.jpg',
 		likes: '',
 		usuarioPostador: 'Lucas Almeida',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/22.jpg',
+		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/113.jpg',
 		tipoRefeicao: 'Café da manhã',
 		vegana: true,
 		calorias: 180,
 	},
 	{
-		id: 195,
+		id: 114,
 		nome: 'Smoothie de Banana e Espinafre',
 		ingredientes: [
 			'1 banana congelada',
@@ -3899,10 +3938,10 @@ export const receitas = [
 		modoPreparo:
 			'Bata todos os ingredientes no liquidificador até ficar homogêneo. Sirva imediatamente.',
 		fotoReceita:
-			'https://painacozinha.com/wp-content/uploads/2023/11/19.smoothie-de-banana-e-morango-com-espinafre.webp',
+			'https://www.receiteria.com.br/wp-content/uploads/receitas-de-smoothie-de-banana-e-espinafre-00.jpg',
 		likes: '',
 		usuarioPostador: 'Camila Costa',
-		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/21.jpg',
+		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/114.jpg',
 		tipoRefeicao: 'Café da manhã',
 		vegana: true,
 		calorias: 210,
