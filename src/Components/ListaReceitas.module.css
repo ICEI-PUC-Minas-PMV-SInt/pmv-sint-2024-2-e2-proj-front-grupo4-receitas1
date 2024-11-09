@@ -3,7 +3,8 @@
 .containerListaReceitas {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 	row-gap: 1rem;
 	column-gap: 4rem;
-	margin-left: 5%;
+	padding: 1rem;
 }

@@ -21,7 +21,7 @@ const PerfilUsuario = () => {
         Feijão: false,
         Milho: false,
         Lasanha: false,
-        Chocolate: false,
+        Vegana: false,
         Caldo: false,
     });
 
@@ -43,27 +43,30 @@ const PerfilUsuario = () => {
         <div className={styles.perfilContainer}>
             <h2>Perfil de {user.name}</h2>
             <p>Que bom ter você aqui!</p>
-            
-            <div className={styles.preferencesCard}>
-                <h3>Escolha suas Preferências</h3>
-                <div className={styles.preferencesGrid}>
-                    {Object.keys(preferences).map((preference) => (
-                        <label key={preference} className={styles.preferenceItem}>
-                            <input
-                                type="checkbox"
-                                name={preference}
-                                checked={preferences[preference]}
-                                onChange={handleCheckboxChange}
-                            />
-                            {preference.charAt(0).toUpperCase() + preference.slice(1).replace(/([A-Z])/g, ' $1')}
-                        </label>
-                    ))}
-                </div>
-            </div>
 
-            <div className={styles.filteredRecipes}>
-                <h3>Receitas Baseadas nas Suas Preferências</h3>
-                <ListaReceitas query={selectedPreferences.join(' ')} />
+            {/* Novo contêiner flexível para o card de preferências e as receitas */}
+            <div className={styles.perfilContent}>
+                <div className={styles.preferencesCard}>
+                    <h3>Escolha suas Preferências</h3>
+                    <div className={styles.preferencesGrid}>
+                        {Object.keys(preferences).map((preference) => (
+                            <label key={preference} className={styles.preferenceItem}>
+                                <input
+                                    type="checkbox"
+                                    name={preference}
+                                    checked={preferences[preference]}
+                                    onChange={handleCheckboxChange}
+                                />
+                                {preference.charAt(0).toUpperCase() + preference.slice(1).replace(/([A-Z])/g, ' $1')}
+                            </label>
+                        ))}
+                    </div>
+                </div>
+
+                <div className={styles.filteredRecipes}>
+                    <h3>Receitas Baseadas nas Suas Preferências</h3>
+                    <ListaReceitas query={selectedPreferences.join(' ')} />
+                </div>
             </div>
         </div>
     );
