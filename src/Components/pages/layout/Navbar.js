@@ -89,16 +89,18 @@ function Navbar() {
 				<div className={styles.userSection}>
 					{user ? (
 						<div className={styles.loggedInUser}>
-							<img
-								src={user.avatar || defaultAvatar} // Avatar do usuário ou imagem padrão
-								alt='Avatar do usuário'
-								className={styles.avatar}
-							/>
+							<Link to='/perfilusuario' className={styles.avatarLink}>
+								<img
+									src={user.avatar || defaultAvatar} // Avatar do usuário ou imagem padrão
+									alt='Avatar do usuário'
+									className={styles.avatar}
+								/>
+							</Link>
 							<div className={styles.welcomeMessage}>
-								<div>
+								<Link to='/perfilusuario' className={styles.profileLink}>
 									<p>Bem-vindo(a), </p>
 									<p>{user.name}</p>
-								</div>
+								</Link>
 								<button onClick={handleLogout} className={styles.logoutButton}>
 									Sair
 								</button>

@@ -7,20 +7,24 @@ const ListaReceitas = ({
   tipoRefeicao = '',
   todasReceitas = false,
   onCommentClick,
-  query = '' // Adiciona a query como parâmetro
+  query = ''
 }) => {
-  // Filtra as receitas com base no tipo de refeição
   let receitasFiltradas = receitas;
+
   if (tipoRefeicao !== '') {
     receitasFiltradas = receitas.filter(r => r.tipoRefeicao === tipoRefeicao);
   } else if (todasReceitas === true) {
     receitasFiltradas = receitas;
   }
 
-  // Filtra com base na query da pesquisa
   if (query !== '') {
+    const queryTerms = query.toLowerCase().split(' ');
     receitasFiltradas = receitasFiltradas.filter(r =>
-      r.nome.toLowerCase().includes(query.toLowerCase())
+      queryTerms.some(term =>
+        r.nome.toLowerCase().includes(term) ||
+        r.tipoRefeicao.toLowerCase().includes(term) ||
+        r.ingredientes.some(ingrediente => ingrediente.toLowerCase().includes(term))
+      )
     );
   }
 

@@ -12,6 +12,7 @@ import ScrollToTop from './Components/ScrollToTop.js';
 import Cadastro from './Components/pages/Cadastro.js';
 import Layout from './Components/pages/layout/Layout.js';
 import Login from './Components/pages/Login.js';
+import PerfilUsuario from './Components/pages/PerfilUsuario.js';
 
 function App() {
 	return (
@@ -28,6 +29,7 @@ function App() {
 					<Route path='/receitas/:id' element={<PaginaReceita />} />
 					<Route path='/cadastro' element={<Cadastro />} />
 					<Route path='/login' element={<Login />} /> {/* Rota sem Navbar */}
+					<Route path='/perfilusuario' element={<PerfilUsuario />} />
 				</Routes>
 			</Layout>
 		</Router>
