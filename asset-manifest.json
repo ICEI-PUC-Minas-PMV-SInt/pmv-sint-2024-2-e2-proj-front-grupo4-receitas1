@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/static/css/main.eb4ff01f.css",
-    "main.js": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/static/js/main.292276bd.js",
+    "main.css": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/static/css/main.bc87da44.css",
+    "main.js": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/static/js/main.84a173ab.js",
     "static/media/logo.png": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/static/media/logo.55abee183f49ad3b359d.png",
     "static/media/iconeLike.svg": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/static/media/iconeLike.18b64f0e49772073f17dddeca4e30257.svg",
     "index.html": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/index.html",
@@ -9,11 +9,11 @@
     "static/media/iconeCompartilhar.svg": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/static/media/iconeCompartilhar.4964ea6ca8fd0e96f42560bcc22f420d.svg",
     "static/media/iconeSalvar.svg": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/static/media/iconeSalvar.ba80abc639840b1f6dd563d95fb2ffae.svg",
     "static/media/iconeEnviar.svg": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/static/media/iconeEnviar.c5994aac4399e6268af629460478dc7e.svg",
-    "main.eb4ff01f.css.map": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/static/css/main.eb4ff01f.css.map",
-    "main.292276bd.js.map": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/static/js/main.292276bd.js.map"
+    "main.bc87da44.css.map": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/static/css/main.bc87da44.css.map",
+    "main.84a173ab.js.map": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/static/js/main.84a173ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb4ff01f.css",
-    "static/js/main.292276bd.js"
+    "static/css/main.bc87da44.css",
+    "static/js/main.84a173ab.js"
   ]
 }
