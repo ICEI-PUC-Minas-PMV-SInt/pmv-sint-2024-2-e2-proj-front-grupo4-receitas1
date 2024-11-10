@@ -1,6 +1,5 @@
 /** @format */
 
-// src/components/PaginaReceita.js
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { receitas } from '../../utils/receitas.js';
@@ -17,12 +16,13 @@ import ShareModal from '../ShareModal.js';
 
 const PaginaReceita = () => {
 	const { id } = useParams();
-	const navigate = useNavigate(); // Adiciona o navigate para redirecionamento
+	const navigate = useNavigate();
 	const receita = receitas.find(r => r.id === Number(id));
 	const [receitasRecomendadas, setReceitasRecomendadas] = useState([]);
 	const [comentariosVisiveis, setComentariosVisiveis] = useState(false);
 	const [isSaved, setIsSaved] = useState(false);
-	const [likes, setLikes] = useState(receita?.likes || 0); // Pega likes iniciais da receita
+	const [likes, setLikes] = useState(receita?.likes || 0);
+	const [liked, setLiked] = useState(false);
 	const [showShareModal, setShowShareModal] = useState(false);
 
 	useEffect(() => {
@@ -54,7 +54,7 @@ const PaginaReceita = () => {
 	const handleSaveRecipe = () => {
 		const savedUser = JSON.parse(localStorage.getItem('user'));
 		if (!savedUser) {
-			navigate('/login'); // Redireciona para login se o usuário não estiver logado
+			navigate('/login');
 			return;
 		}
 
@@ -70,8 +70,12 @@ const PaginaReceita = () => {
 	};
 
 	const handleLike = () => {
-		setLikes(prevLikes => prevLikes + 1);
-		receita.likes = likes + 1;
+		if (liked) {
+			setLikes(prevLikes => prevLikes - 1);
+		} else {
+			setLikes(prevLikes => prevLikes + 1);
+		}
+		setLiked(!liked);
 	};
 
 	const toggleShareModal = () => {
@@ -98,7 +102,7 @@ const PaginaReceita = () => {
 						<img src={receita.fotoReceita} alt={`Receita de ${receita.nome}`} />
 						<div className={styles.botoes}>
 							<SaveIcon onClick={handleSaveRecipe} filled={isSaved} />
-							<LikeIcon onLike={handleLike} />
+							<LikeIcon onLike={handleLike} filled={liked} />
 							<span>{likes}</span>
 							<CommentIcon onClick={toggleComentarios} withText={true} />
 							<ShareIcon onClick={toggleShareModal} />
