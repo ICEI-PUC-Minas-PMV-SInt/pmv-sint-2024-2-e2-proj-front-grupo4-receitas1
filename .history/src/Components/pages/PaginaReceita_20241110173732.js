@@ -94,9 +94,9 @@ const PaginaReceita = () => {
 						</div>
 						<img src={receita.fotoReceita} alt={`Receita de ${receita.nome}`} />
 						<div className={styles.botoes}>
-							<SaveIcon onClick={handleSaveRecipe} filled={isSaved} />
 							<LikeIcon onLike={handleLike} />
 							<span>{likes}</span>
+							<SaveIcon onClick={handleSaveRecipe} filled={isSaved} />
 							<CommentIcon onClick={toggleComentarios} withText={true} />
 							<ShareIcon onClick={toggleShareModal} />
 						</div>

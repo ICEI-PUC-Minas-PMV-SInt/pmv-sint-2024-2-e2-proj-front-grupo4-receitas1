@@ -20,13 +20,14 @@ const PaginaReceita = () => {
 	const [receitasRecomendadas, setReceitasRecomendadas] = useState([]);
 	const [comentariosVisiveis, setComentariosVisiveis] = useState(false);
 	const [isSaved, setIsSaved] = useState(false);
-	const [likes, setLikes] = useState(receita.likes || 0);
+	const [likes, setLikes] = useState(0);
 	const [showShareModal, setShowShareModal] = useState(false);
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
 		const savedRecipes = JSON.parse(localStorage.getItem('savedRecipes')) || [];
 		if (savedRecipes.includes(receita.id)) setIsSaved(true);
+		setLikes(receita.likes || 0);
 	}, [receita]);
 
 	useEffect(() => {
@@ -62,17 +63,13 @@ const PaginaReceita = () => {
 	};
 
 	const handleLike = () => {
-		if (likes === receita.likes) {
-			// Incrementa o like apenas uma vez
-			setLikes(prevLikes => prevLikes + 1);
-		} else {
-			// Reverte o like se já foi clicado
-			setLikes(receita.likes);
-		}
+		setLikes(prevLikes => prevLikes + 1);
+		receita.likes = likes + 1;
 	};
 
 	const toggleShareModal = () => {
 		setShowShareModal(!showShareModal);
+		console.log('Modal status:', !showShareModal); // Verifica o status do modal
 	};
 
 	return (
@@ -94,12 +91,19 @@ const PaginaReceita = () => {
 						</div>
 						<img src={receita.fotoReceita} alt={`Receita de ${receita.nome}`} />
 						<div className={styles.botoes}>
-							<SaveIcon onClick={handleSaveRecipe} filled={isSaved} />
-							<LikeIcon onLike={handleLike} />
+							<LikeIcon onClick={handleLike} />
 							<span>{likes}</span>
-							<CommentIcon onClick={toggleComentarios} withText={true} />
-							<ShareIcon onClick={toggleShareModal} />
+							<CommentIcon onClick={toggleComentarios} />
+							<SaveIcon onSave={handleSaveRecipe} />
+
+							<ShareIcon
+								onClick={() => {
+									console.log('ShareIcon clicked'); // Verifique se o log aparece
+									toggleShareModal();
+								}}
+							/>
 						</div>
+
 						{comentariosVisiveis && (
 							<div className={styles.comentarios}>
 								<Comentarios
@@ -127,7 +131,6 @@ const PaginaReceita = () => {
 						)}
 					</div>
 				</div>
-
 				<div className={styles.receitasRecomendadas}>
 					<h3 className={styles.recomendacoesTitulo}>Receitas Recomendadas</h3>
 					<div className={styles.recomendacoesLista}>

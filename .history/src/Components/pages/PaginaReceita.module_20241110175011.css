@@ -147,33 +147,3 @@
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 	align-self: center;
 }
-
-/* src/components/PaginaReceita.module.css */
-
-.botoes {
-	display: flex;
-	gap: 1rem;
-	align-items: center;
-}
-
-.botoes button {
-	background: none;
-	border: 1px solid #d4a373;
-	color: #d4a373;
-	padding: 8px 15px;
-	border-radius: 5px;
-	cursor: pointer;
-	font-weight: bold;
-	transition: background 0.3s, color 0.3s;
-}
-
-.botoes button:hover {
-	background-color: #d4a373;
-	color: #fff;
-}
-
-.botoes span {
-	font-size: 1rem;
-	color: #333;
-	font-weight: bold;
-}

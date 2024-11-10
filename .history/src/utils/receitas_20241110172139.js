@@ -79,7 +79,7 @@ export const receitas = [
 			'Deixe o feijão de molho. Cozinhe as carnes separadamente e depois misture ao feijão. Adicione a cebola e o alho refogados. Cozinhe até o feijão estar macio.',
 		fotoReceita:
 			'https://static.itdg.com.br/images/1200-630/7a1c975ecbe125ad44416e5611a15569/352595-original.jpg',
-		likes: 398,
+		likes: '398',
 		usuarioPostador: 'Ana Ferreira',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/4.jpg',
 		tipoRefeicao: 'Jantar',

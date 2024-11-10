@@ -20,30 +20,15 @@ const PaginaReceita = () => {
 	const [receitasRecomendadas, setReceitasRecomendadas] = useState([]);
 	const [comentariosVisiveis, setComentariosVisiveis] = useState(false);
 	const [isSaved, setIsSaved] = useState(false);
-	const [likes, setLikes] = useState(receita.likes || 0);
+	const [likes, setLikes] = useState(0);
 	const [showShareModal, setShowShareModal] = useState(false);
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
 		const savedRecipes = JSON.parse(localStorage.getItem('savedRecipes')) || [];
 		if (savedRecipes.includes(receita.id)) setIsSaved(true);
+		setLikes(receita.likes || 0);
 	}, [receita]);
-
-	useEffect(() => {
-		if (receita) {
-			const receitasDaMesmaCategoria = receitas.filter(
-				r => r.tipoRefeicao === receita.tipoRefeicao && r.id !== receita.id
-			);
-			const receitasAleatorias = receitasDaMesmaCategoria
-				.sort(() => Math.random() - 0.5)
-				.slice(0, 8);
-			setReceitasRecomendadas(receitasAleatorias);
-		}
-	}, [receita]);
-
-	if (!receita) {
-		return <p>Receita não encontrada!</p>;
-	}
 
 	const toggleComentarios = () => {
 		setComentariosVisiveis(prev => !prev);
@@ -62,13 +47,8 @@ const PaginaReceita = () => {
 	};
 
 	const handleLike = () => {
-		if (likes === receita.likes) {
-			// Incrementa o like apenas uma vez
-			setLikes(prevLikes => prevLikes + 1);
-		} else {
-			// Reverte o like se já foi clicado
-			setLikes(receita.likes);
-		}
+		setLikes(prevLikes => prevLikes + 1);
+		receita.likes = likes + 1;
 	};
 
 	const toggleShareModal = () => {
@@ -94,10 +74,10 @@ const PaginaReceita = () => {
 						</div>
 						<img src={receita.fotoReceita} alt={`Receita de ${receita.nome}`} />
 						<div className={styles.botoes}>
-							<SaveIcon onClick={handleSaveRecipe} filled={isSaved} />
 							<LikeIcon onLike={handleLike} />
 							<span>{likes}</span>
 							<CommentIcon onClick={toggleComentarios} withText={true} />
+							<SaveIcon onClick={handleSaveRecipe} filled={isSaved} />
 							<ShareIcon onClick={toggleShareModal} />
 						</div>
 						{comentariosVisiveis && (
@@ -125,15 +105,6 @@ const PaginaReceita = () => {
 								onClose={toggleShareModal}
 							/>
 						)}
-					</div>
-				</div>
-
-				<div className={styles.receitasRecomendadas}>
-					<h3 className={styles.recomendacoesTitulo}>Receitas Recomendadas</h3>
-					<div className={styles.recomendacoesLista}>
-						{receitasRecomendadas.map(recomendada => (
-							<ReceitaCard key={recomendada.id} {...recomendada} />
-						))}
 					</div>
 				</div>
 			</div>

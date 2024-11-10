@@ -77,13 +77,13 @@
 }
 
 .saved {
-	color: #000; /* Preto para o ícone salvo */
+	color: #000; /* Preto para o estado salvo */
 	font-size: 1.5rem;
 	transition: color 0.3s ease;
 }
 
 .unsaved {
-	color: #000; /* Contorno preto para o ícone não salvo */
+	color: #fff; /* Branco para o estado não salvo */
 	font-size: 1.5rem;
 	transition: color 0.3s ease;
 }

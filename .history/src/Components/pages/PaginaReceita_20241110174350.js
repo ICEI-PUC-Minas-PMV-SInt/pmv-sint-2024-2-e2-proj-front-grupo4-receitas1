@@ -94,11 +94,24 @@ const PaginaReceita = () => {
 						</div>
 						<img src={receita.fotoReceita} alt={`Receita de ${receita.nome}`} />
 						<div className={styles.botoes}>
-							<SaveIcon onClick={handleSaveRecipe} filled={isSaved} />
-							<LikeIcon onLike={handleLike} />
-							<span>{likes}</span>
-							<CommentIcon onClick={toggleComentarios} withText={true} />
-							<ShareIcon onClick={toggleShareModal} />
+							<SaveIcon
+								onClick={handleSaveRecipe}
+								filled={isSaved}
+								className={styles.iconeDecorado}
+							/>
+							<div className={styles.iconeDecorado} onClick={handleLike}>
+								<LikeIcon filled={likes > 0} />
+								<span className={styles.likeCount}>{likes}</span>
+							</div>
+							<CommentIcon
+								onClick={toggleComentarios}
+								withText={true}
+								className={styles.iconeDecorado}
+							/>
+							<ShareIcon
+								onClick={toggleShareModal}
+								className={styles.iconeDecorado}
+							/>
 						</div>
 						{comentariosVisiveis && (
 							<div className={styles.comentarios}>

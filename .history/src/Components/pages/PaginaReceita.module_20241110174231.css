@@ -177,3 +177,41 @@
 	color: #333;
 	font-weight: bold;
 }
+
+/* PaginaReceita.module.css */
+
+/* Container de Botões */
+.botoes {
+	display: flex;
+	gap: 1.5rem; /* Aumente o espaço entre os ícones */
+	align-items: center;
+	justify-content: center;
+	margin-top: 1rem;
+}
+
+/* Estilização dos Ícones Decorados */
+.iconeDecorado {
+	background-color: #fff; /* Fundo branco para destacar */
+	border-radius: 50%; /* Fundo circular */
+	padding: 10px; /* Adiciona espaço interno */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Sombra leve */
+	transition: transform 0.3s ease, background-color 0.3s ease; /* Transição suave */
+	cursor: pointer;
+}
+
+/* Efeito de Hover para os Ícones */
+.iconeDecorado:hover {
+	transform: scale(1.1); /* Aumenta o ícone ligeiramente */
+	background-color: #f7e3b4; /* Cor dourada suave no hover */
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra mais intensa no hover */
+}
+
+/* Estilização do Texto do Like */
+.likeCount {
+	font-size: 1.2rem; /* Tamanho adequado para harmonizar com o ícone */
+	margin-left: 5px;
+	color: #333; /* Texto escuro para contraste */
+}

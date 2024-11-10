@@ -2,17 +2,17 @@
 
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { receitas } from '../../utils/receitas.js';
-import ReceitaCard from '../ReceitaCard.js';
-import styles from './PaginaReceita.module.css';
-import Breadcrumbs from '../Breadcrumbs.js';
-import UsuarioPostador from '../UsuarioPostador.js';
-import { SaveIcon } from '../SaveIcon.js';
-import { ShareIcon } from '../ShareIcon.js';
-import { LikeIcon } from '../LikeIcon.js';
-import { CommentIcon } from '../CommentIcon.js';
-import Comentarios from '../Comentarios.js';
-import ShareModal from '../ShareModal.js';
+import { receitas } from '../utils/receitas.js';
+import ReceitaCard from './ReceitaCard.js';
+import styles from '../';
+import Breadcrumbs from './Breadcrumbs.js';
+import UsuarioPostador from './UsuarioPostador.js';
+import { SaveIcon } from './SaveIcon.js';
+import { ShareIcon } from './ShareIcon.js';
+import { LikeIcon } from './LikeIcon.js';
+import { CommentIcon } from './CommentIcon.js';
+import Comentarios from './Comentarios.js';
+import ShareModal from './ShareModal.js'; // Certifique-se de que o caminho está correto
 
 const PaginaReceita = () => {
 	const { id } = useParams();
@@ -20,13 +20,14 @@ const PaginaReceita = () => {
 	const [receitasRecomendadas, setReceitasRecomendadas] = useState([]);
 	const [comentariosVisiveis, setComentariosVisiveis] = useState(false);
 	const [isSaved, setIsSaved] = useState(false);
-	const [likes, setLikes] = useState(receita.likes || 0);
-	const [showShareModal, setShowShareModal] = useState(false);
+	const [likes, setLikes] = useState(0);
+	const [showShareModal, setShowShareModal] = useState(false); // Controle do modal de compartilhamento
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
 		const savedRecipes = JSON.parse(localStorage.getItem('savedRecipes')) || [];
 		if (savedRecipes.includes(receita.id)) setIsSaved(true);
+		setLikes(receita.likes || 0);
 	}, [receita]);
 
 	useEffect(() => {
@@ -62,17 +63,13 @@ const PaginaReceita = () => {
 	};
 
 	const handleLike = () => {
-		if (likes === receita.likes) {
-			// Incrementa o like apenas uma vez
-			setLikes(prevLikes => prevLikes + 1);
-		} else {
-			// Reverte o like se já foi clicado
-			setLikes(receita.likes);
-		}
+		setLikes(prevLikes => prevLikes + 1);
+		receita.likes = likes + 1;
 	};
 
 	const toggleShareModal = () => {
-		setShowShareModal(!showShareModal);
+		console.log('Toggle Share Modal called'); // Verificação
+		setShowShareModal(prev => !prev);
 	};
 
 	return (
@@ -94,11 +91,11 @@ const PaginaReceita = () => {
 						</div>
 						<img src={receita.fotoReceita} alt={`Receita de ${receita.nome}`} />
 						<div className={styles.botoes}>
-							<SaveIcon onClick={handleSaveRecipe} filled={isSaved} />
-							<LikeIcon onLike={handleLike} />
+							<LikeIcon onClick={handleLike} />
 							<span>{likes}</span>
-							<CommentIcon onClick={toggleComentarios} withText={true} />
-							<ShareIcon onClick={toggleShareModal} />
+							<CommentIcon onClick={toggleComentarios} />
+							<SaveIcon onClick={handleSaveRecipe} filled={isSaved} />
+							<ShareIcon onClick={toggleShareModal} /> {/* Abre o modal */}
 						</div>
 						{comentariosVisiveis && (
 							<div className={styles.comentarios}>
@@ -119,15 +116,8 @@ const PaginaReceita = () => {
 						</ul>
 						<h3>Modo de Preparo</h3>
 						<p>{receita.modoPreparo}</p>
-						{showShareModal && (
-							<ShareModal
-								link={window.location.href}
-								onClose={toggleShareModal}
-							/>
-						)}
 					</div>
 				</div>
-
 				<div className={styles.receitasRecomendadas}>
 					<h3 className={styles.recomendacoesTitulo}>Receitas Recomendadas</h3>
 					<div className={styles.recomendacoesLista}>
@@ -137,6 +127,13 @@ const PaginaReceita = () => {
 					</div>
 				</div>
 			</div>
+			{/* Verifica o estado de `showShareModal` */}
+			{showShareModal && (
+				<>
+					{console.log('Rendering Share Modal')} {/* Verificação */}
+					<ShareModal link={window.location.href} onClose={toggleShareModal} />
+				</>
+			)}
 		</>
 	);
 };

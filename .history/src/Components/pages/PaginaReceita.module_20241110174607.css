@@ -177,3 +177,48 @@
 	color: #333;
 	font-weight: bold;
 }
+
+/* PaginaReceita.module.css */
+
+/* Container dos Botões */
+.botoes {
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+	margin-top: 1rem;
+}
+
+/* Estilização dos Botões de Ação */
+.botaoAcao {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	background-color: transparent;
+	border: none;
+	color: #333;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.botaoAcao:hover {
+	color: #d4a373; /* Dourado suave */
+	transform: scale(1.05);
+}
+
+.botaoAcao:focus {
+	outline: none;
+}
+
+/* Estilização dos Ícones */
+.botaoAcao svg {
+	width: 24px;
+	height: 24px;
+	fill: currentColor;
+	transition: fill 0.3s ease;
+}
+
+.botaoAcao:hover svg {
+	fill: #d4a373; /* Dourado suave */
+}

@@ -94,10 +94,10 @@ const PaginaReceita = () => {
 						</div>
 						<img src={receita.fotoReceita} alt={`Receita de ${receita.nome}`} />
 						<div className={styles.botoes}>
-							<SaveIcon onClick={handleSaveRecipe} filled={isSaved} />
 							<LikeIcon onLike={handleLike} />
 							<span>{likes}</span>
 							<CommentIcon onClick={toggleComentarios} withText={true} />
+							<SaveIcon onClick={handleSaveRecipe} filled={isSaved} />
 							<ShareIcon onClick={toggleShareModal} />
 						</div>
 						{comentariosVisiveis && (
