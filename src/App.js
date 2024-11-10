@@ -1,6 +1,11 @@
 /** @format */
 
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import {
+	HashRouter as Router,
+	Routes,
+	Route,
+	useParams,
+} from 'react-router-dom';
 import CafedaManha from './Components/pages/CafedaManha';
 import Almoco from './Components/pages/Almoco.js';
 import Jantar from './Components/pages/Jantar';
@@ -26,7 +31,7 @@ function App() {
 					<Route path='/jantar' element={<Jantar />} />
 					<Route path='/sobremesa' element={<Sobremesa />} />
 					<Route path='/lanche' element={<Lanche />} />
-					<Route path='/receitas/:id' element={<PaginaReceita />} />
+					<Route path='/receitas/:id' element={<RouteReceitaWrapper />} />
 					<Route path='/cadastro' element={<Cadastro />} />
 					<Route path='/login' element={<Login />} /> {/* Rota sem Navbar */}
 					<Route path='/perfilusuario' element={<PerfilUsuario />} />
@@ -34,6 +39,11 @@ function App() {
 			</Layout>
 		</Router>
 	);
+}
+
+function RouteReceitaWrapper() {
+	const { id } = useParams();
+	return <PaginaReceita key={id} />;
 }
 
 export default App;
