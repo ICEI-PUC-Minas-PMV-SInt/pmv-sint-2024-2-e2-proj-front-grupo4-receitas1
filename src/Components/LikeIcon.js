@@ -1,15 +1,20 @@
 /** @format */
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { AiFillHeart, AiOutlineHeart } from 'react-icons/ai';
 import styles from './IconsStyle.module.css';
 
-export function LikeIcon({ onLike }) {
-	const [isLiked, setIsLiked] = useState(false);
+export function LikeIcon({ onLike, filled = false }) {
+	const [isLiked, setIsLiked] = useState(filled);
+
+	useEffect(() => {
+		// Define o estado inicial com base na prop `filled`
+		setIsLiked(filled);
+	}, [filled]);
 
 	const handleClick = () => {
 		setIsLiked(prev => !prev);
-		onLike();
+		onLike(); // Chama a função passada como prop para manipular o estado global no componente pai
 	};
 
 	return (

@@ -29,6 +29,15 @@ const PaginaReceita = () => {
 		window.scrollTo(0, 0);
 		const savedRecipes = JSON.parse(localStorage.getItem('savedRecipes')) || [];
 		if (savedRecipes.includes(receita.id)) setIsSaved(true);
+
+		// Carregar estado de curtidas e número de likes do localStorage
+		const likedRecipes = JSON.parse(localStorage.getItem('likedRecipes')) || [];
+		const storedLikes = JSON.parse(localStorage.getItem('likesCount')) || {};
+
+		if (likedRecipes.includes(receita.id)) setLiked(true);
+		if (storedLikes[receita.id] !== undefined) {
+			setLikes(storedLikes[receita.id]);
+		}
 	}, [receita]);
 
 	useEffect(() => {
@@ -70,12 +79,30 @@ const PaginaReceita = () => {
 	};
 
 	const handleLike = () => {
-		if (liked) {
-			setLikes(prevLikes => prevLikes - 1);
-		} else {
-			setLikes(prevLikes => prevLikes + 1);
+		const savedUser = JSON.parse(localStorage.getItem('user'));
+		if (!savedUser) {
+			navigate('/login');
+			return;
 		}
+
+		let likedRecipes = JSON.parse(localStorage.getItem('likedRecipes')) || [];
+		let storedLikes = JSON.parse(localStorage.getItem('likesCount')) || {};
+
+		if (liked) {
+			// Se estiver curtido, descurtir e diminuir o número de likes
+			setLikes(prevLikes => prevLikes - 1);
+			likedRecipes = likedRecipes.filter(recipeId => recipeId !== receita.id);
+			storedLikes[receita.id] = (storedLikes[receita.id] || likes) - 1;
+		} else {
+			// Se não estiver curtido, curtir e aumentar o número de likes
+			setLikes(prevLikes => prevLikes + 1);
+			likedRecipes.push(receita.id);
+			storedLikes[receita.id] = (storedLikes[receita.id] || likes) + 1;
+		}
+
 		setLiked(!liked);
+		localStorage.setItem('likedRecipes', JSON.stringify(likedRecipes));
+		localStorage.setItem('likesCount', JSON.stringify(storedLikes));
 	};
 
 	const toggleShareModal = () => {
