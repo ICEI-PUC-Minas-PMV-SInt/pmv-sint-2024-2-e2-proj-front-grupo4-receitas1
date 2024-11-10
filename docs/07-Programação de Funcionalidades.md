@@ -11,7 +11,7 @@
 |RF-005| O sistema deve possibilitar um sistema de interação entre usuários, com compartilhamento, comentários e feedbacks para as receitas| Comentario, Comentarios, ComentarioAcoes, InputNovoComentario, InputResposta, ModalComentarios, ReceitaEComentarios, RespostasLista, UsuarioPostador, LikeIcon, CommentIcon, ShareIcon, ShareModal | Rodrigo |
 |RF-006| O sistema deve possibilitar o compartilhamento externo das receitas através de um link| ShareIcon, ShareModal | Rodrigo |
 |RF-007| O sistema deve conter um atalho de compartilhamento direto no Facebook ou WhatsApp| ShareModal | Rodrigo |
-|RF-008| O sistema deve ter uma função de salvar as receitas| SaveIcon, handleSaveRecipe | Rodrigo |
+|RF-008| O sistema deve ter uma função de salvar as receitas| SaveIcon | Rodrigo |
 |RF-009| O sistema deve ter um algoritmo de recomendação com base no que cada cliente pesquisa com frequência| PerfilUsuario  | Tatiana |
 |RF-010| O sistema deve conter um mecanismo de tags, para facilitar as buscas| PerfilUsuario | Tatiana |
 |RF-011| O sistema deve ter uma pré apresentação da receita passando pelo feed| ReceitaCard | Rodrigo |
