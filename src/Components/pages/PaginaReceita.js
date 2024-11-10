@@ -1,7 +1,8 @@
 /** @format */
 
+// src/components/PaginaReceita.js
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import { receitas } from '../../utils/receitas.js';
 import ReceitaCard from '../ReceitaCard.js';
 import styles from './PaginaReceita.module.css';
@@ -16,11 +17,12 @@ import ShareModal from '../ShareModal.js';
 
 const PaginaReceita = () => {
 	const { id } = useParams();
+	const navigate = useNavigate(); // Adiciona o navigate para redirecionamento
 	const receita = receitas.find(r => r.id === Number(id));
 	const [receitasRecomendadas, setReceitasRecomendadas] = useState([]);
 	const [comentariosVisiveis, setComentariosVisiveis] = useState(false);
 	const [isSaved, setIsSaved] = useState(false);
-	const [likes, setLikes] = useState(receita.likes || 0);
+	const [likes, setLikes] = useState(receita?.likes || 0); // Pega likes iniciais da receita
 	const [showShareModal, setShowShareModal] = useState(false);
 
 	useEffect(() => {
@@ -50,6 +52,12 @@ const PaginaReceita = () => {
 	};
 
 	const handleSaveRecipe = () => {
+		const savedUser = JSON.parse(localStorage.getItem('user'));
+		if (!savedUser) {
+			navigate('/login'); // Redireciona para login se o usuário não estiver logado
+			return;
+		}
+
 		let savedRecipes = JSON.parse(localStorage.getItem('savedRecipes')) || [];
 		if (!isSaved) {
 			savedRecipes.push(receita.id);
@@ -62,13 +70,8 @@ const PaginaReceita = () => {
 	};
 
 	const handleLike = () => {
-		if (likes === receita.likes) {
-			// Incrementa o like apenas uma vez
-			setLikes(prevLikes => prevLikes + 1);
-		} else {
-			// Reverte o like se já foi clicado
-			setLikes(receita.likes);
-		}
+		setLikes(prevLikes => prevLikes + 1);
+		receita.likes = likes + 1;
 	};
 
 	const toggleShareModal = () => {
@@ -127,7 +130,6 @@ const PaginaReceita = () => {
 						)}
 					</div>
 				</div>
-
 				<div className={styles.receitasRecomendadas}>
 					<h3 className={styles.recomendacoesTitulo}>Receitas Recomendadas</h3>
 					<div className={styles.recomendacoesLista}>
