@@ -5,10 +5,8 @@
     padding: 20px;
 }
 
-/* Novo contêiner para o conteúdo principal do perfil */
 .perfilContent {
-    display: flex;
-    gap: 20px;
+    display: block;
     margin-top: 20px;
     width: 100%;
     max-width: 1200px; /* Define uma largura máxima para o layout */
@@ -20,7 +18,8 @@
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    width: 35%; /* Define a largura para ocupar 35% do espaço */
+    width: 100%; 
+    margin-bottom: 20px;
 }
 
 /* Estilos do título do card de preferências */
@@ -29,17 +28,17 @@
     color: #333;
     font-size: 1.2rem;
     margin-bottom: 15px;
-    border-bottom: 2px solid #d4a373;
+    border-bottom: 3px solid #d4a373;
     padding-bottom: 10px;
 }
 
 /* Layout de grade para as preferências */
 .preferencesGrid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    padding: 20px 0;
-    text-align: left;
+    grid-template-columns: repeat(4, 1fr);
+   gap: 20px;
+    padding: 10px ;
+    
 }
 
 .preferenceItem {
@@ -62,17 +61,25 @@
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    width: 65%; /* Define a largura para ocupar 65% do espaço */
+    width: 100%; 
+   
 }
 
 .filteredRecipes h3 {
     text-align: center;
     color: #333;
     font-size: 1.2rem;
-    margin-bottom: 15px;
-    border-bottom: 2px solid #d4a373;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #d4a373;
     padding-bottom: 10px;
-    grid-column: span 2;
+    grid-column: 1 / -1;
+}
+.filteredRecipesGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Configura para 3 colunas */
+    gap: 20px;
+    padding: 10px;
+       
 }
 
 

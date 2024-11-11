@@ -7,22 +7,23 @@ const PerfilUsuario = () => {
 
     const [preferences, setPreferences] = useState({
         sobremesa: false,
-        Café: false,
-        Almoço: false,
-        Lanche: false,
-        Jantar: false,
-        Macarrão: false,
-        Arroz: false,
-        Legumes: false,
+        café: false,
+        almoço: false,
+        lanche: false,
+        jantar: false,
+        macarrão: false,
+        arroz: false,
+        legumes: false,
         frango: false,
         peixe: false,
         carne: false,
-        Salada: false,
-        Feijão: false,
-        Milho: false,
-        Lasanha: false,
-        Vegana: false,
-        Caldo: false,
+        salada: false,
+        feijão: false,
+        milho: false,
+        lasanha: false,
+        vegana: false,
+        caldo: false,
+        fitness: false, 
     });
 
     const handleCheckboxChange = (event) => {
@@ -44,7 +45,6 @@ const PerfilUsuario = () => {
             <h2>Perfil de {user.name}</h2>
             <p>Que bom ter você aqui!</p>
 
-            {/* Novo contêiner flexível para o card de preferências e as receitas */}
             <div className={styles.perfilContent}>
                 <div className={styles.preferencesCard}>
                     <h3>Escolha suas Preferências</h3>
@@ -57,15 +57,18 @@ const PerfilUsuario = () => {
                                     checked={preferences[preference]}
                                     onChange={handleCheckboxChange}
                                 />
-                                {preference.charAt(0).toUpperCase() + preference.slice(1).replace(/([A-Z])/g, ' $1')}
+                                {preference.charAt(0).toUpperCase() + preference.slice(1)}
                             </label>
                         ))}
                     </div>
                 </div>
 
-                <div className={styles.filteredRecipes}>
+                <div className={`${styles.filteredRecipes} ${styles.filteredRecipesGrid}`}>
                     <h3>Receitas Baseadas nas Suas Preferências</h3>
-                    <ListaReceitas query={selectedPreferences.join(' ')} />
+                    <ListaReceitas
+                        query={selectedPreferences.join(' ')}
+                        preferencias={preferences}
+                    />
                 </div>
             </div>
         </div>

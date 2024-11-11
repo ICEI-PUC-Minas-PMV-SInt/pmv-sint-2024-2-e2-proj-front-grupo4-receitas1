@@ -17,13 +17,16 @@ const ListaReceitas = ({
     receitasFiltradas = receitas;
   }
 
+  // Aplica o filtro baseado em "query"
   if (query !== '') {
     const queryTerms = query.toLowerCase().split(' ');
     receitasFiltradas = receitasFiltradas.filter(r =>
       queryTerms.some(term =>
         r.nome.toLowerCase().includes(term) ||
         r.tipoRefeicao.toLowerCase().includes(term) ||
-        r.ingredientes.some(ingrediente => ingrediente.toLowerCase().includes(term))
+        r.ingredientes.some(ingrediente => ingrediente.toLowerCase().includes(term)) ||
+        (term === 'vegana' && r.vegana) ||
+        (term === 'fitness' && r.receitaFitness)
       )
     );
   }
