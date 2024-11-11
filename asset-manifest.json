@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/static/css/main.93b4decb.css",
-    "main.js": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/static/js/main.f976ef2a.js",
+    "main.css": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/static/css/main.6b703af9.css",
+    "main.js": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/static/js/main.68518cda.js",
     "static/media/logo.png": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/static/media/logo.55abee183f49ad3b359d.png",
     "index.html": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/index.html",
     "static/media/iconeEnviar.svg": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/static/media/iconeEnviar.c5994aac4399e6268af629460478dc7e.svg",
-    "main.93b4decb.css.map": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/static/css/main.93b4decb.css.map",
-    "main.f976ef2a.js.map": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/static/js/main.f976ef2a.js.map"
+    "main.6b703af9.css.map": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/static/css/main.6b703af9.css.map",
+    "main.68518cda.js.map": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/static/js/main.68518cda.js.map"
   },
   "entrypoints": [
-    "static/css/main.93b4decb.css",
-    "static/js/main.f976ef2a.js"
+    "static/css/main.6b703af9.css",
+    "static/js/main.68518cda.js"
   ]
 }
