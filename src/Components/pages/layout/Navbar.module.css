@@ -120,6 +120,11 @@
 .logoutButton:hover {
 	color: #c9302c;
 }
+.profileLink{
+	list-style: none;
+	color: #000;
+	
+}
 
 
 

@@ -6,18 +6,19 @@ import styles from './ListaReceitas.module.css';
 const ListaReceitas = ({
   tipoRefeicao = '',
   todasReceitas = false,
-  onCommentClick,
   query = ''
 }) => {
+  // Inicia com todas as receitas
   let receitasFiltradas = receitas;
 
+  // Filtro por tipo de refeição, se especificado
   if (tipoRefeicao !== '') {
     receitasFiltradas = receitas.filter(r => r.tipoRefeicao === tipoRefeicao);
-  } else if (todasReceitas === true) {
+  } else if (todasReceitas) {
     receitasFiltradas = receitas;
   }
 
-  // Aplica o filtro baseado em "query"
+  // Aplica o filtro baseado na query de pesquisa
   if (query !== '') {
     const queryTerms = query.toLowerCase().split(' ');
     receitasFiltradas = receitasFiltradas.filter(r =>
@@ -35,7 +36,14 @@ const ListaReceitas = ({
     <ul className={styles.containerListaReceitas}>
       {receitasFiltradas.length > 0 ? (
         receitasFiltradas.map(rf => (
-          <ReceitaCard key={rf.id} {...rf} onCommentClick={onCommentClick} />
+          <ReceitaCard
+            key={rf.id}
+            id={rf.id}
+            nome={rf.nome}
+            fotoReceita={rf.fotoReceita}
+            fotoUsuarioPostador={rf.fotoUsuarioPostador}
+            usuarioPostador={rf.usuarioPostador}
+          />
         ))
       ) : (
         <p>Nenhuma receita encontrada.</p>

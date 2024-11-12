@@ -1,50 +1,47 @@
 /** @format */
 
 .fotoReceita {
-	width: 355px; /* Mantém a largura original */
-	height: 300px; /* Mantém a altura original */
-	border-radius: 0 0 2rem 2rem; /* Bordas arredondadas na parte inferior */
+	width: 100%;
+	height: 300px; /* Altura fixa para garantir um layout uniforme */
+	border-radius: 0 0 2rem 2rem;
 	cursor: pointer;
 	object-fit: cover; /* Mantém a proporção da imagem */
-	transition: transform 0.5s ease-in-out; /* Transição suave para o efeito de hover */
+	transition: transform 0.3s ease-in-out;
 }
 
 .containerReceitaCard {
 	display: flex;
 	flex-direction: column;
-	width: 355px; /* Mantém a largura do card */
-	border-radius: 2rem; /* Bordas arredondadas do card */
-	overflow: hidden; /* Oculta qualquer parte da imagem que ultrapasse os limites do card */
-	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+	width: 355px;
+	border-radius: 2rem;
+	overflow: hidden;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+	margin: 15px; /* Espaçamento entre cards */
 }
 
 .containerReceitaCard:hover .fotoReceita {
-	transform: scale(1.05); /* Aumenta a imagem 5% ao passar o mouse */
+	transform: scale(1.05); /* Aumenta a imagem ao passar o mouse */
 }
 
 .containerUsuarioEComentarios {
 	display: flex;
-	max-width: 355px;
 	justify-content: space-around;
-	padding: 10px; /* Espaçamento interno */
+	padding: 10px;
+	align-items: center;
 }
 
 .containerNomeReceita {
-	background: linear-gradient(
-		135deg,
-		#f7e3b4,
-		#d4a373
-	); /* Gradiente que combina com o header */
-	border-radius: 2rem 2rem 0 0; /* Arredondamento no topo */
-	padding: 10px 0; /* Ajuste de padding */
-	text-align: center; /* Centraliza o texto */
+	background: linear-gradient(135deg, #f7e3b4, #d4a373);
+	border-radius: 2rem 2rem 0 0;
+	padding: 10px 0;
+	text-align: center;
 }
 
 .containerNomeReceita p {
-	font-size: 16px; /* Tamanho da fonte */
-	color: white; /* Cor branca para o texto */
-	font-weight: 500; /* Peso da fonte */
-	letter-spacing: 0.5px; /* Espaçamento entre letras */
-	margin: 0; /* Remove margens para ajuste fino */
-	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Sombra do texto */
+	font-size: 16px;
+	color: white;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	margin: 0;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
 }
