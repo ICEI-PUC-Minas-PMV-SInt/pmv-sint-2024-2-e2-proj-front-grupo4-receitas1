@@ -1774,7 +1774,7 @@ export const receitas = [
 		modoPreparo:
 			'Toste o pão. Amasse o abacate, misture o limão e espalhe sobre o pão. Tempere a gosto.',
 		fotoReceita:
-			'https://www.iguaria.com/wp-content/uploads/2019/01/Iguaria-Torrada-com-Abacate-Temperado.jpg',
+			'https://www.estadao.com.br/resizer/v2/YVYLP7DJ35M3PIUDYTNEIGQQXI.jpg?quality=80',
 		likes: 7167,
 		usuarioPostador: 'Sérgio Almeida',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/6.jpg',
@@ -3981,7 +3981,7 @@ export const receitas = [
 		modoPreparo:
 			'Preaqueça o forno a 180°C. Misture todos os ingredientes até formar uma massa. Modele em bolinhas e coloque em uma assadeira. Asse por 10-12 minutos. Deixe esfriar antes de servir.',
 		fotoReceita:
-			'https://overdoso.com.br/wp-content/uploads/2022/01/Biscoitos-veganos-de-pasta-de-amendoim-simple-veganista-rotated.jpg',
+			'https://overdoso.com.br/wp-content/uploads/2022/01/Biscoitos-veganas-de-pasta-de-amendoim-simple-veganista-rotated.jpg',
 		likes: 3219,
 		usuarioPostador: 'Gustavo Silva',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/2.jpg',

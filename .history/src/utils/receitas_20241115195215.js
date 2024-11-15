@@ -3981,7 +3981,7 @@ export const receitas = [
 		modoPreparo:
 			'Preaqueça o forno a 180°C. Misture todos os ingredientes até formar uma massa. Modele em bolinhas e coloque em uma assadeira. Asse por 10-12 minutos. Deixe esfriar antes de servir.',
 		fotoReceita:
-			'https://overdoso.com.br/wp-content/uploads/2022/01/Biscoitos-veganos-de-pasta-de-amendoim-simple-veganista-rotated.jpg',
+			'https://overdoso.com.br/wp-content/uploads/2022/01/Biscoitos-veganas-de-pasta-de-amendoim-simple-veganista-rotated.jpg',
 		likes: 3219,
 		usuarioPostador: 'Gustavo Silva',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/2.jpg',
