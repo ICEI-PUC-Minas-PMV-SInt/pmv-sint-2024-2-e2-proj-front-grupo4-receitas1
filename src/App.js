@@ -18,6 +18,7 @@ import Cadastro from './Components/pages/Cadastro.js';
 import Layout from './Components/pages/layout/Layout.js';
 import Login from './Components/pages/Login.js';
 import PerfilUsuario from './Components/pages/PerfilUsuario.js';
+import ReceitasSalvas from './Components/pages/ReceitasSalvas'; // Importa a nova página de receitas salvas
 
 function App() {
 	return (
@@ -35,6 +36,8 @@ function App() {
 					<Route path='/cadastro' element={<Cadastro />} />
 					<Route path='/login' element={<Login />} /> {/* Rota sem Navbar */}
 					<Route path='/perfilusuario' element={<PerfilUsuario />} />
+					<Route path='/receitas-salvas' element={<ReceitasSalvas />} />{' '}
+					{/* Nova rota para receitas salvas */}
 				</Routes>
 			</Layout>
 		</Router>

@@ -1,0 +1,115 @@
+/** @format */
+
+/* Container principal */
+.perfilContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	width: 80%;
+}
+
+.containerBemVindoEFilteredRecipes {
+	display: flex;
+	flex-direction: column;
+}
+
+/* Título */
+.perfilContainer h2 {
+	font-size: 1.8rem;
+	color: #333;
+	margin-bottom: 20px;
+	display: flex;
+}
+
+/* Layout principal: menu à esquerda e receitas à direita */
+.perfilContent {
+	display: flex;
+	width: 100%;
+	max-width: 1200px;
+	gap: 20px;
+	align-items: flex-start; /* Alinha os itens no topo */
+}
+
+/* Menu de preferências (à esquerda) */
+.preferencesCard {
+	background: linear-gradient(90deg, #f7e3b4, #d4a373);
+	border-radius: 12px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	width: 40%; /* Ocupa 40% da largura */
+}
+
+/* Título do menu de preferências */
+.preferencesCard h3 {
+	text-align: center;
+	color: #333;
+	font-weight: bold;
+	font-size: 1.2rem;
+	margin-bottom: 15px;
+	border-bottom: 3px solid #101010;
+	padding-bottom: 10px;
+}
+
+/* Preferências em grid */
+.preferencesGrid {
+	display: grid;
+	grid-template-columns: 1fr; /* Uma única coluna */
+	gap: 15px;
+}
+
+/* Itens do menu */
+.preferenceItem {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	font-size: 1rem;
+	color: #333;
+	font-weight: bold;
+}
+
+.preferenceItem input {
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+
+/* Seção de receitas (à direita) */
+.filteredRecipes {
+	flex-grow: 1; /* Ocupar o restante do espaço */
+	background-color: #f7f7f7;
+	border-radius: 12px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+}
+
+.filteredRecipes h3 {
+	text-align: center;
+	color: #333;
+	font-size: 1.2rem;
+	margin-bottom: 20px;
+	border-bottom: 3px solid #d4a373;
+	padding-bottom: 10px;
+}
+
+.filteredRecipesGrid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr); /* Grade com 3 colunas */
+	gap: 20px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+	.perfilContent {
+		flex-direction: column;
+		gap: 20px;
+	}
+
+	.preferencesCard {
+		width: 100%;
+	}
+
+	.filteredRecipes {
+		width: 100%;
+	}
+}

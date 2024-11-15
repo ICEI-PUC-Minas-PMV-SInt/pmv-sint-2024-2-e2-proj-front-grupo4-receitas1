@@ -1,0 +1,56 @@
+/** @format */
+
+/* Resumo de preferências selecionadas */
+.selectedPreferences {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-bottom: 20px;
+	padding: 10px;
+	background-color: #f9f9f9;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	gap: 10px;
+}
+
+.preferenceBadge {
+	background-color: #d4a373;
+	color: white;
+	padding: 8px 12px;
+	border-radius: 16px;
+	display: flex;
+	align-items: center;
+	font-size: 0.9rem;
+	cursor: pointer;
+	transition: background-color 0.3s;
+	gap: 5px;
+}
+
+.preferenceBadge:hover {
+	background-color: #b36b3a;
+}
+
+.removeBadge {
+	font-weight: bold;
+	color: white;
+	cursor: pointer;
+}
+
+.noPreferences {
+	font-size: 0.9rem;
+	color: #777;
+	font-style: italic;
+}
+
+/* Ajustes do restante */
+.accordionContent {
+	grid-template-columns: repeat(2, 1fr);
+	gap: 15px;
+}
+
+.preferenceChip {
+	padding: 10px 15px;
+	border-radius: 20px;
+	background-color: #f1f1f1;
+}

@@ -1,0 +1,164 @@
+/** @format */
+
+/* Container principal */
+.perfilContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	width: 80%;
+}
+
+.containerBemVindoEFilteredRecipes {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* Título */
+.perfilContainer h2 {
+	font-size: 1.8rem;
+	color: #333;
+	margin-bottom: 20px;
+	display: flex;
+}
+
+/* Layout principal: menu à esquerda e receitas à direita */
+.perfilContent {
+	display: flex;
+	width: 100%;
+	max-width: 1400px;
+	gap: 20px;
+	align-items: flex-start; /* Alinha os itens no topo */
+}
+
+/* Menu de preferências (à esquerda) */
+.preferencesCard {
+	background: linear-gradient(90deg, #f5f5f5, #e0e0e0); /* Tons suaves */
+	border-radius: 16px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	width: 45%; /* Aumenta a largura */
+	margin-top: 5.1rem;
+}
+
+/* Título do menu de preferências */
+.preferencesCard h3 {
+	text-align: center;
+	color: #333;
+	font-weight: bold;
+	font-size: 1.4rem;
+	margin-bottom: 20px;
+	border-bottom: 3px solid #aaa;
+	padding-bottom: 10px;
+}
+
+/* Estilo do accordion */
+.accordion {
+	margin-bottom: 15px;
+}
+
+.accordionHeader {
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #333;
+	padding: 15px;
+	background-color: #f1f1f1;
+	border-radius: 12px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	cursor: pointer;
+	transition: background-color 0.3s, transform 0.2s;
+}
+
+.accordionHeader:hover {
+	background-color: #d4a373;
+	color: white;
+}
+
+.accordionArrow {
+	font-size: 1.5rem; /* Tamanho maior para destaque */
+	transform: scale(1);
+	transition: transform 0.2s ease-in-out;
+}
+
+.accordionHeader:hover .accordionArrow {
+	transform: scale(1.2); /* Amplia as setas ao passar o mouse */
+}
+
+.accordionContent {
+	padding: 15px;
+	background-color: #f7f7f7; /* Fundo suave */
+	border-radius: 12px;
+	margin-top: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+}
+
+/* Chips interativos */
+.preferenceChip {
+	padding: 12px 18px;
+	border-radius: 24px;
+	background-color: #f1f1f1;
+	color: #333;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	font-size: 1rem;
+	font-weight: bold;
+	text-align: center;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.preferenceChip:hover {
+	background-color: #d4a373;
+	color: white;
+	box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+	transform: translateY(-2px); /* Elevação ao passar o mouse */
+}
+
+.activeChip {
+	background-color: #d4a373;
+	color: white;
+}
+
+/* Seção de receitas */
+.filteredRecipes {
+	flex-grow: 1; /* Ocupar o restante do espaço */
+	background-color: #fff; /* Fundo branco puro */
+	border-radius: 16px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	padding: 25px;
+}
+
+.filteredRecipes h3 {
+	text-align: center;
+	color: #333;
+	font-size: 1.4rem;
+	margin-bottom: 20px;
+	border-bottom: 3px solid #d4a373;
+	padding-bottom: 10px;
+}
+
+.filteredRecipesGrid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr); /* Grade com 3 colunas */
+	gap: 20px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+	.perfilContent {
+		flex-direction: column;
+		gap: 20px;
+	}
+
+	.preferencesCard {
+		width: 100%;
+	}
+
+	.filteredRecipes {
+		width: 100%;
+	}
+}

@@ -1,0 +1,57 @@
+/** @format */
+
+.receitasSalvasContainer {
+	padding: 2rem;
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.tipoRefeicaoSection {
+	margin-bottom: 2rem;
+}
+
+.tipoHeader {
+	background-color: #2f2f2f;
+	color: white;
+	font-size: 1.17rem;
+	text-transform: uppercase;
+	padding: 10px;
+	font-weight: bold;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 0;
+	margin-bottom: 2rem;
+}
+
+.carrosselContainer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between; /* Espaço entre as setas e o carrossel */
+}
+
+.carrossel {
+	display: flex;
+	overflow: hidden;
+	gap: 1rem;
+	width: calc(100% - 80px); /* Considera o espaço das setas */
+	max-width: 100%;
+	background-color: black;
+}
+
+.navButton {
+	background-color: black;
+	color: white;
+	border: none;
+	cursor: pointer;
+	font-size: 1.5rem;
+	padding: 0.5rem;
+	border-radius: 4px;
+	transition: background-color 0.3s;
+}
+
+.navButton:hover {
+	background-color: #333;
+}
