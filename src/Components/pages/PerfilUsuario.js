@@ -2,7 +2,8 @@
 
 import React, { useState, useEffect } from 'react';
 import styles from './Inicio.module.css';
-import ListaReceitas from './../ListaReceitas';
+import ReceitaCard from './../ReceitaCard';
+import { receitas } from '../../utils/receitas.js'; // Importe o array de receitas
 
 // Função para mapear nomes exibidos para os nomes usados na busca
 const normalizarPreferencia = preference => {
@@ -48,6 +49,65 @@ const PerfilUsuario = () => {
 
 	const [expandedCategories, setExpandedCategories] = useState([]);
 	const [preferenciasSelecionadas, setPreferenciasSelecionadas] = useState({});
+	const [receitasFiltradas, setReceitasFiltradas] = useState([]);
+
+	// Atualiza as preferências selecionadas com base no estado atual
+	useEffect(() => {
+		const atualizadas = Object.entries(categories).reduce(
+			(acc, [categoria, preferenciasLista]) => {
+				const selecionadas = preferenciasLista.filter(
+					pref => preferences[pref]
+				);
+				if (selecionadas.length > 0) {
+					acc[categoria] = selecionadas.map(normalizarPreferencia);
+				}
+				return acc;
+			},
+			{}
+		);
+		setPreferenciasSelecionadas(atualizadas);
+	}, [preferences]);
+
+	// Busca as receitas salvas e aplica os filtros
+	useEffect(() => {
+		const savedRecipesIds =
+			JSON.parse(localStorage.getItem('savedRecipes')) || [];
+		const receitasSalvas = receitas.filter(receita =>
+			savedRecipesIds.includes(receita.id)
+		);
+
+		const filtrarReceitas = receita => {
+			return Object.entries(preferenciasSelecionadas).every(
+				([categoria, preferencias]) => {
+					return preferencias.some(preferencia => {
+						const preferenciaLower = preferencia.toLowerCase();
+						// Verifica o tipo de refeição
+						if (categoria === 'Categorias') {
+							return receita.tipoRefeicao?.toLowerCase() === preferenciaLower;
+						}
+						// Verifica componentes da receita
+						if (categoria === 'Tipos de Refeição') {
+							return (
+								receita.nome?.toLowerCase().includes(preferenciaLower) ||
+								receita.ingredientes?.some(ingrediente =>
+									ingrediente.toLowerCase().includes(preferenciaLower)
+								)
+							);
+						}
+						// Verifica estilos alimentares ou tags
+						if (categoria === 'Estilos Alimentares' || categoria === 'Tags') {
+							return receita.tags?.some(
+								tag => tag.toLowerCase() === preferenciaLower
+							);
+						}
+						return false;
+					});
+				}
+			);
+		};
+
+		setReceitasFiltradas(receitasSalvas.filter(filtrarReceitas));
+	}, [preferenciasSelecionadas]);
 
 	const togglePreference = preference => {
 		setPreferences(prevPreferences => ({
@@ -106,23 +166,6 @@ const PerfilUsuario = () => {
 		Tags: ['saudável', 'fácil', 'doce', 'rápido', 'sopa'],
 	};
 
-	useEffect(() => {
-		// Normalizar todas as preferências selecionadas ao atualizar o estado
-		const atualizadas = Object.entries(categories).reduce(
-			(acc, [categoria, preferenciasLista]) => {
-				const selecionadas = preferenciasLista.filter(
-					pref => preferences[pref]
-				);
-				if (selecionadas.length > 0) {
-					acc[categoria] = selecionadas.map(normalizarPreferencia);
-				}
-				return acc;
-			},
-			{}
-		);
-		setPreferenciasSelecionadas(atualizadas);
-	}, [preferences]); // Recalcula quando `preferences` mudar
-
 	if (!user) {
 		return <p>Por favor, faça login para ver o seu perfil.</p>;
 	}
@@ -130,7 +173,7 @@ const PerfilUsuario = () => {
 	return (
 		<div className={styles.perfilContainer}>
 			<div className={styles.perfilContent}>
-				<div className={styles.preferencesCard}>
+				<div className={styles.preferencesCardPerfilUsuario}>
 					<h3>Preferências</h3>
 					{Object.keys(categories).map(category => (
 						<div key={category} className={styles.accordion}>
@@ -165,10 +208,23 @@ const PerfilUsuario = () => {
 				<div className={styles.containerBemVindoEFilteredRecipes}>
 					<h2>Bem-vindo(a), {user.name}!</h2>
 					<div className={styles.filteredRecipes}>
-						<h3>Receitas Baseadas nas Preferências</h3>
-						<ListaReceitas
-							preferenciasSelecionadas={preferenciasSelecionadas}
-						/>
+						<h3>Suas Receitas Salvas</h3>
+						<div className={styles.listaReceitas}>
+							{receitasFiltradas.length > 0 ? (
+								receitasFiltradas.map(receita => (
+									<ReceitaCard
+										key={receita.id}
+										id={receita.id}
+										nome={receita.nome}
+										fotoReceita={receita.fotoReceita}
+										fotoUsuarioPostador={receita.fotoUsuarioPostador}
+										usuarioPostador={receita.usuarioPostador}
+									/>
+								))
+							) : (
+								<p>Nenhuma receita salva encontrada.</p>
+							)}
+						</div>
 					</div>
 				</div>
 			</div>
