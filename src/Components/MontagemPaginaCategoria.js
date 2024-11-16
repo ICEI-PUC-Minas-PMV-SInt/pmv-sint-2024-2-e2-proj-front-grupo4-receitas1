@@ -37,10 +37,12 @@ const MontagemPaginaCategoria = ({
 		<div className={stylesCategoria.containerPaginaDaCategoria}>
 			{/* Lista de Receitas */}
 			<LargeButton textoBotao={textoBotao} />
-			<ListaReceitas
-				preferenciasSelecionadas={preferenciasSelecionadas}
-				onCommentClick={abrirModal}
-			/>
+			<div className={styles.fundoParaListaReceitas}>
+				<ListaReceitas
+					preferenciasSelecionadas={preferenciasSelecionadas}
+					onCommentClick={abrirModal}
+				/>
+			</div>
 
 			{/* Modal para ReceitaEComentarios */}
 			{modalVisivel && (

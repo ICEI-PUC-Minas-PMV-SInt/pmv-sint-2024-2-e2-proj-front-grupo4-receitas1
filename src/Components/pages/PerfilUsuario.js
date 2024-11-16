@@ -1,7 +1,7 @@
 /** @format */
 
 import React, { useState, useEffect } from 'react';
-import styles from './PerfilUsuario.module.css';
+import styles from './Inicio.module.css';
 import ListaReceitas from './../ListaReceitas';
 
 // Função para mapear nomes exibidos para os nomes usados na busca
