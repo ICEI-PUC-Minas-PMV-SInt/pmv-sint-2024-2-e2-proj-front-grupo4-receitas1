@@ -1,0 +1,195 @@
+/** @format */
+
+.paginaReceita {
+	display: flex;
+	gap: 2rem;
+	margin: 2rem auto;
+	max-width: 1200px;
+	background-color: #fefefe; /* Fundo claro para o container principal */
+	border-radius: 12px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	padding: 2rem;
+}
+
+/* Conteúdo da receita */
+.receitaConteudo {
+	flex: 2;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: #ffffff; /* Fundo branco para destaque */
+	border-radius: 12px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	padding: 2rem;
+}
+
+/* Imagem e botões da receita */
+.receitaImagemBotoes {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+	align-items: center;
+}
+
+.receitaImagemBotoes > img {
+	width: 100%;
+	max-width: 900px;
+	height: auto;
+	border-radius: 12px;
+	object-fit: cover;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Nome da receita e informações do usuário */
+.nomeReceitaEUsuarioPostador {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+
+.usuarioPostadorPgReceita > img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.usuarioPostadorPgReceita > p {
+	font-size: 18px;
+	color: #4a4a4a;
+}
+
+.nomeReceitaEUsuarioPostador > p {
+	font-size: 2rem;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	color: #333;
+	padding: 10px 20px;
+	background-color: #f7f7f7;
+	border-radius: 8px;
+	letter-spacing: 1px;
+}
+
+/* Botões interativos */
+.botoes {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+}
+
+.botoes button {
+	background: none;
+	border: 1px solid #d4a373;
+	color: #d4a373;
+	padding: 8px 15px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-weight: bold;
+	transition: background 0.3s, color 0.3s;
+}
+
+.botoes button:hover {
+	background-color: #d4a373;
+	color: #fff;
+}
+
+.botoes span {
+	font-size: 1rem;
+	color: #333;
+	font-weight: bold;
+}
+
+/* Informações da receita */
+.receitaInfo {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 100%;
+	margin-top: 2rem;
+}
+
+.receitaInfo h3 {
+	background-color: #f7f7f7;
+	color: #3c3c3c;
+	padding: 10px 20px;
+	width: 100%;
+	text-align: left;
+	border-radius: 8px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.receitaInfo ul {
+	width: 100%;
+	padding-left: 20px;
+	margin: 0;
+	list-style-position: inside;
+	line-height: 1.8;
+}
+
+.receitaInfo ul li {
+	margin-bottom: 0.5rem;
+}
+
+.receitaInfo ul li:last-child {
+	margin-bottom: 1.5rem;
+}
+
+.receitaInfo p {
+	width: 100%;
+	padding-left: 20px;
+	margin: 0;
+	line-height: 1.8;
+}
+
+/* Receitas recomendadas */
+.receitasRecomendadas {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	background: #ffffff; /* Fundo branco para destaque */
+	border-radius: 12px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	padding: 2rem;
+}
+
+.recomendacoesTitulo {
+	font-size: 1.8rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #333;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.recomendacoesLista {
+	display: flex;
+	flex-direction: column; /* Coloca uma receita abaixo da outra */
+	gap: 15px; /* Espaço entre as receitas */
+}
+
+.recomendacoesLista > div {
+	width: 100%; /* Ocupa toda a largura disponível */
+}
+
+/* Modal de comentários */
+.comentarios {
+	width: 100%;
+	max-width: 900px;
+	margin: 2rem auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.comentariosPersonalizados {
+	width: 100%;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 12px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	background: #fff;
+}

@@ -7,7 +7,8 @@
 .paginaReceita {
 	display: flex;
 	gap: 2rem;
-	margin: 2rem;
+	margin: 0rem auto;
+	justify-content: center;
 }
 
 .receitaConteudo {
@@ -15,6 +16,11 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	background: #ffffff; /* Fundo branco para destaque */
+	max-width: 900px;
+	border-radius: 12px;
+	/* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+	padding: 2rem;
 }
 
 .receitaImagemBotoes {
@@ -25,8 +31,8 @@
 }
 
 .receitaImagemBotoes > img {
-	width: 900px;
-	height: 593px;
+	width: 700px;
+	height: 393px;
 	border-radius: 1rem;
 	object-fit: cover;
 }
@@ -69,7 +75,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 900px;
+	width: 670px;
 	margin-top: 2rem;
 }
 
@@ -108,6 +114,11 @@
 	display: flex;
 	flex-direction: column;
 	gap: 1rem;
+	background: #ffffff; /* Fundo branco para destaque */
+	border-radius: 12px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	padding: 2rem;
+	max-width: 400px;
 }
 
 .recomendacoesTitulo {

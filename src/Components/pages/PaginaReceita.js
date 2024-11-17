@@ -110,23 +110,24 @@ const PaginaReceita = () => {
 	};
 
 	return (
-		<>
+		<div>
 			<Breadcrumbs
 				categoria={receita.tipoRefeicao}
 				receitaNome={receita.nome}
 			/>
+
 			<div className={styles.paginaReceita}>
 				<div className={styles.receitaConteudo}>
 					<div className={styles.receitaImagemBotoes}>
 						<div className={styles.nomeReceitaEUsuarioPostador}>
 							<p className={styles.receitaNome}>{receita.nome}</p>
-							<UsuarioPostador
-								className={styles.usuarioPostadorPgReceita}
-								fotoUsuarioPostador={receita.fotoUsuarioPostador}
-								usuarioPostador={receita.usuarioPostador}
-							/>
 						</div>
 						<img src={receita.fotoReceita} alt={`Receita de ${receita.nome}`} />
+						<UsuarioPostador
+							className={styles.usuarioPostadorPgReceita}
+							fotoUsuarioPostador={receita.fotoUsuarioPostador}
+							usuarioPostador={receita.usuarioPostador}
+						/>
 						<div className={styles.botoes}>
 							<SaveIcon onClick={handleSaveRecipe} filled={isSaved} />
 							<LikeIcon onLike={handleLike} filled={liked} />
@@ -170,7 +171,7 @@ const PaginaReceita = () => {
 					</div>
 				</div>
 			</div>
-		</>
+		</div>
 	);
 };
 
