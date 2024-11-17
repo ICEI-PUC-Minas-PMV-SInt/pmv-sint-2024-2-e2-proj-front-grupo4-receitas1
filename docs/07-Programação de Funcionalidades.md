@@ -4,8 +4,8 @@
 
 |ID    | Descrição do Requisito  | Artefatos produzidos | Aluno(a) responsável |
 |------|-----------------------------------------|----|----|
-|RF-001| O sistema deve ter uma função do usuário cadastrado adicionar uma nova receita à plataforma|  |  |
-|RF-002| O sistema deve ter uma função de adicionar foto e descrição na publicação de receitas     |  |  |
+|RF-001| O sistema deve ter uma função do usuário cadastrado adicionar uma nova receita à plataforma| AdicionarReceita | Rodrigo |
+|RF-002| O sistema deve ter uma função de adicionar foto e descrição na publicação de receitas     | AdicionarReceita | Rodrigo |
 |RF-003| O sistema deve ter um sistema de aprovação de publicações de receita pelos usuários, usando um algoritmo para identificar se a publicação tem um formato de receita ou se o usuário criou uma publicação fora de contexto |  |  |
 |RF-004| O sistema deve permitir que usuários tenham um filtro de pesquisa, para pesquisar cada receita por nomes ou categorias| SearchBar | Tatiana |
 |RF-005| O sistema deve possibilitar um sistema de interação entre usuários, com compartilhamento, comentários e feedbacks para as receitas| Comentario, Comentarios, ComentarioAcoes, InputNovoComentario, InputResposta, ModalComentarios, ReceitaEComentarios, RespostasLista, UsuarioPostador, LikeIcon, CommentIcon, ShareIcon, ShareModal | Rodrigo |
