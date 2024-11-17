@@ -1,0 +1,131 @@
+/** @format */
+
+.container {
+	max-width: 900px;
+	margin: 2rem auto;
+	background-color: #ffffff;
+	border-radius: 12px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	padding: 2rem;
+}
+
+h2 {
+	text-align: center;
+	font-size: 2rem;
+	font-weight: bold;
+	color: #333;
+}
+
+.formulario {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+label {
+	font-weight: bold;
+	color: #555;
+	margin-bottom: 0.5rem;
+}
+
+input,
+textarea,
+select {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 6px;
+}
+
+textarea {
+	resize: vertical;
+	height: 100px;
+}
+
+.ingredienteInput {
+	display: flex;
+	gap: 0.5rem;
+}
+
+.ingredienteInput button {
+	background-color: #feb47b;
+	color: #fff;
+	border: none;
+	border-radius: 6px;
+	padding: 0.5rem 1rem;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.ingredienteInput button:hover {
+	background-color: #ff7e5f;
+}
+
+.listaIngredientes {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.listaIngredientes li {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.5rem 0;
+	border-bottom: 1px solid #ddd;
+}
+
+.listaIngredientes button {
+	background-color: #e74c3c;
+	color: #fff;
+	border: none;
+	border-radius: 6px;
+	padding: 0.3rem 0.5rem;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.listaIngredientes button:hover {
+	background-color: #c0392b;
+}
+
+.preview {
+	max-width: 100%;
+	margin-top: 1rem;
+	border-radius: 8px;
+}
+
+.tagsContainer {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+}
+
+.tag {
+	padding: 0.5rem 1rem;
+	background-color: #f7f7f7;
+	border: 1px solid #ddd;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+.tag.activeTag {
+	background-color: #feb47b;
+	color: white;
+}
+
+.botaoEnviar {
+	background-color: #2ecc71;
+	color: #fff;
+	border: none;
+	border-radius: 6px;
+	padding: 1rem;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.botaoEnviar:hover {
+	background-color: #27ae60;
+}

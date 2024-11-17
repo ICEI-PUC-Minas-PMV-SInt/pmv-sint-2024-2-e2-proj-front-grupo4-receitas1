@@ -1,0 +1,282 @@
+/** @format */
+
+/* Container principal */
+.containerGeral {
+	padding-top: 20px;
+}
+
+.containerBemVindo {
+	display: flex;
+	padding-left: 4%;
+	padding-top: 2%;
+	align-items: center;
+	max-width: 1400px;
+	width: 100%;
+	gap: 20px;
+}
+
+.containerBemVindoSalvarAlteracoesAdicionarReceita {
+	display: flex;
+	min-width: 1251px;
+	align-items: center;
+	padding: 25px;
+}
+
+.containerBemVindoSalvarAlteracoesAdicionarReceita h2 {
+	flex-grow: 15;
+}
+
+.containerAdicionarReceita {
+	display: flex;
+	flex-grow: 1;
+	align-items: center;
+	justify-content: center;
+}
+
+.listaReceitas {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	flex-wrap: wrap;
+	justify-content: center;
+	row-gap: 1rem;
+	column-gap: 2rem;
+	padding: 1rem;
+}
+
+.perfilContainer {
+	display: flex;
+	flex-direction: column;
+	padding-left: 4%;
+	padding-top: 1%;
+}
+
+.containerBemVindoEFilteredRecipes {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* Título */
+.perfilContainer h2 {
+	font-size: 1.8rem;
+	color: #333;
+	margin-bottom: 20px;
+	display: flex;
+}
+
+/* Layout principal: menu à esquerda e receitas à direita */
+.perfilContent {
+	display: flex;
+	width: 100%;
+	max-width: 1400px;
+	gap: 20px;
+	align-items: flex-start;
+}
+
+/* Menu de preferências (à esquerda) */
+.preferencesCard {
+	background: linear-gradient(90deg, #f7e3b4, #d4a373);
+	border-radius: 12px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	width: 15rem;
+	min-width: 17rem;
+}
+
+.preferencesCardPerfilUsuario {
+	background: linear-gradient(90deg, #f7e3b4, #d4a373);
+	border-radius: 12px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	width: 15rem;
+	min-width: 17rem;
+	margin-top: 5.1rem;
+}
+
+.preferencesCardPerfilUsuario h3 {
+	text-align: center;
+	color: #333;
+	font-weight: bold;
+	font-size: 1.4rem;
+	margin-bottom: 20px;
+	border-bottom: 3px solid #101010;
+	padding-bottom: 10px;
+}
+
+/* Título do menu de preferências */
+.preferencesCard h3 {
+	text-align: center;
+	color: #333;
+	font-weight: bold;
+	font-size: 1.4rem;
+	margin-bottom: 20px;
+	border-bottom: 3px solid #101010;
+	padding-bottom: 10px;
+}
+
+/* Estilo do accordion */
+.accordion {
+	margin-bottom: 15px;
+}
+
+.accordionHeader {
+	font-size: 16px;
+	font-weight: bold;
+	color: white; /* Cor branca para contraste */
+	padding: 15px;
+	background-color: #2f2f2f; /* Fundo escuro */
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	transition: background-color 0.3s ease-in-out, transform 0.2s;
+	gap: 8px;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra leve */
+}
+
+.accordionHeader:hover {
+	background-color: #444444; /* Tonalidade mais clara ao passar o mouse */
+	transform: translateY(-2px);
+}
+
+.accordionArrow {
+	font-size: 1.2rem;
+	transform: scale(1);
+	transition: transform 0.2s ease-in-out;
+}
+
+.accordionHeader:hover .accordionArrow {
+	transform: scale(1.1);
+}
+
+.accordionContent {
+	padding: 15px;
+	background-color: #f9f9f9;
+	border-radius: 8px;
+	margin-top: 5px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 15px;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para demarcar o conteúdo */
+}
+
+/* Chips interativos */
+.preferenceChip {
+	padding: 10px 15px;
+	border-radius: 20px;
+	background-color: #f1f1f1;
+	color: #333;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	font-size: 1rem;
+	font-weight: bold;
+	text-align: center;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.preferenceChip:hover {
+	background-color: #d4a373;
+	color: white;
+	box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+	transform: translateY(-2px);
+}
+
+.activeChip {
+	background-color: #d4a373;
+	color: white;
+}
+
+/* Seção de receitas */
+.filteredRecipes {
+	flex-grow: 1;
+	background-color: #f7f7f7;
+	border-radius: 12px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	padding: 25px;
+	padding-top: 20px;
+	min-width: 1251px;
+}
+
+.filteredRecipes h3 {
+	text-align: center;
+	color: #333;
+	font-size: 1.4rem;
+	margin-bottom: 20px;
+	border-bottom: 3px solid #d4a373;
+	padding-bottom: 10px;
+}
+
+.filteredRecipesGrid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+	.perfilContent {
+		flex-direction: column;
+		gap: 20px;
+	}
+
+	.preferencesCard {
+		width: 100%;
+	}
+
+	.filteredRecipes {
+		width: 100%;
+	}
+
+	.accordionContent {
+		grid-template-columns: 1fr;
+	}
+}
+
+.avatarSection {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+	width: 15rem;
+	min-width: 17rem;
+	flex: 1;
+	padding: 20px;
+}
+
+.avatar {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	object-fit: cover;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.uploadLabel {
+	cursor: pointer;
+	background-color: #4caf50;
+	color: white;
+	padding: 8px 16px;
+	border-radius: 4px;
+	text-align: center;
+	font-size: 14px;
+}
+
+.fileInput {
+	display: none;
+}
+
+.adicionarReceitaButton {
+	background-color: #ff7e5f;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-weight: bold;
+	transition: background-color 0.3s ease;
+}
+
+.adicionarReceitaButton:hover {
+	background-color: #feb47b;
+}

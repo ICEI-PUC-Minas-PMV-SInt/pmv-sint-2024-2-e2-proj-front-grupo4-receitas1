@@ -1,0 +1,45 @@
+/** @format */
+
+.breadcrumbs {
+	display: flex;
+	align-items: center;
+	font-size: 1rem;
+	color: #555;
+	font-family: 'Poppins', sans-serif;
+	justify-content: flex-start;
+	margin-top: 30px;
+	margin-left: 18.8%;
+	background-color: whitesmoke;
+	max-width: fit-content;
+	padding: 10px;
+	box-shadow: #333;
+	border-radius: 5px; /* Adicionado para suavizar as bordas */
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ajuste do sombreamento */
+}
+
+.link {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.849);
+	font-weight: 500;
+	transition: color 0.3s ease;
+}
+
+.link:hover {
+	color: #0056b3;
+}
+
+.chevron {
+	margin: 0 8px;
+	color: #aaa;
+}
+
+.receitaNome {
+	color: #333;
+	font-weight: bold;
+}
+
+.iconHome {
+	margin-right: 8px;
+}
