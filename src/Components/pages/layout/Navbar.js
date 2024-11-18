@@ -36,6 +36,12 @@ function Navbar() {
 
 	const handleSearch = query => {
 		setHasSearched(true);
+		if (query.trim() === '') {
+			setFilteredRecipes([]);
+			setHasSearched(false);
+			return;
+		}
+
 		const filtered = receitas.filter(recipe =>
 			recipe.nome.toLowerCase().includes(query.toLowerCase())
 		);
@@ -60,7 +66,27 @@ function Navbar() {
 					<Link to='/'>
 						<img className={styles.logo} src={logo} alt='Logosabordomomento' />
 					</Link>
-					<SearchBar onSearch={handleSearch} />
+					<div className={styles.searchContainer}>
+						<SearchBar onSearch={handleSearch} />
+						{/* Resultados de Pesquisa */}
+						{hasSearched && filteredRecipes.length > 0 && (
+							<ul className={styles.searchResults}>
+								{filteredRecipes.map(recipe => (
+									<li key={recipe.id}>
+										<Link
+											to={`/receitas/${recipe.id}`}
+											onClick={resetSearch}
+										>
+											{recipe.nome}
+										</Link>
+									</li>
+								))}
+							</ul>
+						)}
+						{hasSearched && filteredRecipes.length === 0 && (
+							<p className={styles.noResults}>Nenhuma receita encontrada.</p>
+						)}
+					</div>
 				</div>
 				<ul className={styles.list}>
 					<li className={styles.item}>
