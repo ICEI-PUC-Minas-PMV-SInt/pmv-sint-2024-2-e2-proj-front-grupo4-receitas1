@@ -6,10 +6,14 @@ import React, { useState, useEffect } from 'react';
 import styles from './Comentarios.module.css';
 import Comentario from './Comentario.js';
 import InputNovoComentario from './InputNovoComentario.js';
+import FotoPadrao from '../img/default-avatar.png';
 
 const Comentarios = ({ receitaId, className }) => {
 	const [comentarios, setComentarios] = useState([]);
 	const [novoComentario, setNovoComentario] = useState('');
+
+	// Obtém informações do usuário logado
+	const user = JSON.parse(localStorage.getItem('user'));
 
 	useEffect(() => {
 		const comentariosSalvos = localStorage.getItem(`comentarios-${receitaId}`);
@@ -26,7 +30,8 @@ const Comentarios = ({ receitaId, className }) => {
 			{
 				id: Date.now(),
 				texto: novoComentario,
-				usuario: 'Usuário Genérico',
+				usuario: user ? user.name : 'Usuário Anônimo',
+				fotoUsuario: user ? user.avatar : FotoPadrao,
 				respostas: [],
 			},
 		];

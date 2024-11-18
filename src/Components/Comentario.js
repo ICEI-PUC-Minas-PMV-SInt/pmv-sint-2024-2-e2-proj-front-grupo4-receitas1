@@ -1,12 +1,12 @@
 /** @format */
 
-import React from 'react';
+import React, { useState } from 'react';
 import styles from './Comentario.module.css';
 import Avatar from './Avatar.js';
 import RespostasLista from './RespostasLista.js';
 import ComentarioAcoes from './ComentarioAcoes.js';
-import { useState } from 'react';
 import InputResposta from './InputResposta.js';
+import FotoPadrao from '../img/default-avatar.png';
 
 const Comentario = ({
 	comentario,
@@ -16,6 +16,9 @@ const Comentario = ({
 	receitaId,
 }) => {
 	const [respostasVisiveis, setRespostasVisiveis] = useState(false);
+
+	// Obtém informações do usuário logado, caso existam
+	const user = JSON.parse(localStorage.getItem('user'));
 
 	const toggleRespostasVisiveis = () => {
 		setRespostasVisiveis(prev => !prev);
@@ -33,8 +36,10 @@ const Comentario = ({
 						{
 							id: Date.now(),
 							texto: respostaTexto,
-							usuario: 'Usuário Genérico',
-							fotoUsuario: 'https://randomuser.me/api/portraits/men/1.jpg',
+							usuario: user ? user.name : 'Usuário Anônimo',
+							fotoUsuario: user
+								? user.avatar || FotoPadrao // Usa avatar do usuário ou a foto padrão
+								: FotoPadrao, // Se não estiver logado, usa a foto padrão
 						},
 					],
 				};
@@ -51,13 +56,13 @@ const Comentario = ({
 
 	return (
 		<div className={styles.comentarioItem}>
-			<Avatar src='https://randomuser.me/api/portraits/men/1.jpg' />
+			<Avatar src={comentario.fotoUsuario || FotoPadrao} />
 			<div className={styles.comentarioContent}>
 				<div className={styles.containerUsernameETempoPostado}>
 					<span className={styles.comentarioUsername}>
-						{comentario.usuario}
+						{comentario.usuario || 'Usuário Anônimo'}
 					</span>
-					<span className={styles.comentarioTimestamp}>2h atrás</span>
+					<span className={styles.comentarioTimestamp}>Agora mesmo</span>
 				</div>
 				<p className={styles.comentarioTexto}>{comentario.texto}</p>
 
