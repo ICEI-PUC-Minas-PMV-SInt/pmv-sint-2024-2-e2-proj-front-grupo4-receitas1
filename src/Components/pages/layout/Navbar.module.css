@@ -125,56 +125,7 @@
 .profileLink {
 	list-style: none;
 	color: #000;
-}
-
-/* Responsivo para telas menores */
-@media (max-width: 768px) {
-	.navbarContent {
-		justify-content: space-between;
-	}
-
-	.list {
-		display: flex;
-		flex-direction: column;
-		width: 50%;
-		text-align: center;
-	}
-
-	/* Exibe o menu quando o estado isMenuOpen é verdadeiro */
-	.list.showMenu {
-		display: flex;
-		background-color: #f7e3b4;
-		position: absolute;
-		top: 100%;
-		left: 0;
-		width: 100%;
-		padding: 10px 0;
-	}
-
-	.item {
-		margin: 0;
-	}
-
-	.userSection {
-		position: static;
-		margin-top: 10px;
-		flex-direction: column;
-	}
-
-	.authButtons {
-		flex-direction: column;
-		gap: 10px;
-	}
-
-	.logo {
-		max-width: 150px;
-	}
-}
-
-@media (max-width: 480px) {
-	.userSection {
-		align-items: center;
-	}
+	font-size: medium;
 }
 
 .avatarSection {
@@ -219,4 +170,60 @@
 
 .adicionarReceitaButton:hover {
 	background-color: #feb47b;
+}
+
+
+@media (max-width: 768px) {
+	.navbarContent {
+		justify-content: space-between;
+	}
+
+	.list {
+		display: none;  /* Esconde a lista quando a tela tem 768px ou menos */
+	}
+
+	/* Exibe o menu quando o estado isMenuOpen for verdadeiro (adicionando display:flex para exibir a lista) */
+	.list.showMenu {
+		display: flex;
+		background-color: #f7e3b4;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		width: 100%;
+		padding: 10px 0;
+	}
+
+	.item {
+		margin: 0;
+	}
+
+	.userSection {
+		position: static;
+		margin-top: 10px;
+		flex-direction: column;
+	}
+
+	.authButtons {
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	.logo {
+		max-width: 150px;
+	}
+	.avatar {
+			width: 40px;
+			height: 40px;		
+	}
+}
+.profileLink {
+	font-size: small;
+}
+
+@media (max-width: 480px) {
+	.userSection {
+		align-items: center;
+
+	}
+	
 }
