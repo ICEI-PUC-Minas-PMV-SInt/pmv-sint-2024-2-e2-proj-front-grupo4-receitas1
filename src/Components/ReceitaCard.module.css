@@ -11,7 +11,7 @@
 .containerReceitaCard {
 	display: flex;
 	flex-direction: column;
-	width: 355px;
+	width: 355px; /* Largura padrão para cards */
 	border-radius: 2rem;
 	overflow: hidden;
 	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -57,25 +57,40 @@
 	justify-content: space-between;
 }
 
+/* Ajustes responsivos */
 @media (max-width: 768px) {
-	/* Em telas menores que 768px, os cards ficam lado a lado */
 	.containerReceitaCardContainer {
 		justify-content: space-around;
 	}
 
 	.containerReceitaCard {
-		width: 62%; /* Dois cards lado a lado */
+		width: 100%; /* Cards ocupam toda a largura */
 	}
-	
 }
 
-@media (max-width: 480px) {
-	/* Em telas menores que 480px, os cards ficam em coluna */
+@media (max-width: 600px) {
 	.containerReceitaCardContainer {
-		justify-content: center;
+		justify-content: center; /* Centraliza os cards */
 	}
 
 	.containerReceitaCard {
-		width: 100%; /* Um card por vez */
+		width: 90%; /* Cards ocupam 90% da largura */
+	}
+}
+
+/* Estilo para telas menores que 480px */
+@media (max-width: 480px) {
+	/* Configuração do contêiner principal */
+	.ListaReceitas_containerListaReceitas {
+		display: flex !important; /* Altera para flexbox */
+		flex-direction: column; /* Empilha os cards em uma coluna */
+		align-items: center; /* Centraliza os cards */
+		gap: 20px; /* Adiciona espaçamento entre os cards */
+	}
+
+	/* Configuração dos cards individuais */
+	.ReceitaCard_containerReceitaCard {
+		width: 90% !important;  /* Garante que cada card ocupe 90% da largura da tela */
+		margin: 0 auto !important; /* Centraliza os cards horizontalmente */
 	}
 }
