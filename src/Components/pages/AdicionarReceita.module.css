@@ -149,22 +149,21 @@ textarea {
 
 .paginaAdicionarReceita {
 	display: flex;
-	gap: 2rem;
-	margin: 0rem auto;
-	justify-content: center;
-	margin-top: 2rem;
+	flex-direction: column; /* Empilha os itens verticalmente */
+	gap: 2rem; /* Espaçamento entre as seções */
+	margin: 0 auto; /* Centraliza a página horizontalmente */
+	padding: 2rem;
 }
 
 .receitaConteudo {
-	flex: 2;
+	width: 100%;
+	max-width: 900px;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 	background: #ffffff;
-	max-width: 900px;
 	border-radius: 12px;
 	padding: 2rem;
-	gap: 5rem;
+	gap: 2rem; /* Espaçamento entre os elementos internos */
 }
 
 .receitasRecomendadas {
@@ -257,4 +256,29 @@ textarea {
 
 .tituloAdicioneTags {
 	margin-bottom: 1rem;
+}
+@media (max-width: 768px) {
+	.paginaAdicionarReceita {
+		padding: 1rem;
+	}
+
+	.receitaConteudo,
+	.receitasRecomendadas {
+		padding: 1.5rem;
+	}
+
+	.recomendacoesLista {
+		gap: 0.5rem; /* Reduz o espaçamento entre os cards */
+	}
+}
+
+@media (max-width: 480px) {
+	.recomendacoesLista {
+		flex-direction: column; /* Empilha os cards em telas muito pequenas */
+		align-items: center;
+	}
+	
+.titulo {
+	font-size: 1.5rem;
+}
 }
