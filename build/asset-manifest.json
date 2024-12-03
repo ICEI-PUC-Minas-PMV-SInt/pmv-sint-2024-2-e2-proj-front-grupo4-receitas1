@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/static/css/main.6e26b9f3.css",
+    "main.css": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/static/css/main.16075f5c.css",
     "main.js": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/static/js/main.b028edff.js",
     "static/media/logo.png": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/static/media/logo.55abee183f49ad3b359d.png",
     "static/media/adicionar-receita-icon.png": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/static/media/adicionar-receita-icon.88ef517bceff1a01b995.png",
     "index.html": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/index.html",
     "static/media/iconeEnviar.svg": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/static/media/iconeEnviar.c5994aac4399e6268af629460478dc7e.svg",
-    "main.6e26b9f3.css.map": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/static/css/main.6e26b9f3.css.map",
+    "main.16075f5c.css.map": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/static/css/main.16075f5c.css.map",
     "main.b028edff.js.map": "/pmv-sint-2024-2-e2-proj-front-grupo4-receitas1/static/js/main.b028edff.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e26b9f3.css",
+    "static/css/main.16075f5c.css",
     "static/js/main.b028edff.js"
   ]
 }

@@ -58,27 +58,6 @@
 }
 
 /* Ajustes responsivos */
-@media (max-width: 768px) {
-	.containerReceitaCardContainer {
-		justify-content: space-around;
-	}
-
-	.containerReceitaCard {
-		width: 100%; /* Cards ocupam toda a largura */
-	}
-}
-
-@media (max-width: 600px) {
-	.containerReceitaCardContainer {
-		justify-content: center; /* Centraliza os cards */
-	}
-
-	.containerReceitaCard {
-		width: 90%; /* Cards ocupam 90% da largura */
-	}
-}
-
-/* Estilo para telas menores que 480px */
 @media (max-width: 480px) {
 	/* Configuração do contêiner principal */
 	.ListaReceitas_containerListaReceitas {
@@ -90,7 +69,14 @@
 
 	/* Configuração dos cards individuais */
 	.ReceitaCard_containerReceitaCard {
-		width: 90% !important;  /* Garante que cada card ocupe 90% da largura da tela */
+		width: 90% !important; /* Garante que cada card ocupe 90% da largura da tela */
 		margin: 0 auto !important; /* Centraliza os cards horizontalmente */
+	}
+
+	.fotoReceita {
+		width: 100%; /* Garante que a imagem ocupe a largura total do card */
+		height: auto; /* Mantém a proporção correta */
+		max-height: 200px; /* Altura máxima para evitar que as imagens sejam muito altas */
+		object-fit: contain; /* Exibe a imagem inteira sem cortes */
 	}
 }
