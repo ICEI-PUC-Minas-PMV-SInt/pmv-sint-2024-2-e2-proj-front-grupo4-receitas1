@@ -149,15 +149,17 @@ textarea {
 
 .paginaAdicionarReceita {
 	display: flex;
-	flex-direction: column; /* Empilha os itens verticalmente */
+	
 	gap: 2rem; /* Espaçamento entre as seções */
 	margin: 0 auto; /* Centraliza a página horizontalmente */
 	padding: 2rem;
 }
 
 .receitaConteudo {
-	width: 100%;
+	flex:2;
+	//width: 100%;
 	max-width: 900px;
+	align-items:center;
 	display: flex;
 	flex-direction: column;
 	background: #ffffff;
@@ -260,6 +262,7 @@ textarea {
 @media (max-width: 768px) {
 	.paginaAdicionarReceita {
 		padding: 1rem;
+		flex-direction: column; /* Empilha os itens verticalmente */
 	}
 
 	.receitaConteudo,
