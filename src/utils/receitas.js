@@ -762,7 +762,7 @@ export const receitas = [
 		modoPreparo:
 			'Empane os bifes e frite até dourar. Coloque em uma forma, cubra com molho de tomate e queijo e leve ao forno para gratinar.',
 		fotoReceita:
-			'https://www.saboresajinomoto.com.br/uploads/images/recipes/bife-a-parmegiana.jpg',
+			'https://receitatodahora.com.br/wp-content/uploads/2023/09/bife-a-parmegiana-22-0911.jpg',
 		likes: 5534,
 		usuarioPostador: 'Julia Gomes',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/39.jpg',
@@ -2502,7 +2502,7 @@ export const receitas = [
 		modoPreparo:
 			'Tempere o frango com sal e pimenta e grelhe até ficar cozido. Em uma assadeira, coloque os legumes com um fio de azeite, sal e pimenta e asse a 200°C por 20 minutos. Sirva o frango com os legumes.',
 		fotoReceita:
-			'https://www.moringaimperial.com/wp-content/uploads/2023/12/file-de-peito-de-frango-grelhado-e-salada-de-legumes-frescos-menu-de-almoco-saudavel.jpg',
+			'https://vitat.com.br/receitas/images/recipeshandler.jpg?id=7399&tipo=r&default=s',
 		likes: 6262,
 		usuarioPostador: 'João Mendes',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/15.jpg',
@@ -2571,7 +2571,7 @@ export const receitas = [
 		modoPreparo:
 			'Corte a abobrinha ao meio e retire parte do miolo. Refogue a carne com cebola, alho, sal e pimenta, e adicione o molho de tomate. Recheie as abobrinhas com a carne e asse a 180°C por 20 minutos.',
 		fotoReceita:
-			'https://www.saboresajinomoto.com.br/uploads/images/recipes/abobrinha-recheada.jpg',
+			'https://www.receitasagora.com.br/wp-content/uploads/2021/08/receita-de-abobrinha-recheada-com-carne-moida-1.jpg',
 		likes: 4204,
 		usuarioPostador: 'Thiago Santos',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/men/18.jpg',
@@ -2728,7 +2728,7 @@ export const receitas = [
 		modoPreparo:
 			'Refogue a cebola e o alho. Adicione a abóbora, o gengibre e o caldo de legumes. Cozinhe até a abóbora ficar macia e bata tudo no liquidificador até obter um creme. Tempere e sirva quente.',
 		fotoReceita:
-			'https://www.saboresajinomoto.com.br/uploads/images/recipes/sopa-creme-de-abobora-com-gengibre.jpg',
+			'https://www.zestandthecity.com/wp-content/uploads/2021/12/pumpkin-ginger-soup-sopa-gengibre-abobora-1-scaled.jpg',
 		likes: 8712,
 		usuarioPostador: 'Juliana Carvalho',
 		fotoUsuarioPostador: 'https://randomuser.me/api/portraits/women/25.jpg',
